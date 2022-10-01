@@ -29,7 +29,7 @@
 </details>
 
 <details>
-  <summary>Move the mouse to a certain position on the screen, then Double-Click the left mouse button.</summary>
+  <summary>Move the mouse to a certain position on the screen, then Double-Click the left mouse button</summary>
     <br>
     To find the correct position you can use the Mouse Location action.<br>
     ```
@@ -45,45 +45,6 @@
 </details>
 
 <details>
-  <summary>Variables: Get input from user and then use it later on.</summary>
-    ```
-    {{INPUT:Name}}Hello {{OUTPUT:Name}}, Nice to meet you!
-    ```
-</details>
-
-<details>
-  <summary>Variables: Read text from file into MyVar variable.</summary>
-    ```
-    {{VarSetFromFile:MyVar:C:\filename.txt}}
-    ```
-</details>
-
-<details>
-  <summary>Functions: Choose a random number between 1 (inclusive) to 10 (exclusive) and store it in MyVar</summary>
-    ```
-    {{FUNC:RANDOM:MyVar:1:10}}
-    ```
-</details>
-
-<details>
-  <summary>Functions: Input 2 numbers from the user. Choose a random number between firstNum variable (inclusive) to secondNum variable (exclusive) and store it in MyVar:</summary>
-    ```
-    {{INPUT:firstNum}}
-    {{INPUT:secondNum}}
-    {{FUNC:RANDOM:MyVar:$firstNum:$secondNum}}
-    ```
-</details>
-
-<details>
-  <summary>Functions: Select a number from the user and multiply it by 10. Then save it to a file named c:\temp\result.txt:</summary>
-    ```
-    {{INPUT:myNumber}}
-    {{FUNC:MUL:MyResult:$myNumber:10}}
-    {{OUTPUTTOFILE:MyResult:c:\temp\result.txt}}
-    ```
-</details>
-
-<details>
   <summary>Add comments in the code using `{{//}}` command</summary>
     ```
     {{INPUT:myNumber}} {{//}} Input a number from the user
@@ -93,7 +54,7 @@
 </details>
 
 <details>
-  <summary>Read text from a file and show it on the Stream Deck Key:</summary>
+  <summary>Read text from a file and show it on the Stream Deck Key</summary>
     ```
     {{VARSETFROMFILE:MyVar:c:\counter.txt}}
     {{SETKEYTITLE:$MyVar}}
@@ -101,7 +62,7 @@
 </details>
 
 <details>
-  <summary>Read text from a clipboard and show it on the Stream Deck Key:</summary>
+  <summary>Read text from a clipboard and show it on the Stream Deck Key</summary>
     ```
     {{VARSETFROMCLIPBOARD:MyVar}}
     {{SETKEYTITLE:$MyVar}}
@@ -109,7 +70,7 @@
 </details>
 
 <details>
-  <summary>Scroll the mouse up by 5 clicks and then down by 3 clicks:</summary>
+  <summary>Scroll the mouse up by 5 clicks and then down by 3 clicks</summary>
     ```
     {{MSCROLLUP:5}}
     {{MSCROLLDOWN:3}}
@@ -117,7 +78,7 @@
 </details>
 
 <details>
-  <summary>Move the mouse to coordinates set from variables:</summary>
+  <summary>Move the mouse to coordinates set from variables</summary>
     ```
     {{VARSET:X:100}}
     {{VARSET:Y:400}}
@@ -137,7 +98,7 @@
 </details>
 
 <details>
-  <summary>Show the current date and time on the key:</summary>
+  <summary>Show the current date and time on the key</summary>
     ```
     {{FUNC:NOW:MyVar:yyyy-MM-dd HH:mm:ss}}
     {{SETKEYTITLE:$MyVar}}
@@ -145,7 +106,7 @@
 </details>
 
 <details>
-  <summary>Print the current date and time:</summary>
+  <summary>Print the current date and time</summary>
     ```
     {{FUNC:NOW:MyVar:yyyy-MM-dd HH:mm:ss}}
     {{OUTPUT:MyVar}}
@@ -183,5 +144,47 @@
     {{VarSetFromFile:MyVar2:$Filename}}
     {{SetClipboard:$MyVar2}}
     {{SETKEYTITLE:$MyVar2}}
+    ```
+</details>
+
+
+## Variables
+<details>
+  <summary>Variables: Get input from user and then use it later on</summary>
+    ```
+    {{INPUT:Name}}Hello {{OUTPUT:Name}}, Nice to meet you!
+    ```
+</details>
+
+<details>
+  <summary>Variables: Read text from file into MyVar variable</summary>
+    ```
+    {{VarSetFromFile:MyVar:C:\filename.txt}}
+    ```
+</details>
+
+##Functions
+<details>
+  <summary>Functions: Choose a random number between 1 (inclusive) to 10 (exclusive) and store it in MyVar</summary>
+    ```
+    {{FUNC:RANDOM:MyVar:1:10}}
+    ```
+</details>
+
+<details>
+  <summary>Functions: Input 2 numbers from the user. Choose a random number between firstNum variable (inclusive) to secondNum variable (exclusive) and store it in MyVar</summary>
+    ```
+    {{INPUT:firstNum}}
+    {{INPUT:secondNum}}
+    {{FUNC:RANDOM:MyVar:$firstNum:$secondNum}}
+    ```
+</details>
+
+<details>
+  <summary>Functions: Select a number from the user and multiply it by 10. Then save it to a file named c:\temp\result.txt</summary>
+    ```
+    {{INPUT:myNumber}}
+    {{FUNC:MUL:MyResult:$myNumber:10}}
+    {{OUTPUTTOFILE:MyResult:c:\temp\result.txt}}
     ```
 </details>

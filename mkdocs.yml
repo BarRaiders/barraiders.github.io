@@ -5,6 +5,9 @@ nav:
     - 'API Ninja': 'faqs/api-ninja/index.md'
     - 'OBS Tools':
       - 'Getting Started': 'faqs/obs-tools/getting-started.md'
-      - 'Available Actions': faqs/obs-tools/actions.md
+      - 'Available Actions': 'faqs/obs-tools/actions.md'
       - 'Troubleshooting': 'faqs/obs-tools/troubleshooting.md'
+    - 'SuperMacro':
+      - 'Avaliable Actions': 'faqs/SuperMacro/actions.md'
+      - 'Usage Examples': 'faqs/SuperMacro/usage-examples.md'
   - Discord: http://discord.barraider.com

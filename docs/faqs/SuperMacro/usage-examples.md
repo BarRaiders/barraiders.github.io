@@ -52,3 +52,152 @@
     {{INPUT:Name}}Hello {{OUTPUT:Name}}, Nice to meet you!
     ```
 </details>
+
+<details>
+  <summary>Variables: Read text from file into MyVar variable.</summary>
+  <br>
+    ```
+    {{VarSetFromFile:MyVar:C:\filename.txt}}
+    ```
+</details>
+
+<details>
+  <summary>Functions: Choose a random number between 1 (inclusive) to 10 (exclusive) and store it in MyVar</summary>
+  <br>
+    ```
+    {{FUNC:RANDOM:MyVar:1:10}}
+    ```
+</details>
+
+<details>
+  <summary>Functions: Input 2 numbers from the user. Choose a random number between firstNum variable (inclusive) to secondNum variable (exclusive) and store it in MyVar:</summary>
+  <br>
+    ```
+    {{INPUT:firstNum}}
+    {{INPUT:secondNum}}
+    {{FUNC:RANDOM:MyVar:$firstNum:$secondNum}}
+    ```
+</details>
+
+<details>
+  <summary>Functions: Select a number from the user and multiply it by 10. Then save it to a file named c:\temp\result.txt:</summary>
+  <br>
+    ```
+    {{INPUT:myNumber}}
+{{FUNC:MUL:MyResult:$myNumber:10}}
+{{OUTPUTTOFILE:MyResult:c:\temp\result.txt}}
+    ```
+</details>
+
+<details>
+  <summary>Add comments in the code using `{{//}}` command</summary>
+  <br>
+    ```
+    {{INPUT:myNumber}} {{//}} Input a number from the user
+{{FUNC:MUL:MyResult:$myNumber:10}} {{//}} Multiply number by 10
+{{OUTPUTTOFILE:MyResult:c:\temp\result.txt}} {{//}} Save result in file
+    ```
+</details>
+
+<details>
+  <summary>Read text from a file and show it on the Stream Deck Key:</summary>
+  <br>
+    ```
+    {{VARSETFROMFILE:MyVar:c:\counter.txt}}
+{{SETKEYTITLE:$MyVar}}
+    ```
+</details>
+
+<details>
+  <summary>Read text from a clipboard and show it on the Stream Deck Key:</summary>
+  <br>
+    ```
+    {{VARSETFROMCLIPBOARD:MyVar}}
+{{SETKEYTITLE:$MyVar}}
+    ```
+</details>
+
+<details>
+  <summary>Scroll the mouse up by 5 clicks and then down by 3 clicks:</summary>
+  <br>
+    ```
+    {{MSCROLLUP:5}}
+{{MSCROLLDOWN:3}}
+    ```
+</details>
+
+<details>
+  <summary>Move the mouse to coordinates set from variables:</summary>
+  <br>
+    ```
+    {{VARSET:X:100}}
+{{VARSET:Y:400}}
+{{MOUSEXY:$X,$Y}}
+    ```
+</details>
+
+<details>
+  <summary>Repalce all "l"'s with "Z"'s in the string `Hello World` and show it on key</summary>
+  <br>
+    ```
+    {{VARSET:XX:Hello World}}
+{{VARSET:A:l}}
+{{VARSET:B:Z}}
+{{FUNC:REPLACE:MyVar:$XX:$A:$B}}
+{{SETKEYTITLE:$MyVar}}
+    ```
+</details>
+
+<details>
+  <summary>Show the current date and time on the key:</summary>
+  <br>
+    ```
+    {{FUNC:NOW:MyVar:yyyy-MM-dd 
+HH:mm:ss}}
+{{SETKEYTITLE:$MyVar}}
+    ```
+</details>
+
+<details>
+  <summary>Print the current date and time:</summary>
+  <br>
+    ```
+    {{FUNC:NOW:MyVar:yyyy-MM-dd 
+HH:mm:ss}}
+{{OUTPUT:MyVar}}
+</details>
+
+<details>
+  <summary>Set value of variable into the clipboard</summary>
+  <br>
+    ```
+    {{VARSET:MyVar:Hello World}}
+{{SETCLIPBOARD:$MyVar}}
+    ```
+</details>
+
+<details>
+  <summary>Read text from one txt file and insert into another along with a timestamp. (Contributed by Bowser#2891)</summary>
+  <br>
+    ```
+    {{VarSetFromFile:ListVar:C:\temp\List.txt}}
+{{VarSetFromFile:NewTextVar:C:\temp\NewText.txt}}
+{{FUNC:NOW:TimeVar:yyyy-MM-dd HH:mm:ss}}
+
+{{FUNC:CONCAT:ListVarU:$ListVar:$SMENTER:$NewTextVar: :$TimeVar}}
+
+{{OutputToFile:ListVarU:C:\temp\List.txt}}
+    ```
+</details>
+
+<details>
+  <summary>Get input from user, then load a file with the inputed name (from the `c:\temp` folder) to CLIPBOARD and show it on the Stream Deck Key. (Contributed by Bowser#2891)</summary>
+  Note: Entire content of file may not fit within the screen of the Stream Deck Key.<br>
+    ```
+    {{Input:MyVar}}
+{{FUNC:CONCAT:Filename:C:$SMCOLON:\temp\:$MyVar:.txt}}
+{{VarSetFromFile:MyVar2:$Filename}}
+{{SetClipboard:$MyVar2}}
+{{SETKEYTITLE:$MyVar2}}
+    ```
+</details>

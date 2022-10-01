@@ -51,7 +51,7 @@
 
 ## Filter Toggle
 - Allows you to enable/disable filters on a source from the Stream Deck.
-- 
+
 ## Instant Replay
 - Click to save the last seconds of your stream to your OBS “Recordings” folder.
 - Long-Press the button to toggle whether the Instant Replay buffer is recording or not

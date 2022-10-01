@@ -1,0 +1,10 @@
+nav:
+  - 'Plugin FAQs': # Top-Level items are displayed along the top of the site
+    - 'index.md' # Hidden on the menu, accessed when clicking "Plugin FAQs"
+    - 'API Ninja': 'faqs/api-ninja/index.md'
+    - 'OBS Tools':
+      # These pages are nested within the OBS Tools section in the Nav
+      - 'Getting Started': 'faqs/obs-tools/getting-started.md' 
+      - 'Available Actions': faqs/obs-tools/actions.md
+      - 'Troubleshooting': 'faqs/obs-tools/troubleshooting.md'
+  - Discord: http://discord.barraider.com # Top-Level items are displayed along the top of the site

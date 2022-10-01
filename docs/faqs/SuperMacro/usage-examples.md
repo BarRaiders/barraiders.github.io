@@ -147,6 +147,7 @@
     ```
     {{FUNC:NOW:MyVar:yyyy-MM-dd HH:mm:ss}}
     {{OUTPUT:MyVar}}
+  ```
 </details>
 
 <details>

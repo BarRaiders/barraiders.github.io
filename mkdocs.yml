@@ -8,5 +8,6 @@ nav:
       - 'Available Actions': 'faqs/obs-tools/actions.md'
       - 'Troubleshooting': 'faqs/obs-tools/troubleshooting.md'
     - 'SuperMacro':
+      - 'Avaliable Actions': 'faqs/SuperMacro/actions.md'
       - 'Usage Examples': 'faqs/SuperMacro/usage-examples.md'
   - Discord: http://discord.barraider.com

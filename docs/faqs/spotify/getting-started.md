@@ -27,19 +27,17 @@ Select the checkboxes at the bottom and click CREATE.
     <figure markdown>
     ![Step 4](img/spotauth5.png)
     </figure>
-5. Enter 
+5. Copy the text bellow and paste into the **Website field**
 ```
 http://localhost:4202
 ```
-in the Website field. (copy & paste the URL to ensure it’s correct)
     <figure markdown>
     ![Step 5](img/spotapp1b.png)
     </figure>
-6. Enter 
+6. Copy the text bellow and paste into the **Redirect URIs field** then click **add**.
 ```
 http://localhost:4202
 ``` 
-in the Redirect URIs field and then click Add before proceeding.
     <figure markdown>
     ![Step 6](img/spotapp2b.png)
     </figure>
@@ -47,9 +45,9 @@ in the Redirect URIs field and then click Add before proceeding.
     <figure markdown>
     ![Step 7](img/spotapp3b.png)
     </figure>
-!!! info "Save button"
+    !!! info "Save button"
 
-    **Note:** The Save button may reappear. If it does, click it again to save your changes and return to the Dashboard.
+        **Note:** The Save button may reappear. If it does, click it again to save your changes and return to the Dashboard.
 
 8. On the left hand side, you’ll now be able to reveal your Client ID and Client Secret which you’ll now need.
 Copy & Paste both the Client ID and Client Secret into the relevant fields in the plugin’s Setup Wizard.

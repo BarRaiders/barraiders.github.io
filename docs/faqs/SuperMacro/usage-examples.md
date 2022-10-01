@@ -163,7 +163,7 @@
     ```
 </details>
 
-##Functions
+## Functions
 <details>
   <summary>Functions: Choose a random number between 1 (inclusive) to 10 (exclusive) and store it in MyVar</summary>
     ```

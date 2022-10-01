@@ -6,9 +6,8 @@
   Output delay should be set to ~20ms<br>
   ```
   {{win}{e}}{{pause:400}}{{alt}{d}}c:\Program Files\{{enter}}
-  
+  </details>  
   <summary>Open Notepad and change settings</summary>
-  </details>
 <br>
   Output delay should be set to ~20ms<br>
   ```

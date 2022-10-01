@@ -21,7 +21,6 @@
 
 <details>
   <summary>Calculate something using the Windows Calculator</summary>
-  <br>
     Output delay should be set to ~20ms<br>
     ```
     {{win}{r}}{{pause:300}}calc{{enter}}{{pause:1000}}1*2*3*4*5=
@@ -30,7 +29,6 @@
 
 <details>
   <summary>Move the mouse to a certain position on the screen, then Double-Click the left mouse button.</summary>
-  <br>
     To find the correct position you can use the Mouse Location action.<br>
     ```
     {{MOUSEXY:1000,15}}{{MLEFTDBLCLICK}}
@@ -39,7 +37,6 @@
 
 <details>
   <summary>Move the mouse by 10 pixels left and 20 pixels down on every press</summary>
-  <br>
     ```
     {{MOUSEMOVE:-10,20}}
     ```
@@ -47,7 +44,6 @@
 
 <details>
   <summary>Variables: Get input from user and then use it later on.</summary>
-  <br>
     ```
     {{INPUT:Name}}Hello {{OUTPUT:Name}}, Nice to meet you!
     ```
@@ -55,7 +51,6 @@
 
 <details>
   <summary>Variables: Read text from file into MyVar variable.</summary>
-  <br>
     ```
     {{VarSetFromFile:MyVar:C:\filename.txt}}
     ```
@@ -63,7 +58,6 @@
 
 <details>
   <summary>Functions: Choose a random number between 1 (inclusive) to 10 (exclusive) and store it in MyVar</summary>
-  <br>
     ```
     {{FUNC:RANDOM:MyVar:1:10}}
     ```
@@ -71,7 +65,6 @@
 
 <details>
   <summary>Functions: Input 2 numbers from the user. Choose a random number between firstNum variable (inclusive) to secondNum variable (exclusive) and store it in MyVar:</summary>
-  <br>
     ```
     {{INPUT:firstNum}}
     {{INPUT:secondNum}}
@@ -81,7 +74,6 @@
 
 <details>
   <summary>Functions: Select a number from the user and multiply it by 10. Then save it to a file named c:\temp\result.txt:</summary>
-  <br>
     ```
     {{INPUT:myNumber}}
 {{FUNC:MUL:MyResult:$myNumber:10}}
@@ -91,7 +83,6 @@
 
 <details>
   <summary>Add comments in the code using `{{//}}` command</summary>
-  <br>
     ```
     {{INPUT:myNumber}} {{//}} Input a number from the user
 {{FUNC:MUL:MyResult:$myNumber:10}} {{//}} Multiply number by 10
@@ -101,7 +92,6 @@
 
 <details>
   <summary>Read text from a file and show it on the Stream Deck Key:</summary>
-  <br>
     ```
     {{VARSETFROMFILE:MyVar:c:\counter.txt}}
 {{SETKEYTITLE:$MyVar}}
@@ -110,7 +100,6 @@
 
 <details>
   <summary>Read text from a clipboard and show it on the Stream Deck Key:</summary>
-  <br>
     ```
     {{VARSETFROMCLIPBOARD:MyVar}}
 {{SETKEYTITLE:$MyVar}}
@@ -119,7 +108,6 @@
 
 <details>
   <summary>Scroll the mouse up by 5 clicks and then down by 3 clicks:</summary>
-  <br>
     ```
     {{MSCROLLUP:5}}
 {{MSCROLLDOWN:3}}
@@ -128,7 +116,6 @@
 
 <details>
   <summary>Move the mouse to coordinates set from variables:</summary>
-  <br>
     ```
     {{VARSET:X:100}}
 {{VARSET:Y:400}}
@@ -138,7 +125,6 @@
 
 <details>
   <summary>Repalce all "l"'s with "Z"'s in the string `Hello World` and show it on key</summary>
-  <br>
     ```
     {{VARSET:XX:Hello World}}
 {{VARSET:A:l}}
@@ -150,7 +136,6 @@
 
 <details>
   <summary>Show the current date and time on the key:</summary>
-  <br>
     ```
     {{FUNC:NOW:MyVar:yyyy-MM-dd 
 HH:mm:ss}}
@@ -160,7 +145,6 @@ HH:mm:ss}}
 
 <details>
   <summary>Print the current date and time:</summary>
-  <br>
     ```
     {{FUNC:NOW:MyVar:yyyy-MM-dd 
 HH:mm:ss}}
@@ -169,7 +153,6 @@ HH:mm:ss}}
 
 <details>
   <summary>Set value of variable into the clipboard</summary>
-  <br>
     ```
     {{VARSET:MyVar:Hello World}}
 {{SETCLIPBOARD:$MyVar}}
@@ -178,7 +161,6 @@ HH:mm:ss}}
 
 <details>
   <summary>Read text from one txt file and insert into another along with a timestamp. (Contributed by Bowser#2891)</summary>
-  <br>
     ```
     {{VarSetFromFile:ListVar:C:\temp\List.txt}}
 {{VarSetFromFile:NewTextVar:C:\temp\NewText.txt}}

@@ -21,6 +21,7 @@
 
 <details>
   <summary>Calculate something using the Windows Calculator</summary>
+    <br>
     Output delay should be set to ~20ms<br>
     ```
     {{win}{r}}{{pause:300}}calc{{enter}}{{pause:1000}}1*2*3*4*5=
@@ -29,6 +30,7 @@
 
 <details>
   <summary>Move the mouse to a certain position on the screen, then Double-Click the left mouse button.</summary>
+    <br>
     To find the correct position you can use the Mouse Location action.<br>
     ```
     {{MOUSEXY:1000,15}}{{MLEFTDBLCLICK}}
@@ -173,6 +175,7 @@
 
 <details>
   <summary>Get input from user, then load a file with the inputed name (from the `c:\temp` folder) to CLIPBOARD and show it on the Stream Deck Key. (Contributed by Bowser#2891)</summary>
+    <br>
   Note: Entire content of file may not fit within the screen of the Stream Deck Key.<br>
     ```
     {{Input:MyVar}}

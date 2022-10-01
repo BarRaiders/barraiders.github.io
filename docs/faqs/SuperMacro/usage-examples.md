@@ -76,8 +76,8 @@
   <summary>Functions: Select a number from the user and multiply it by 10. Then save it to a file named c:\temp\result.txt:</summary>
     ```
     {{INPUT:myNumber}}
-{{FUNC:MUL:MyResult:$myNumber:10}}
-{{OUTPUTTOFILE:MyResult:c:\temp\result.txt}}
+    {{FUNC:MUL:MyResult:$myNumber:10}}
+    {{OUTPUTTOFILE:MyResult:c:\temp\result.txt}}
     ```
 </details>
 
@@ -85,8 +85,8 @@
   <summary>Add comments in the code using `{{//}}` command</summary>
     ```
     {{INPUT:myNumber}} {{//}} Input a number from the user
-{{FUNC:MUL:MyResult:$myNumber:10}} {{//}} Multiply number by 10
-{{OUTPUTTOFILE:MyResult:c:\temp\result.txt}} {{//}} Save result in file
+    {{FUNC:MUL:MyResult:$myNumber:10}} {{//}} Multiply number by 10
+    {{OUTPUTTOFILE:MyResult:c:\temp\result.txt}} {{//}} Save result in file
     ```
 </details>
 
@@ -94,7 +94,7 @@
   <summary>Read text from a file and show it on the Stream Deck Key:</summary>
     ```
     {{VARSETFROMFILE:MyVar:c:\counter.txt}}
-{{SETKEYTITLE:$MyVar}}
+    {{SETKEYTITLE:$MyVar}}
     ```
 </details>
 
@@ -102,7 +102,7 @@
   <summary>Read text from a clipboard and show it on the Stream Deck Key:</summary>
     ```
     {{VARSETFROMCLIPBOARD:MyVar}}
-{{SETKEYTITLE:$MyVar}}
+    {{SETKEYTITLE:$MyVar}}
     ```
 </details>
 
@@ -110,7 +110,7 @@
   <summary>Scroll the mouse up by 5 clicks and then down by 3 clicks:</summary>
     ```
     {{MSCROLLUP:5}}
-{{MSCROLLDOWN:3}}
+    {{MSCROLLDOWN:3}}
     ```
 </details>
 
@@ -118,8 +118,8 @@
   <summary>Move the mouse to coordinates set from variables:</summary>
     ```
     {{VARSET:X:100}}
-{{VARSET:Y:400}}
-{{MOUSEXY:$X,$Y}}
+    {{VARSET:Y:400}}
+    {{MOUSEXY:$X,$Y}}
     ```
 </details>
 
@@ -127,35 +127,33 @@
   <summary>Repalce all "l"'s with "Z"'s in the string `Hello World` and show it on key</summary>
     ```
     {{VARSET:XX:Hello World}}
-{{VARSET:A:l}}
-{{VARSET:B:Z}}
-{{FUNC:REPLACE:MyVar:$XX:$A:$B}}
-{{SETKEYTITLE:$MyVar}}
+    {{VARSET:A:l}}
+    {{VARSET:B:Z}}
+    {{FUNC:REPLACE:MyVar:$XX:$A:$B}}
+    {{SETKEYTITLE:$MyVar}}
     ```
 </details>
 
 <details>
   <summary>Show the current date and time on the key:</summary>
     ```
-    {{FUNC:NOW:MyVar:yyyy-MM-dd 
-HH:mm:ss}}
-{{SETKEYTITLE:$MyVar}}
+    {{FUNC:NOW:MyVar:yyyy-MM-dd HH:mm:ss}}
+    {{SETKEYTITLE:$MyVar}}
     ```
 </details>
 
 <details>
   <summary>Print the current date and time:</summary>
     ```
-    {{FUNC:NOW:MyVar:yyyy-MM-dd 
-HH:mm:ss}}
-{{OUTPUT:MyVar}}
+    {{FUNC:NOW:MyVar:yyyy-MM-dd HH:mm:ss}}
+    {{OUTPUT:MyVar}}
 </details>
 
 <details>
   <summary>Set value of variable into the clipboard</summary>
     ```
     {{VARSET:MyVar:Hello World}}
-{{SETCLIPBOARD:$MyVar}}
+    {{SETCLIPBOARD:$MyVar}}
     ```
 </details>
 
@@ -163,12 +161,12 @@ HH:mm:ss}}
   <summary>Read text from one txt file and insert into another along with a timestamp. (Contributed by Bowser#2891)</summary>
     ```
     {{VarSetFromFile:ListVar:C:\temp\List.txt}}
-{{VarSetFromFile:NewTextVar:C:\temp\NewText.txt}}
-{{FUNC:NOW:TimeVar:yyyy-MM-dd HH:mm:ss}}
+    {{VarSetFromFile:NewTextVar:C:\temp\NewText.txt}}
+    {{FUNC:NOW:TimeVar:yyyy-MM-dd HH:mm:ss}}
 
-{{FUNC:CONCAT:ListVarU:$ListVar:$SMENTER:$NewTextVar: :$TimeVar}}
+    {{FUNC:CONCAT:ListVarU:$ListVar:$SMENTER:$NewTextVar: :$TimeVar}}
 
-{{OutputToFile:ListVarU:C:\temp\List.txt}}
+    {{OutputToFile:ListVarU:C:\temp\List.txt}}
     ```
 </details>
 
@@ -177,9 +175,9 @@ HH:mm:ss}}
   Note: Entire content of file may not fit within the screen of the Stream Deck Key.<br>
     ```
     {{Input:MyVar}}
-{{FUNC:CONCAT:Filename:C:$SMCOLON:\temp\:$MyVar:.txt}}
-{{VarSetFromFile:MyVar2:$Filename}}
-{{SetClipboard:$MyVar2}}
-{{SETKEYTITLE:$MyVar2}}
+    {{FUNC:CONCAT:Filename:C:$SMCOLON:\temp\:$MyVar:.txt}}
+    {{VarSetFromFile:MyVar2:$Filename}}
+    {{SetClipboard:$MyVar2}}
+    {{SETKEYTITLE:$MyVar2}}
     ```
 </details>

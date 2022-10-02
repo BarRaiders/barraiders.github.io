@@ -1,4 +1,4 @@
-# Getting Started with iCue
+# Battery - iCue
 !!! warning "English required"
 
     Before starting, make sure iCue is set to English language, plugin does not work with any other language.
@@ -37,8 +37,12 @@ Please follow these step-by-step instructions to allow the Stream Deck plugin to
     <b>Windows 11:</b> Click on Taskbar corner overflow
     <img src="../img/icue3-s8.png" alt="Step 8"></li>
     <li>Find iCue in the list and make sure it’s set to On</li>
-    <li>Verify you now have a battery icon on the taskbar and notice the name of the device is shown along with the battery status.
+    <li>Verify you now have a battery icon on the taskbar and notice the name of the device is shown along with the battery status.<br>
     <img src="../img/icue3-s10.png" alt="Step 10"></li>
     <li>In the plugin, write the name of the device as shown in the image above (in this case type IRONCLAW)</li>
   </ol>
 </details>
+
+##  Troubleshooting
+### The Enable Battery in System Tray option doesn't exist for my device
+This seems to be an issue with iCue for some device. Reach out to [CORSAIR](https://www.corsair.com/us/en/contact) for more support.

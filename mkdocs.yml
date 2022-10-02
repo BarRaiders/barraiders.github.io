@@ -11,9 +11,14 @@ nav:
       - 'Getting started': 'faqs/spotify/getting-started.md'
       - 'Troubleshooting': 'faqs/spotify/troubleshooting.md'
     - 'SuperMacro':
-      - 'Avaliable Actions': 'faqs/SuperMacro/actions.md'
-      - 'Usage Examples': 'faqs/SuperMacro/usage-examples.md'
-      - 'Commands': 'faqs/SuperMacro/commands.md'
-      - 'Functions': 'faqs/SuperMacro/functions.md'
-      - 'Advanced Settings': 'faqs/SuperMacro/advanced-settings.md'
+      - 'Getting started': 'faqs/supermacro/getting-started.md'
+      - 'Avaliable Actions': 'faqs/supermacro/actions.md'
+      - 'Usage Examples': 'faqs/supermacro/usage-examples.md'
+      - 'Commands': 'faqs/supermacro/commands.md'
+      - 'Functions': 'faqs/supermacro/functions.md'
+      - 'Loops': 'faqs/supermacro/loops.md'
+      - 'Advanced Settings': 'faqs/supermacro/advanced-settings.md'
+    - 'Windows Mover & Resizer':
+      - 'Getting Started': 'faqs/win-mover-resizer/getting-started.md'
+      - 'Troubleshooting': 'faqs/win-mover-resizer/troubleshooting.md'
   - Discord: http://discord.barraider.com

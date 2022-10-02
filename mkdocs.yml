@@ -14,4 +14,6 @@ nav:
       - 'Avaliable Actions': 'faqs/SuperMacro/actions.md'
       - 'Usage Examples': 'faqs/SuperMacro/usage-examples.md'
       - 'Commands': 'faqs/SuperMacro/commands.md'
+      - 'Functions': 'faqs/SuperMacro/functions.md'
+      - 'Advanced Settings': 'faqs/SuperMacro/advanced-settings.md'
   - Discord: http://discord.barraider.com

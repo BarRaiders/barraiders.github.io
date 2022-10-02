@@ -4,7 +4,7 @@
 ### Do I need Spotify premium in order to use the plugin?
 Yes, Spotify requires you to have a Premium subscription to access their API.
 
-### Button does not work or displays :warning: warning
+### Button does not work or displays ⚠️
 1. Make sure you set the Device setting to the device you want to play on.
 2. Make sure the Private Session feature is not enabled. You may need to restart your PC after disabling it.
 

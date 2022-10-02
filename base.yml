@@ -23,8 +23,8 @@ theme:
   features:
     - navigation.instant      # Makes it act like a Single-Page Application
     - navigation.tabs         # Top-Level Nav is rendered in the top
-    - navigation.tabs.sticky  # and scrolls with the page on longer pages
-    - navigation.expand       # Show  sub-sections in left pane
+    #- navigation.tabs.sticky  # and scrolls with the page on longer pages
+    #- navigation.expand      # Show  sub-sections in left pane
     - navigation.indexes      # Simpler Nav for sub-sections with overview pages
   palette:
     # Palette toggle for light mode

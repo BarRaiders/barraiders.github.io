@@ -7,7 +7,12 @@ markdown_extensions:
   - pymdownx.superfences # Nest Markdown in callouts (https://facelessuser.github.io/pymdown-extensions/extensions/superfences/)
   - pymdownx.keys # Render Keyboard keys with markdown (https://facelessuser.github.io/pymdown-extensions/extensions/keys/)
   - md_in_html # Currently we're using this for image captions
-  #- attr_list
+  - pymdownx.tasklist: # Support for Tabs (https://fabacademy.org/2022/labs/kannai/Instruction/tips/tab_in_markdown/)
+      custom_checkbox: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+   #- attr_list
 plugins:
   - search
   - glightbox #fancy image zoom (https://github.com/blueswen/mkdocs-glightbox#usage)

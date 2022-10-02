@@ -23,6 +23,7 @@ If the button is telling that you are being throttled, Spotify has throttled you
 
 ### I'm getting a "Throttled" image on my keys for a few seconds and it then disappears
 You are sending too many requests to Spotify. The following actions are API-intensive, consider removing them and see if it improves, or place the actions inside of a folder/ secondary profile.
+
 - Play/Pause action
 - Repeat Mode action
 - Shuffle Mode action
@@ -37,6 +38,7 @@ Start by playing a song in your player (the one you want to control). Then go ou
 Chances are you authorized on a different Spotify account than the one you're now playing the song in.
 
 **Try the following:**  
+
 1. Log out from both your browser and Spotify app.
 2. Press the Revoke button on the Spotify plugin (at the very bottom of the settings)
 3. Press the "Click here" message in the setup wizard.
@@ -52,6 +54,7 @@ Spotify limits to the first 50 playlists. You can move a playlist up in the orde
 ## Installation issues
 ### "INVALID_CLIENT: Invalid redirect URI" Error
 You have done step **5 & 6** incorrectly.
+
 1. Go to your [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/login "Spotify Developer Dashboard") and click your application.
 2. Go to "Edit settings" in the top right corner.
 3. Make sure **Website** has:

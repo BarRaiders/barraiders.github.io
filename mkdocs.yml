@@ -3,6 +3,9 @@ nav:
   - 'Plugin FAQs':
     - 'index.md' # Hidden on the menu, accessed when clicking "Plugin FAQs"
     - 'API Ninja': 'faqs/api-ninja/index.md'
+    - 'Battery':
+      - 'Getting started - iCue': 'faqs/battery/icue.md'
+      - 'Getting started - G HUB': 'faqs/battery/ghub.md'
     - 'OBS Tools':
       - 'Getting Started': 'faqs/obs-tools/getting-started.md'
       - 'Available Actions': 'faqs/obs-tools/actions.md'

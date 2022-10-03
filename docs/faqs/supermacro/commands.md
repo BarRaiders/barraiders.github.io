@@ -10,59 +10,59 @@
     | Numpad 1 | {NUMPAD1} |
     | Numpad 2 | {NUMPAD2} |
     | Numpad 3 | {NUMPAD3} |
-    | Numpad 4 | {NUMPAD4}  |
-    | Numpad 5 | {NUMPAD5}  |
-    | Numpad 6 | {NUMPAD6}  |
-    | Numpad 7 | {NUMPAD7}  |
-    | Numpad 8 | {NUMPAD8}  |
-    | Numpad 9 | {NUMPAD9}  |
+    | Numpad 4 | {NUMPAD4} |
+    | Numpad 5 | {NUMPAD5} |
+    | Numpad 6 | {NUMPAD6} |
+    | Numpad 7 | {NUMPAD7} |
+    | Numpad 8 | {NUMPAD8} |
+    | Numpad 9 | {NUMPAD9} |
     | Numpad \* | {MULTIPLY} |
     | Numpad + | {ADD}|
     | Numpad - | {SUBTRACT} |
-    | Numpad . | {DECIMAL}  |
-    | Numpad / | {DIVIDE}   |
-    | BACKSPACE| {BACK}     |
+    | Numpad . | {DECIMAL}|
+    | Numpad / | {DIVIDE} |
+    | BACKSPACE| {BACK} |
     | TAB| {TAB}|
-    | CLEAR    | {CLEAR}    |
-    | ENTER    | {RETURN} or {ENTER} |
-    | SHIFT    | {SHIFT}    |
-    | Left SHIFT | {LSHIFT}   |
-    | Right SHIFT| {RSHIFT}   |
-    | CTRL     | {CONTROL} or {CTRL} |
-    | Left CONTROL    | {LCONTROL} or {LCTRL} |
-    | Right CONTROL   | {RCONTROL} or {RCTRL} |
+    | CLEAR| {CLEAR}|
+    | ENTER| {RETURN} or {ENTER} |
+    | SHIFT| {SHIFT}|
+    | Left SHIFT | {LSHIFT} |
+    | Right SHIFT| {RSHIFT} |
+    | CTRL | {CONTROL} or {CTRL} |
+    | Left CONTROL| {LCONTROL} or {LCTRL} |
+    | Right CONTROL | {RCONTROL} or {RCTRL} |
     | ALT| {ALT} or {MENU}|
     | Left ALT | {LALT} or {LMENU} |
     | Right ALT| {RALT} or {RMENU} |
     | PAUSE/BREAK| {BREAK}|
-    | CAPS LOCK| {CAPITAL}  |
-    | ESC| {ESCAPE}   |
-    | SPACEBAR | {SPACE}    |
-    | PAGE UP  | {PAGEUP} or {PGUP} or {PRIOR} |
-    | Numpad PAGE UP  | {NUMPAD\_PAGEUP}    |
+    | CAPS LOCK| {CAPITAL}|
+    | ESC| {ESCAPE} |
+    | SPACEBAR | {SPACE}|
+    | PAGE UP| {PAGEUP} or {PGUP} or {PRIOR} |
+    | Numpad PAGE UP| {NUMPAD\_PAGEUP}|
     | PAGE DOWN| {PAGEDOWN} or {PGDN} or {NEXT} |
-    | Numpad PAGE DOWN| {NUMPAD\_PAGEDOWN}  |
-    | HOME     | {HOME}     |
+    | Numpad PAGE DOWN| {NUMPAD\_PAGEDOWN}|
+    | HOME | {HOME} |
     | Numpad HOME| {NUMPAD\_HOME} |
     | END| {END}|
     | Numpad END | {NUMPAD\_END}|
     | UP ARROW | {UP} |
     | Numpad UP ARROW | {NUMPAD\_UP} |
-    | LEFT ARROW | {LEFT}     |
+    | LEFT ARROW | {LEFT} |
     | Numpad LEFT ARROW | {NUMPAD\_LEFT} |
-    | RIGHT ARROW| {RIGHT}    |
+    | RIGHT ARROW| {RIGHT}|
     | Numpad RIGHT ARROW| {NUMPAD\_RIGHT}|
-    | DOWN ARROW | {DOWN}     |
+    | DOWN ARROW | {DOWN} |
     | Numpad DOWN ARROW | {NUMPAD\_DOWN} |
-    | SELECT   | {SELECT}   |
-    | PRINT SCREEN    | {SNAPSHOT} |
-    | PRINT    | {PRINT}    |
-    | EXECUTE  | {EXECUTE}  |
-    | INS| {INSERT}   |
-    | Numpad INS | {NUMPAD\_INSERT}    |
-    | DEL| {DELETE}   |
+    | SELECT | {SELECT} |
+    | PRINT SCREEN| {SNAPSHOT} |
+    | PRINT| {PRINT}|
+    | EXECUTE| {EXECUTE}|
+    | INS| {INSERT} |
+    | Numpad INS | {NUMPAD\_INSERT}|
+    | DEL| {DELETE} |
     | Numpad DEL | {NUMPAD\_DEL}|
-    | HELP     | {HELP}     |
+    | HELP | {HELP} |
     | Left Windows | {LWIN} or {WIN} or {WINDOWS} |
     | Right Windows | {RWIN} |
     | F1 | {F1} |
@@ -100,28 +100,28 @@
 
     |Mouse Key|Macro Command|
     |----|----|
-    |Mouse Left-Click|{{LBUTTON}}|
-    |Mouse Left Double-Click|{{MLEFTDBLCLICK}}|
-    |Mouse Left Button Down|{{MLEFTDOWN}}|
-    |Mouse Left Button Up|{{MLEFTUP}}|
-    |Mouse Right-Click|{{RBUTTON}}|
-    |Mouse Right Double-Click|{{MRIGHTDBLCLICK}}|
-    |Mouse Right Button Down|{{MRIGHTDOWN}}|
-    |Mouse Right Button Up|{{MRIGHTUP}}|
-    |Mouse Middle Click|{{MBUTTON}}|
-    |Mouse Middle Button Down|{{MMIDDLEDOWN}}|
-    |Mouse Middle Button Up|{{MMIDDLEUP}}|
-    |Mouse Button 4 Click|{{XBUTTON1}}|
-    |Mouse Button 5 Click|{{XBUTTON2}}|
-    |Mouse Scroll Wheel Up|{{MSCROLLUP}}<br>Optional: Set the number of 'clicks' to scroll up: {{MSCROLLUP:10}} will scroll up 10 clicks|
-    |Mouse Scroll Wheel Down|{{MSCROLLDOWN}}<br>Optional: Set the number of 'clicks' to scroll down: {{MSCROLLDOWN:3}} will scroll down 3 clicks|
-    |Mouse Horizontal Scroll Left|{{MSCROLLLEFT}}<br>Optional: Set the number of 'clicks' to scroll left: {{MSCROLLLEFT:3}} will scroll left 3 clicks|
-    |Mouse Horizontal Scroll Right|{{MSCROLLRIGHT}}<br>Optional: Set the number of 'clicks' to scroll right: {{MSCROLLRIGHT:3}} will scroll right 3 clicks|
-    |Mouse Move based on CURRENT position|{{MOUSEMOVE:X,Y}} (Move the cursor by X,Y from current position)|
-    |Mouse Move based on multi-screen resolutions|{{MOUSEXY:X,Y}} (Move the cursor to the X,Y position on the screen. 0,0 is the [top-left] of your primary monitor. Supports both positive and negative values. Use along with the `Mouse Location` action to easily find the right coordinates on your PC<br>Supports variables too: {{MOUSEXY:$Var1,$Var2}}|
-    |Store current mouse position|{{MSAVEPOS}} stores the current mouse cursor position.<br>The position is stored in variables: $MOUSE_X and $MOUSE_Y|
-    |Move mouse to previous stored position|{{MLOADPOS}} moves the mouse to the previous set position (when `{MSAVEPOS}` was called).|
-    |(DEPRICATED) Mouse Move based on ABSOLUTE position (DEPRICATED)|{{MOUSEPOS:X,Y}} (Move the cursor to the X,Y position on the screen. Values from 0,0 [top-left] to 65535,65535 [bottom-right])|
+    | Mouse Left-Click|{{LBUTTON}}|
+    | Mouse Left Double-Click|{{MLEFTDBLCLICK}}|
+    | Mouse Left Button Down|{{MLEFTDOWN}}|
+    | Mouse Left Button Up|{{MLEFTUP}}|
+    | Mouse Right-Click|{{RBUTTON}}|
+    | Mouse Right Double-Click|{{MRIGHTDBLCLICK}}|
+    | Mouse Right Button Down|{{MRIGHTDOWN}}|
+    | Mouse Right Button Up|{{MRIGHTUP}}|
+    | Mouse Middle Click|{{MBUTTON}}|
+    | Mouse Middle Button Down|{{MMIDDLEDOWN}}|
+    | Mouse Middle Button Up|{{MMIDDLEUP}}|
+    | Mouse Button 4 Click|{{XBUTTON1}}|
+    | Mouse Button 5 Click|{{XBUTTON2}}|
+    | Mouse Scroll Wheel Up|{{MSCROLLUP}}<br>Optional: Set the number of 'clicks' to scroll up: {{MSCROLLUP:10}} will scroll up 10 clicks|
+    | Mouse Scroll Wheel Down|{{MSCROLLDOWN}}<br>Optional: Set the number of 'clicks' to scroll down: {{MSCROLLDOWN:3}} will scroll down 3 clicks|
+    | Mouse Horizontal Scroll Left|{{MSCROLLLEFT}}<br>Optional: Set the number of 'clicks' to scroll left: {{MSCROLLLEFT:3}} will scroll left 3 clicks|
+    | Mouse Horizontal Scroll Right|{{MSCROLLRIGHT}}<br>Optional: Set the number of 'clicks' to scroll right: {{MSCROLLRIGHT:3}} will scroll right 3 clicks|
+    | Mouse Move based on CURRENT position|{{MOUSEMOVE:X,Y}} (Move the cursor by X,Y from current position)|
+    | Mouse Move based on multi-screen resolutions|{{MOUSEXY:X,Y}} (Move the cursor to the X,Y position on the screen. 0,0 is the [top-left] of your primary monitor. Supports both positive and negative values. Use along with the `Mouse Location` action to easily find the right coordinates on your PC<br>Supports variables too: {{MOUSEXY:$Var1,$Var2}}|
+    | Store current mouse position|{{MSAVEPOS}} stores the current mouse cursor position.<br>The position is stored in variables: $MOUSE_X and $MOUSE_Y|
+    | Move mouse to previous stored position|{{MLOADPOS}} moves the mouse to the previous set position (when `{MSAVEPOS}` was called).|
+    | (DEPRICATED) Mouse Move based on ABSOLUTE position (DEPRICATED)|{{MOUSEPOS:X,Y}} (Move the cursor to the X,Y position on the screen. Values from 0,0 [top-left] to 65535,65535 [bottom-right])|
 
 === "Windows Commands"
 

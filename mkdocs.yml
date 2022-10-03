@@ -16,12 +16,13 @@ nav:
       - 'Troubleshooting': 'faqs/spotify/troubleshooting.md'
     - 'SuperMacro':
       - 'Getting started': 'faqs/supermacro/getting-started.md'
+      - 'Advanced Settings explained': 'faqs/supermacro/advanced-settings.md'
       - 'Avaliable Actions': 'faqs/supermacro/actions.md'
       - 'Usage Examples': 'faqs/supermacro/examples.md'
       - 'Commands': 'faqs/supermacro/commands.md'
       - 'Functions': 'faqs/supermacro/functions.md'
       - 'Loops': 'faqs/supermacro/loops.md'
-      - 'Advanced Settings': 'faqs/supermacro/advanced-settings.md'
+      - 'Variables': 'faqs/supermacro/variables.md'
     - 'VoiceMeeter':
       - 'Getting Started': 'faqs/voicemeeter/getting-started.md'
       - 'Available Actions': 'faqs/voicemeeter/actions.md'

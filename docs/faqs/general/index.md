@@ -1,5 +1,5 @@
 # General Issues (Not plugin specific)
-On this page you will find troubleshooting steps for general issues that are not spesific to a plugin.
+On this page you will find troubleshooting steps for general issues that are not specific to a plugin.
 
 ## Plugin isn't displaying any text/information on the Stream Deck Key
 Some plugins will display information on the key. For example, the **"Stream Counter"** plugin will display a counter for how many times the Stream Deck key has been pressed.

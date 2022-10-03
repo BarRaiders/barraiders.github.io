@@ -1,6 +1,10 @@
 # List of commands
+
 <hr />
 === "Keyboard Commands"
+
+    ## Keyboard commands
+
     | Keyboard Key| Macro command |
     | ----------- | ----------- |
     | Letters A-Z | {VK\_XXXX} (XXXX = the letter - e.g. VK\_A / VK\_B ...) |
@@ -97,6 +101,8 @@
     | SCROLL LOCK| {SCROLL} |
 
 === "Mouse Commands"
+
+    ## Mouse commands
 
     |Mouse Key|Macro Command|
     |----|----|

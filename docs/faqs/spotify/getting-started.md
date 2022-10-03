@@ -21,7 +21,7 @@ Please follow the step-by-step instructions below to create your own Spotify Dev
     ![Step 3](img/spotauth2b.png)
 4. Congrats! You have created your App! Now click Edit Settings to add a few necessary details.
     ![Step 4](img/spotauth5.png)
-5. Copy the text bellow and paste into the **Website field**
+5. Copy the text bellow and paste into the **Website field** <a name="step-5"></a>
     ```
     http://localhost:4202
     ```

@@ -53,7 +53,7 @@ Spotify limits to the first 50 playlists. You can move a playlist up in the orde
 
 ## Installation issues
 ### "INVALID_CLIENT: Invalid redirect URI" Error
-You have done step **5 & 6** incorrectly.
+You have done step **5 & 6** incorrectly in [getting started](../getting-started/#step-5).
 
 1. Go to your [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/login "Spotify Developer Dashboard") and click on your application.
 2. Go to "Edit settings" in the top right corner.

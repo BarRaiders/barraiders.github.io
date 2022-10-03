@@ -16,11 +16,15 @@ nav:
     - 'SuperMacro':
       - 'Getting started': 'faqs/supermacro/getting-started.md'
       - 'Avaliable Actions': 'faqs/supermacro/actions.md'
-      - 'Usage Examples': 'faqs/supermacro/usage-examples.md'
+      - 'Usage Examples': 'faqs/supermacro/examples.md'
       - 'Commands': 'faqs/supermacro/commands.md'
       - 'Functions': 'faqs/supermacro/functions.md'
       - 'Loops': 'faqs/supermacro/loops.md'
       - 'Advanced Settings': 'faqs/supermacro/advanced-settings.md'
+    - 'VoiceMeeter':
+      - 'Getting Started': 'faqs/voicemeeter/getting-started.md'
+      - 'Available Actions': 'faqs/voicemeeter/actions.md'
+      - 'Usage Examples': 'faqs/voicemeeter/examples.md'
     - 'Windows Mover & Resizer':
       - 'Getting Started': 'faqs/win-mover-resizer/getting-started.md'
       - 'Troubleshooting': 'faqs/win-mover-resizer/troubleshooting.md'

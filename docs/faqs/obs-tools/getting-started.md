@@ -7,16 +7,16 @@
 ## Installation
 Install the BarRaider OBS plugin from the Elgato store or from our [Discord](http://discord.barraider.com)
 
-1. After installing, enable from inside OBS: `Tools -> obs-websocket Setting`
-    
-<figure markdown>
-![Step 1](img/gs1.png)
-    <figcaption>
-        Check that your settings match the settings in this image. <br /><strong>Set your own password.</strong>
-    </figcaption>
-</figure>
-
-1. After following the steps above, drag one of the OBS Tools actions on to your Stream Deck and follow the setup wizard’s instructions. (You’ll need the port and password set in the previous step)
+1. After installing, enable the websocket in OBS Studio: `Tools -> obs-websocket Setting`
+    <p align="center">
+        <img src="../img/gs1.png"/>
+        <div style="text-align:center">
+            <figcaption>
+                Check that your settings match the settings in this image. <br /><strong>Set your own password.</strong>
+            </figcaption>
+        </div>
+    </p>
+2. After following the steps above, drag one of the OBS Tools actions on to your Stream Deck and follow the setup wizard’s instructions. (You’ll need the port and password set in the previous step)
 
 ## Testing It Out
 There are a ton of [Available Actions](./actions.md) in this plugin, but just to make sure everthing is working, let's add the `CPU Usage` action as a test. This action is pretty simple, __If OBS is on and everything is connected, it will display the CPU usage of OBS like this

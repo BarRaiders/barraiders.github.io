@@ -11,13 +11,13 @@ Toggle between two different macros on the same key.
 Click once to enable, the macro will run again and again until either the button is pressed again OR until the loop ends.
 
 ## Keystroke PTT
-This action limits the action to either one command (such as {{ctrl}{c}}) or one character. The command will be run again and again as long as you continue to press the key.
+This action limits the action to either one command (such as `{{ctrl}{c}}`) or one character. The command will be run again and again as long as you continue to press the key.
 
 ## Sticky Keystroke
-This action limits the action to either one command (such as {{ctrl}{c}}) or one character. The command will be run again and again until the button is pressed again OR until the Loop ends.
+This action limits the action to either one command (such as `{{ctrl}{c}}`) or one character. The command will be run again and again until the button is pressed again OR until the Loop ends.
 
 ## Mouse Location
 !!! info "Long pressing button"
 
     **Note:** Long pressing the button on the Stream Deck will copy the current X,Y shown on the key to your Clipboard.
-Consider this more of a helper action, it shows you the current position of your mouse cursor. You can use it to determine where you want SuperMacro to move your mouse (Using the {{MOUSEXY}} Mouse Command).
+Consider this more of a helper action, it shows you the current position of your mouse cursor. You can use it to determine where you want SuperMacro to move your mouse (Using the `{{MOUSEXY}}` [mouse command](./commands.md)).

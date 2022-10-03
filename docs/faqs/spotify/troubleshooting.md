@@ -31,7 +31,7 @@ You are sending too many requests to Spotify. The following actions are API-inte
 
 ## Device / playlist
 ### The device dropdown is empty
-**Note:** Not ALL devices will be recognised, simply because Spotify’s API doesn’t support them. For example, SONOS.
+**Note:** Not ALL devices will be recognized, simply because Spotify’s API doesn’t support them. For example, SONOS.
 
 Start by playing a song in your player (the one you want to control). Then go out of the profile that has the Spotify action on and it, and then back in. Combo should populate. 
 **If after the above it's not populating:**
@@ -55,7 +55,7 @@ Spotify limits to the first 50 playlists. You can move a playlist up in the orde
 ### "INVALID_CLIENT: Invalid redirect URI" Error
 You have done step **5 & 6** incorrectly.
 
-1. Go to your [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/login "Spotify Developer Dashboard") and click your application.
+1. Go to your [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/login "Spotify Developer Dashboard") and click on your application.
 2. Go to "Edit settings" in the top right corner.
 3. Make sure **Website** has:
 ```

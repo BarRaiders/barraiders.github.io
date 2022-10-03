@@ -28,8 +28,8 @@ Please follow these step-by-step instructions to allow the Stream Deck plugin to
     <li>Select Enable Battery Guage in Notification Area
     <img src="../img/icue3-s3.png" alt="Step 3"></li>
     <li>Open iCue and Select Settings from the top menu bar</li>
-    <li>Choose the device you want to see battery stats for (and verify it shows the battery status right under the device’s image)</li>
-    <li>Select Enable Battery Gauge in System Taskbar
+    <li>Choose the device you want to see the battery stats for (and verify it shows the battery status right under the device’s image)</li>
+    <li>Select Enable Battery Gauge in the System Taskbar
     <img src="../img/icue3-s6.png" alt="Step 6"></li>
     <li>Right-Click the Windows taskbar and choose Taskbar Settings
     <img src="../img/icue3-s7.png" alt="Step 7"></li>
@@ -37,7 +37,7 @@ Please follow these step-by-step instructions to allow the Stream Deck plugin to
     <b>Windows 11:</b> Click on Taskbar corner overflow
     <img src="../img/icue3-s8.png" alt="Step 8"></li>
     <li>Find iCue in the list and make sure it’s set to On</li>
-    <li>Verify you now have a battery icon on the taskbar and notice the name of the device is shown along with the battery status.<br>
+    <li>Verify that you now have a battery icon on the taskbar and notice the name of the device is showing along with the battery status.<br>
     <img src="../img/icue3-s10.png" alt="Step 10"></li>
     <li>In the plugin, write the name of the device as shown in the image above (in this case type IRONCLAW)</li>
   </ol>
@@ -45,4 +45,4 @@ Please follow these step-by-step instructions to allow the Stream Deck plugin to
 
 ##  Troubleshooting
 ### The Enable Battery in System Tray option doesn't exist for my device
-This seems to be an issue with iCue for some device. Reach out to [CORSAIR](https://www.corsair.com/us/en/contact) for more support.
+This seems to be an issue with iCue for some devices. Reach out to [CORSAIR](https://www.corsair.com/us/en/contact) for more support.

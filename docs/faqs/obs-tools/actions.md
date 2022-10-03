@@ -9,10 +9,10 @@
 - Create cool transitions and effects for your sources with one click!
 - Phases allow multi-phased animations, without the need of a multi-action
 - Easily create animation with the Record feature: 
-- Place source at starting position, then press ‘Record’. 
-- Move/Modify source to end result and then press ‘End Recording’ => The plugin will automatically calculate and input the changes.
+- Place the source at the starting position, then press "Record". 
+- Move/Modify the source to end result and then press ‘End Recording’ => The plugin will automatically calculate and input the changes.
 - Import/Export Settings allows you to share your animations (or keep a backup)
-- Options to hide source/remove filter at various stages
+- Options to hide source/remove filters at various stages
 
 ## Studio Mode Toggle
 - Allows you to quickly toggle Studio/Preview mode on and off.
@@ -33,11 +33,11 @@
 - Shows how much CPU is being utilized by OBS-
 
 ## Previous Scene
-- Allows you to switch back to your previously used scene. Writes the name of the scene on the key-
+- Allows you to switch back to your previously used scene. Writes the name of the scene on the key.
 
 ## Twitch Integration
-- Let your chat to type !replay and trigger an instant replay which is shown on stream
-- Instant Replay can now also create a Twitch Clip for you, and post it on chat
+- Allow your chat to type !replay and trigger an instant replay which is shown on stream
+- Instant Replay can now also create a Twitch Clip for you and post it on chat
 - Instant Replay can now create a Twitch Clip even if the replay buffer is off
 
 ## Browser Sources 

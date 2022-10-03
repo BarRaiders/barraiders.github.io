@@ -1,1 +1,1 @@
-# Avaiable Actions
+# Available Actions

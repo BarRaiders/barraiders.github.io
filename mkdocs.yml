@@ -11,9 +11,13 @@ nav:
       - 'Getting Started': 'faqs/obs-tools/getting-started.md'
       - 'Available Actions': 'faqs/obs-tools/actions.md'
       - 'Troubleshooting': 'faqs/obs-tools/troubleshooting.md'
+    - 'SoundPad': 'faqs/soundpad/index.md'
     - 'Spotify':
       - 'Getting started': 'faqs/spotify/getting-started.md'
       - 'Troubleshooting': 'faqs/spotify/troubleshooting.md'
+    - 'Stream Counter':
+      - 'Getting started': 'faqs/stream-counter/getting-started.md'
+      - 'Troubleshooting': 'faqs/stream-counter/troubleshooting.md'
     - 'SuperMacro':
       - 'Getting started': 'faqs/supermacro/getting-started.md'
       - 'Advanced Settings explained': 'faqs/supermacro/advanced-settings.md'

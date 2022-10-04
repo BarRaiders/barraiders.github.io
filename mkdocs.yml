@@ -31,6 +31,7 @@ nav:
       - 'Getting Started': 'faqs/voicemeeter/getting-started.md'
       - 'Available Actions': 'faqs/voicemeeter/actions.md'
       - 'Usage Examples': 'faqs/voicemeeter/examples.md'
+      - 'Advanced Fields': 'faqs/voicemeeter/fields.md'
     - 'Windows Mover & Resizer':
       - 'Getting Started': 'faqs/win-mover-resizer/getting-started.md'
       - 'Troubleshooting': 'faqs/win-mover-resizer/troubleshooting.md'

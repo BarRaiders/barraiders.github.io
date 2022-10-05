@@ -2,8 +2,10 @@
 
 ## Examples
 ### Changing your output device using VM Advanced:
-Strip[0].device.wdm = "NAME OF DEVICE";
-Replace wdm with one of the following if you use another device type: sr/wdm/ks/mme/asio
+`Strip[x].device.wdm = "NAME OF DEVICE";`<br>
+
+- Replace `wdm` with one of the following if you use another device type: `sr/wdm/ks/mme/asio`<br>
+- Replace `x` with strip number, strip overview can be found under [getting started](../getting-started).
 
 ### Disabling output device:
 Using [Advanced toggle action](../actions/#voicemeeter-advanced-toogle)
@@ -24,7 +26,7 @@ Using [Advanced toggle action](../actions/#voicemeeter-advanced-toogle)
 - Mode1 Check: `Strip[X].A1`
 - Mode2 Key Press: `Strip[X].A1=0`
 
-Replace X with the strip number and A1 with the output.
+Replace `x` with strip number and `A1` with the output, strip overview can be found under [getting started](../getting-started).
 
 ### Fade in/out
 Using [Advanced Press/Long-press](../actions/#advancedpress)<br>
@@ -34,7 +36,7 @@ Using [Advanced Press/Long-press](../actions/#advancedpress)<br>
 - Title Prefix: `dB`
 - Title Value: `Strip[x].Gain`
 
-Replace X with the strip number.
+Replace `x` with strip number, strip overview can be found under [getting started](../getting-started).
 
 
 ## Midi Usage

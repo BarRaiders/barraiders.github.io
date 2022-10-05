@@ -6,5 +6,5 @@
 - **Modex Image** - Customizable image that will be shown when you're in Mode1
 - **Title** - Used to determine if you want a dynamic title (Based on the "Title Value" field) or a static title (Based on the "Title field" at the very top)
 - **Title Prefix** - Text to add before displaying the Title Value. 
-    - ProTip: Type `\n` to make the title multi-line
+    - **Tip:** Type `\n` to make the title multi-line
 - **Title Value** - Value to display in the title. Example: If you input: `Strip[0].Mono` it will display 1 when Mono is enabled on Strip0 and 0 otherwise.

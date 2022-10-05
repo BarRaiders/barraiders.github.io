@@ -1,3 +1,9 @@
+---
+title: 'Stream Deck VoiceMeeter - Actions'
+tags: stream deck,barraider,voicemeeter
+description: "Explaination of all the available actions in the VoiceMeeter plugin by BarRaider for the Elgato Stream Deck."
+---
+
 # Available Actions
 
 ## VoiceMeeter Mute/Unmute

@@ -17,7 +17,7 @@ description: "Explaination of all the available actions in the VoiceMeeter plugi
 ## VoiceMeeter Modify Setting
 - Allows you to easily modify various VoiceMeeter settings
 - Supports a whole list of options for each Strip/Bus
-- Options include modifying the: Gain slider, gate, comp, mono button, solo button, audibility, color_x, color_y, eqgain1, eqgain2, eqgain3, fx_x, fx_y, mc,pan_x, pan_y (Valid values can be found starting on page 9 of [VoiceMeeter API PDF](https://download.vb-audio.com/Download_CABLE/VoicemeeterRemoteAPI.pdf)
+- Options include modifying the: Gain slider, gate, comp, mono button, solo button, audibility, color_x, color_y, eqgain1, eqgain2, eqgain3, fx_x, fx_y, mc,pan_x, pan_y (Valid values can be found starting on page 9 of [VoiceMeeter API PDF](https://download.vb-audio.com/Download_CABLE/VoicemeeterRemoteAPI.pdf#page=9).
 - Live feedback on the current value of that setting
 - Supports both Press and Long Press (allows you to toggle between two preset values for this setting)
 - Option to turn off the Live feedback and set the title to whatever you want (including a prefix using the TitlePrefix parameter)

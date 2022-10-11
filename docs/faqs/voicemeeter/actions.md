@@ -1,6 +1,9 @@
 ---
 title: 'VoiceMeeter - Actions'
-tags: streamdeck,barraider,voicemeeter
+tags: 
+    - streamdeck
+    - barraider
+    - voicemeeter
 description: "Explaination of all the available actions in the VoiceMeeter plugin by BarRaider for the Elgato Stream Deck."
 ---
 

@@ -1,3 +1,17 @@
+<!-- 
+    Because of the syntax that macros require, adding them thoroughly broke this page until Cyber refactored it.
+    Single { } are fine, but in order to use double brackets the way SuperMacro does, you need to declare the whole thing to be a string
+        Example: {{SPACE}} would become {{ "{{SPACE}}" }}
+
+    Cyber accomplished the refactor using Find & Replace twice.
+        replace: "\{\{" with: "\{\{ \"\{\{"
+        replace: "\}\}" with: " \"\}\}"
+
+    Reverting this change *will* break the page, but it is easy enough to do with 2 more Find & Replace uses
+        replace: "\{\{ \"" with: ""
+        replace: " \"\}\}" with: ""
+ -->
+
 # List of commands
 
 <hr />
@@ -7,9 +21,9 @@
 
     | Keyboard Key| Macro command |
     | ----------- | ----------- |
-    | Letters A-Z | {VK\_XXXX} (XXXX = the letter - e.g. VK\_A / VK\_B ...) |
-    | Numbers 0-9 | {VK\_XXXX} (XXXX = the number - e.g. VK\_0 / VK\_1 ...) | 
-    | Any of the following characters: ``;/\`[\]':?~{|}"`` | Exact command changes between keyboard layouts:<br>Try the following macros to figure out the correct command:<br>{{oem\_1}}{{oem\_2}}{{oem\_3}}{{oem\_4}}{{oem\_5}} {{oem\_6}}{{oem\_7}}{{oem\_8}} {{shift}{oem\_1}}{{shift}{oem\_2}}{{shift}{oem\_3}} {{shift}{oem\_4}}{{shift}{oem\_5}} {{shift}{oem\_6}}{{shift}{oem\_7}}{{shift}{oem\_8}} |
+    | Letters A-Z | {VK_XXXX} (XXXX = the letter - e.g. VK_A / VK_B ...) |
+    | Numbers 0-9 | {VK_XXXX} (XXXX = the number - e.g. VK_0 / VK_1 ...) | 
+    |  Any of the following characters: ``;/\`[\]':?~{|}\"``  | Exact command changes between keyboard layouts:<br>Try the following macros to figure out the correct command:<br> {{ "{{oem_1}} "}}{{ "{{oem_2}} "}}{{ "{{oem_3}} "}}{{ "{{oem_4}} "}}{{ "{{oem_5}} "}} {{ "{{oem_6}} "}}{{ "{{oem_7}} "}}{{ "{{oem_8}} "}} {{ "{{shift}{oem_1}} "}}{{ "{{shift}{oem_2}} "}}{{ "{{shift}{oem_3}} "}} {{ "{{shift}{oem_4}} "}}{{ "{{shift}{oem_5}} "}} {{ "{{shift}{oem_6}} "}}{{ "{{shift}{oem_7}} "}}{{ "{{shift}{oem_8}} "}}  |
     | Numpad 0 |{NUMPAD0} |
     | Numpad 1 | {NUMPAD1} |
     | Numpad 2 | {NUMPAD2} |
@@ -43,29 +57,29 @@
     | ESC| {ESCAPE} |
     | SPACEBAR | {SPACE}|
     | PAGE UP| {PAGEUP} or {PGUP} or {PRIOR} |
-    | Numpad PAGE UP| {NUMPAD\_PAGEUP}|
+    | Numpad PAGE UP| {NUMPAD_PAGEUP}|
     | PAGE DOWN| {PAGEDOWN} or {PGDN} or {NEXT} |
-    | Numpad PAGE DOWN| {NUMPAD\_PAGEDOWN}|
+    | Numpad PAGE DOWN| {NUMPAD_PAGEDOWN}|
     | HOME | {HOME} |
-    | Numpad HOME| {NUMPAD\_HOME} |
+    | Numpad HOME| {NUMPAD_HOME} |
     | END| {END}|
-    | Numpad END | {NUMPAD\_END}|
+    | Numpad END | {NUMPAD_END}|
     | UP ARROW | {UP} |
-    | Numpad UP ARROW | {NUMPAD\_UP} |
+    | Numpad UP ARROW | {NUMPAD_UP} |
     | LEFT ARROW | {LEFT} |
-    | Numpad LEFT ARROW | {NUMPAD\_LEFT} |
+    | Numpad LEFT ARROW | {NUMPAD_LEFT} |
     | RIGHT ARROW| {RIGHT}|
-    | Numpad RIGHT ARROW| {NUMPAD\_RIGHT}|
+    | Numpad RIGHT ARROW| {NUMPAD_RIGHT}|
     | DOWN ARROW | {DOWN} |
-    | Numpad DOWN ARROW | {NUMPAD\_DOWN} |
+    | Numpad DOWN ARROW | {NUMPAD_DOWN} |
     | SELECT | {SELECT} |
     | PRINT SCREEN| {SNAPSHOT} |
     | PRINT| {PRINT}|
     | EXECUTE| {EXECUTE}|
     | INS| {INSERT} |
-    | Numpad INS | {NUMPAD\_INSERT}|
+    | Numpad INS | {NUMPAD_INSERT}|
     | DEL| {DELETE} |
-    | Numpad DEL | {NUMPAD\_DEL}|
+    | Numpad DEL | {NUMPAD_DEL}|
     | HELP | {HELP} |
     | Left Windows | {LWIN} or {WIN} or {WINDOWS} |
     | Right Windows | {RWIN} |
@@ -93,10 +107,10 @@
     | F22 | {F22} |
     | F23 | {F23} |
     | F24 | {F24} |
-    | Plus: += | {OEM\_PLUS} / {{SHIFT}{OEM\_PLUS}} |
-    | Minus: -\_ | {OEM\_MINUS} / {{SHIFT}{OEM\_MINUS}} |
-    | Period: .> | {OEM\_PERIOD} / {{SHIFT}{OEM\_PERIOD}} |
-    | Comma: ,<| {OEM\_COMMA} / {{SHIFT}{OEM\_COMMA}} |
+    | Plus: += | {OEM_PLUS} / {{ "{{SHIFT}{OEM_PLUS}} "}}  | 
+    | Minus: -_ | {OEM_MINUS} / {{ "{{SHIFT}{OEM_MINUS}} "}} |
+    | Period: .> | {OEM_PERIOD} / {{ "{{SHIFT}{OEM_PERIOD}} "}} |
+    | Comma: ,<| {OEM_COMMA} / {{ "{{SHIFT}{OEM_COMMA}} "}} | 
     | NUM LOCK | {NUMLOCK} |
     | SCROLL LOCK| {SCROLL} |
 
@@ -106,28 +120,28 @@
 
     |Mouse Key|Macro Command|
     |----|----|
-    | Mouse Left-Click|{{LBUTTON}}|
-    | Mouse Left Double-Click|{{MLEFTDBLCLICK}}|
-    | Mouse Left Button Down|{{MLEFTDOWN}}|
-    | Mouse Left Button Up|{{MLEFTUP}}|
-    | Mouse Right-Click|{{RBUTTON}}|
-    | Mouse Right Double-Click|{{MRIGHTDBLCLICK}}|
-    | Mouse Right Button Down|{{MRIGHTDOWN}}|
-    | Mouse Right Button Up|{{MRIGHTUP}}|
-    | Mouse Middle Click|{{MBUTTON}}|
-    | Mouse Middle Button Down|{{MMIDDLEDOWN}}|
-    | Mouse Middle Button Up|{{MMIDDLEUP}}|
-    | Mouse Button 4 Click|{{XBUTTON1}}|
-    | Mouse Button 5 Click|{{XBUTTON2}}|
-    | Mouse Scroll Wheel Up|{{MSCROLLUP}}<br>Optional: Set the number of 'clicks' to scroll up: {{MSCROLLUP:10}} will scroll up 10 clicks|
-    | Mouse Scroll Wheel Down|{{MSCROLLDOWN}}<br>Optional: Set the number of 'clicks' to scroll down: {{MSCROLLDOWN:3}} will scroll down 3 clicks|
-    | Mouse Horizontal Scroll Left|{{MSCROLLLEFT}}<br>Optional: Set the number of 'clicks' to scroll left: {{MSCROLLLEFT:3}} will scroll left 3 clicks|
-    | Mouse Horizontal Scroll Right|{{MSCROLLRIGHT}}<br>Optional: Set the number of 'clicks' to scroll right: {{MSCROLLRIGHT:3}} will scroll right 3 clicks|
-    | Mouse Move based on CURRENT position|{{MOUSEMOVE:X,Y}} (Move the cursor by X,Y from current position)|
-    | Mouse Move based on multi-screen resolutions|{{MOUSEXY:X,Y}} (Move the cursor to the X,Y position on the screen. 0,0 is the [top-left] of your primary monitor. Supports both positive and negative values. Use along with the `Mouse Location` action to easily find the right coordinates on your PC<br>Supports variables too: {{MOUSEXY:$Var1,$Var2}}|
-    | Store current mouse position|{{MSAVEPOS}} stores the current mouse cursor position.<br>The position is stored in variables: $MOUSE_X and $MOUSE_Y|
-    | Move mouse to previous stored position|{{MLOADPOS}} moves the mouse to the previous set position (when `{MSAVEPOS}` was called).|
-    | (DEPRICATED) Mouse Move based on ABSOLUTE position (DEPRICATED)|{{MOUSEPOS:X,Y}} (Move the cursor to the X,Y position on the screen. Values from 0,0 [top-left] to 65535,65535 [bottom-right])|
+    | Mouse Left-Click|{{ "{{LBUTTON}} "}}|
+    | Mouse Left Double-Click|{{ "{{MLEFTDBLCLICK}} "}}|
+    | Mouse Left Button Down|{{ "{{MLEFTDOWN}} "}}|
+    | Mouse Left Button Up|{{ "{{MLEFTUP}} "}}|
+    | Mouse Right-Click|{{ "{{RBUTTON}} "}}|
+    | Mouse Right Double-Click|{{ "{{MRIGHTDBLCLICK}} "}}|
+    | Mouse Right Button Down|{{ "{{MRIGHTDOWN}} "}}|
+    | Mouse Right Button Up|{{ "{{MRIGHTUP}} "}}|
+    | Mouse Middle Click|{{ "{{MBUTTON}} "}}|
+    | Mouse Middle Button Down|{{ "{{MMIDDLEDOWN}} "}}|
+    | Mouse Middle Button Up|{{ "{{MMIDDLEUP}} "}}|
+    | Mouse Button 4 Click|{{ "{{XBUTTON1}} "}}|
+    | Mouse Button 5 Click|{{ "{{XBUTTON2}} "}}|
+    | Mouse Scroll Wheel Up|{{ "{{MSCROLLUP}} "}}<br>Optional: Set the number of 'clicks' to scroll up: {{ "{{MSCROLLUP:10}} "}} will scroll up 10 clicks|
+    | Mouse Scroll Wheel Down|{{ "{{MSCROLLDOWN}} "}}<br>Optional: Set the number of 'clicks' to scroll down: {{ "{{MSCROLLDOWN:3}} "}} will scroll down 3 clicks|
+    | Mouse Horizontal Scroll Left|{{ "{{MSCROLLLEFT}} "}}<br>Optional: Set the number of 'clicks' to scroll left: {{ "{{MSCROLLLEFT:3}} "}} will scroll left 3 clicks|
+    | Mouse Horizontal Scroll Right|{{ "{{MSCROLLRIGHT}} "}}<br>Optional: Set the number of 'clicks' to scroll right: {{ "{{MSCROLLRIGHT:3}} "}} will scroll right 3 clicks|
+    | Mouse Move based on CURRENT position|{{ "{{MOUSEMOVE:X,Y}} "}} (Move the cursor by X,Y from current position)|
+    | Mouse Move based on multi-screen resolutions|{{ "{{MOUSEXY:X,Y}} "}} (Move the cursor to the X,Y position on the screen. 0,0 is the [top-left] of your primary monitor. Supports both positive and negative values. Use along with the `Mouse Location` action to easily find the right coordinates on your PC<br>Supports variables too: {{ "{{MOUSEXY:$Var1,$Var2}} "}}|
+    | Store current mouse position|{{ "{{MSAVEPOS}} "}} stores the current mouse cursor position.<br>The position is stored in variables: $MOUSE_X and $MOUSE_Y|
+    | Move mouse to previous stored position|{{ "{{MLOADPOS}} "}} moves the mouse to the previous set position (when `{MSAVEPOS}` was called).|
+    | (DEPRICATED) Mouse Move based on ABSOLUTE position (DEPRICATED)|{{ "{{MOUSEPOS:X,Y}} "}} (Move the cursor to the X,Y position on the screen. Values from 0,0 [top-left] to 65535,65535 [bottom-right])|
 
 === "Windows Commands"
 
@@ -151,11 +165,11 @@
 === "Advanced Commands"
     |Action|Macro Command|
     |----|----|
-    |{{//}}|Comments Support: Anything after the {{//}} sign will be ignored until end of line.<br>**Note:** The "Don't treat "New Line" as Enter" setting must be DISABLED for this to work properly|
-    |PAUSE|{{PAUSE:XXXX}} (XXXX = length in miliseconds). Will pause execution of the rest of the SuperMacro for the time specified|
-    |KeyDown|{{KeyDown:XXXX}} (XXXX = name of key| example {{KeyDown:F1}}). Simulates holding the key down on the keyboard.<br>**Note:** Should be eventually accompanied by a `KeyUp` command|
-    |KeyUp|{{KeyUp:XXXX}} (XXXX = name of key| example {{KeyUp:SHIFT}})|
-    |MSavePos|{{MSAVEPOS}} stores the current mouse cursor position.<br>The position is stored in variables: $MOUSE_X and $MOUSE_Y|
-    |MLoadPos|{{MLOADPOS}} moves the mouse to the previous set position (when `{MSAVEPOS}` was called).|
-    |SetKeyTitle|{{SetKeyTitle:$MyVar}} Sets the text on the Stream Deck key to the contents of `MyVar`.|
-    |SetClipboard|{{SetClipboard:$MyVar}} Sets the clipboard to the contents of `MyVar`.|
+    |{{ "{{//}} "}}|Comments Support: Anything after the {{ "{{//}} "}} sign will be ignored until end of line.<br>**Note:** The "Don't treat "New Line" as Enter" setting must be DISABLED for this to work properly|
+    |PAUSE|{{ "{{PAUSE:XXXX}} "}} (XXXX = length in miliseconds). Will pause execution of the rest of the SuperMacro for the time specified|
+    |KeyDown|{{ "{{KeyDown:XXXX}} "}} (XXXX = name of key| example {{ "{{KeyDown:F1}} "}}). Simulates holding the key down on the keyboard.<br>**Note:** Should be eventually accompanied by a `KeyUp` command|
+    |KeyUp|{{ "{{KeyUp:XXXX}} "}} (XXXX = name of key| example {{ "{{KeyUp:SHIFT}} "}})|
+    |MSavePos|{{ "{{MSAVEPOS}} "}} stores the current mouse cursor position.<br>The position is stored in variables: $MOUSE_X and $MOUSE_Y|
+    |MLoadPos|{{ "{{MLOADPOS}} "}} moves the mouse to the previous set position (when `{MSAVEPOS}` was called).|
+    |SetKeyTitle|{{ "{{SetKeyTitle:$MyVar}} "}} Sets the text on the Stream Deck key to the contents of `MyVar`.|
+    |SetClipboard|{{ "{{SetClipboard:$MyVar}} "}} Sets the clipboard to the contents of `MyVar`.|

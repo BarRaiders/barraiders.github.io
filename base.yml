@@ -1,6 +1,6 @@
-site_url: !ENV [SITE_NAME, 'http://kb.barraider.com']
-# site_url: http://cyberlightdev.github.io 
-site_name: BarRaider's Knowledge Base
+site_url: !ENV [SITE_NAME, 'http://docs.barraider.com']
+# do_not_index: true
+site_name: BarRaider's Plugin Documentation
 markdown_extensions:
   - admonition # Fancy callouts (https://squidfunk.github.io/mkdocs-material/reference/admonitions/#admonition-icons)
   - pymdownx.details # Collapsible callouts
@@ -12,13 +12,15 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
-   #- attr_list
+  - meta # advanced customizable metadata
 plugins:
   - search
   - glightbox #fancy image zoom (https://github.com/blueswen/mkdocs-glightbox#usage)
+  - macros
   - mkdocs-video
 theme:
   name: "material"
+  custom_dir: overrides
   logo: "img/barraider-logo2.png"
   features:
     - navigation.instant      # Makes it act like a Single-Page Application
@@ -42,7 +44,11 @@ theme:
         icon: material/weather-night
         name: Switch to light mode
 extra:
+  site_short_name: BarRaider Docs
   logo: img/barraider-logo.avif
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
   social:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/realBarRaider

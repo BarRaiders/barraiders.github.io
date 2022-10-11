@@ -6,14 +6,14 @@ Some plugins will display information on the key. For example, the **"Stream Cou
 
 If you do not see any information on the key, please make sure the **"Title"** field at the top of the action settings is **empty**. Anything entered in this field will override all the text/information the plugin is trying to display.
 
-<p align="center">
-    <img src="./img/title.png" />
-    <div style="text-align:center">
-        <figcaption>
-            Some plugins require the title field to be empty.
-        </figcaption>
-    </div>
-</p>
+{{ centeredImage("./img/title.png", "Some plugins require the title field to be empty.") }}
+
+
+## Check Installed Plugin Version
+
+If you're having any sort of issue with a BarRaider plugin, we're going to want to know what version of the plugin you're using.  To find out, simply, right-click any action belonging to the plugin in the Stream Deck app, and note the version number.  
+
+![Check Plugin Version](img/version-check.jpg)
 
 ## Install / uninstall
 ### Installing a plugin

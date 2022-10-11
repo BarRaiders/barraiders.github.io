@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {% if config.do_not_index == true or (page and page.meta and page.meta.robots == false) %}
+    <meta property="robots" content="noindex nofollow" />
+  {% else %}
+    <meta property="robots" content="index, follow" />
+  {% endif %}
+{% endblock %}

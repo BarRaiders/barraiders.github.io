@@ -48,7 +48,7 @@ extra:
   logo: img/barraider-logo.avif
   analytics:
     provider: google
-    property: !ENV GOOGLE_ANALYTICS
+    property: !ENV GOOGLE_ANALYTICS_KEY
     feedback:
       title: Was this page helpful?
       ratings:

@@ -8,7 +8,7 @@ Here you will find a detailed explanation of what each of the advanced settings 
 By default, when SuperMacro notices a new line, it simulates a  newline keystoke. When this is enabled SuperMacro will instead simulate a KEYPRESS event for the Enter/Return virtual keycode. In some apps, this may work better when dealing with new lines.
 
 ### Forced Macro Mode
-Sends normal text (such as 'abc') as Keystorkes (i.e. `{{a}}{{b}}{{c}}`).
+Sends normal text (such as 'abc') as keystrokes (i.e. `{{a}}{{b}}{{c}}`).
 By default, when SuperMacro sees normal text, it uses a normal TextEntry, some games/apps ignore these type of text entries. When this is enabled, SuperMacro will instead simulate a KEYPRESS for each character.
 
 ### Don't treat "New Line" as Enter

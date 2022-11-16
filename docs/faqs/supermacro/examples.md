@@ -49,7 +49,8 @@
     ```
 </details>
 
-??? note "Add comments in the code using {{ "`{{//}}`" }} command"
+<details>
+<summary>Add comments in the code using {{ "`{{//}}`" }} command</summary>
   
   ```
   {{ "
@@ -58,7 +59,7 @@
     {{OUTPUTTOFILE:MyResult:c:\\temp\\result.txt}} {{//}} Save result in file
   " }}
   ```
-
+</details>
 
 <details>
   <summary>Read text from a file and show it on the Stream Deck Key</summary>
@@ -112,7 +113,8 @@
     ```
 </details>
 
-??? note "Print the current date and time"
+<details>
+<summary>Print the current date and time</summary>
 
   ```
   {{ "{{FUNC:NOW:MyVar:yyyy-MM-dd HH:mm:ss}}" }}

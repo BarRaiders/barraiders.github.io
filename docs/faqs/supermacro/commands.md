@@ -21,75 +21,75 @@
 
     | Keyboard Key| Macro command |
     | ----------- | ----------- |
-    | ++a++ - ++z++ | {VK_XXXX} (XXXX = the letter - e.g. VK_A / VK_B ...) |
-    | ++0++ - ++9++ | {VK_XXXX} (XXXX = the number - e.g. VK_0 / VK_1 ...) |
+    | ++a++ - ++z++ | {{ "{{VK_XXXX}}" }}  (XXXX = the letter - e.g. VK_A / VK_B ...) |
+    | ++0++ - ++9++ | {{ "{{VK_XXXX}}" }}  (XXXX = the number - e.g. VK_0 / VK_1 ...) |
     |  Any of the following characters: ``;/\`[\]':?~{|}\"``  | Exact command changes between keyboard layouts:<br>Try the following macros to figure out the correct command:<br> {{ "{{oem_1}} "}}{{ "{{oem_2}} "}}{{ "{{oem_3}} "}}{{ "{{oem_4}} "}}{{ "{{oem_5}} "}} {{ "{{oem_6}} "}}{{ "{{oem_7}} "}}{{ "{{oem_8}} "}} {{ "{{shift}{oem_1}} "}}{{ "{{shift}{oem_2}} "}}{{ "{{shift}{oem_3}} "}} {{ "{{shift}{oem_4}} "}}{{ "{{shift}{oem_5}} "}} {{ "{{shift}{oem_6}} "}}{{ "{{shift}{oem_7}} "}}{{ "{{shift}{oem_8}} "}}  |
-    | ++num0++ | {NUMPAD0} |
-    | ++num1++ | {NUMPAD1} |
-    | ++num2++ | {NUMPAD2} |
-    | ++num3++ | {NUMPAD3} |
-    | ++num4++ | {NUMPAD4} |
-    | ++num5++ | {NUMPAD5} |
-    | ++num6++ | {NUMPAD6} |
-    | ++num7++ | {NUMPAD7} |
-    | ++num8++ | {NUMPAD8} |
-    | ++num9++ | {NUMPAD9} |
-    | ++multiply++ | {MULTIPLY} |
-    | ++add++ | {ADD}|
-    | ++num-minus++ | {SUBTRACT} |
-    | ++num-separator++ | {DECIMAL}|
-    | ++num-slash++ | {DIVIDE} |
-    | ++back++| {BACK} |
-    | ++tab++| {TAB}|
-    | ++clear++| {CLEAR}|
-    | ++enter++| {RETURN} or {ENTER} |
-    | ++shift++| {SHIFT}|
-    | ++left-shift++ | {LSHIFT} |
-    | ++right-shift++| {RSHIFT} |
-    | ++ctrl++ | {CONTROL} or {CTRL} |
-    | ++left-ctrl++ | {LCONTROL} or {LCTRL} |
-    | ++right-ctrl++ | {RCONTROL} or {RCTRL} |
-    | ++alt++ | {ALT} or {MENU}|
-    | ++left-alt++ | {LALT} or {LMENU} |
-    | ++right-alt++ | {RALT} or {RMENU} |
-    | ++media-pause++ / ++break++| {BREAK}|
-    | ++caps-lock++ | {CAPITAL}|
-    | ++esc++ | {ESCAPE} |
+    | ++num0++ | {{ "{{NUMPAD0}}" }} |
+    | ++num1++ | {{ "{{NUMPAD1}}" }} |
+    | ++num2++ | {{ "{{NUMPAD2}}" }} |
+    | ++num3++ | {{ "{{NUMPAD3}}" }} |
+    | ++num4++ | {{ "{{NUMPAD4}}" }} |
+    | ++num5++ | {{ "{{NUMPAD5}}" }} |
+    | ++num6++ | {{ "{{NUMPAD6}}" }} |
+    | ++num7++ | {{ "{{NUMPAD7}}" }} |
+    | ++num8++ | {{ "{{NUMPAD8}}" }} |
+    | ++num9++ | {{ "{{NUMPAD9}}" }} |
+    | ++multiply++ | {{ "{{MULTIPLY}}" }} |
+    | ++add++ | {{ "{{ADD}}" }}|
+    | ++num-minus++ | {{ "{{SUBTRACT}}" }} |
+    | ++num-separator++ | {{ "{{DECIMAL}}" }}|
+    | ++num-slash++ | {{ "{{DIVIDE}}" }} |
+    | ++back++| {{ "{{BACK}}" }} |
+    | ++tab++| {{ "{{TAB}}" }}|
+    | ++clear++| {{ "{{CLEAR}}" }}|
+    | ++enter++| {{ "{{RETURN}}" }} or {{ "{{ENTER}}" }} |
+    | ++shift++| {{ "{{SHIFT}}" }}|
+    | ++left-shift++ | {{ "{{LSHIFT}}" }} |
+    | ++right-shift++| {{ "{{RSHIFT}}" }} |
+    | ++ctrl++ | {{ "{{CONTROL}}" }} or {{ "{{CTRL}}" }} |
+    | ++left-ctrl++ | {{ "{{LCONTROL}}" }} or {{ "{{LCTRL}}" }} |
+    | ++right-ctrl++ | {{ "{{RCONTROL}}" }} or {{ "{{RCTRL}}" }} |
+    | ++alt++ | {{ "{{ALT}}" }} or {{ "{{MENU}}" }}|
+    | ++left-alt++ | {{ "{{LALT}}" }} or {{ "{{LMENU}}" }} |
+    | ++right-alt++ | {{ "{{RALT}}" }} or {{ "{{RMENU}}" }} |
+    | ++media-pause++ / ++break++| {{ "{{BREAK}}" }}|
+    | ++caps-lock++ | {{ "{{CAPITAL}}" }}|
+    | ++esc++ | {{ "{{ESCAPE}}" }} |
     | ++space++ | {{ "{{SPACE}}" }}|
-    | ++page-up++ | {PAGEUP} or {PGUP} or {PRIOR} |
-    | ++"Num Page Up"++| {NUMPAD_PAGEUP}|
-    | ++page-down++ | {PAGEDOWN} or {PGDN} or {NEXT} |
-    | ++"Num Page Down"++| {NUMPAD_PAGEDOWN}|
-    | ++home++ | {HOME} |
-    | ++"Num Home"++| {NUMPAD_HOME} |
-    | ++end++ | {END}|
-    | ++"Num End"++ | {NUMPAD_END}|
-    | ++arrow-up++ | {UP} |
-    | ++"↑ Num Up"++ | {NUMPAD_UP} |
-    | ++arrow-left++ | {LEFT} |
-    | ++"← Num Left"++| {NUMPAD_LEFT} |
-    | ++arrow-right++| {RIGHT}|
-    | ++"→ Num Right"++| {NUMPAD_RIGHT}|
-    | ++arrow-down++ | {DOWN} |
-    | ++"↓ Num Down"++ | {NUMPAD_DOWN} |
-    | ++select++ | {SELECT} |
-    | ++print-screen++ | {SNAPSHOT} |
-    | ++print++ | {PRINT}|
-    | ++"Execute"++ | {EXECUTE}|
-    | ++insert++ | {INSERT} |
-    | ++"⎀ Num Ins"++ | {NUMPAD_INSERT}|
-    | ++delete++ | {DELETE} |
-    | ++"⌦ Num Del"++ | {NUMPAD_DEL}|
-    | ++help++ | {HELP} |
-    | ++left-windows++ | {LWIN} or {WIN} or {WINDOWS} |
-    | ++right-windows++ | {RWIN} |
-    | ++f1++ - ++f24++ | {fXX} (XX = the number - e.g. f1 / f24 ...) |
-    | ++plus++ / ++equal++ | {OEM_PLUS} / {{ "{{SHIFT}{OEM_PLUS}} "}}  | 
-    | ++minus++ / ++underscore++ | {OEM_MINUS} / {{ "{{SHIFT}{OEM_MINUS}} "}} |
-    | ++period++ / ++greater++ | {OEM_PERIOD} / {{ "{{SHIFT}{OEM_PERIOD}} "}} |
-    | ++comma++ / ++less++| {OEM_COMMA} / {{ "{{SHIFT}{OEM_COMMA}} "}} | 
-    | ++num-lock++ | {NUMLOCK} |
-    | ++scroll-lock++ | {SCROLL} |
+    | ++page-up++ | {{ "{{PAGEUP}}" }} or {{ "{{PGUP}}" }} or {{ "{{PRIOR}}" }} |
+    | ++"Num Page Up"++| {{ "{{NUMPAD_PAGEUP}}" }}|
+    | ++page-down++ | {{ "{{PAGEDOWN}}" }} or {{ "{{PGDN}}" }} or {{ "{{NEXT}}" }} |
+    | ++"Num Page Down"++| {{ "{{NUMPAD_PAGEDOWN}}" }}|
+    | ++home++ | {{ "{{HOME}}" }} |
+    | ++"Num Home"++| {{ "{{NUMPAD_HOME}}" }} |
+    | ++end++ | {{ "{{END}}" }}|
+    | ++"Num End"++ | {{ "{{NUMPAD_END}}" }}|
+    | ++arrow-up++ | {{ "{{UP}}" }} |
+    | ++"↑ Num Up"++ | {{ "{{NUMPAD_UP}}" }} |
+    | ++arrow-left++ | {{ "{{LEFT}}" }} |
+    | ++"← Num Left"++| {{ "{{NUMPAD_LEFT}}" }} |
+    | ++arrow-right++| {{ "{{RIGHT}}" }}|
+    | ++"→ Num Right"++| {{ "{{NUMPAD_RIGHT}}" }}|
+    | ++arrow-down++ | {{ "{{DOWN}}" }} |
+    | ++"↓ Num Down"++ | {{ "{{NUMPAD_DOWN}}" }} |
+    | ++select++ | {{ "{{SELECT}}" }} |
+    | ++print-screen++ | {{ "{{SNAPSHOT}}" }} |
+    | ++print++ | {{ "{{PRINT}}" }}|
+    | ++"Execute"++ | {{ "{{EXECUTE}}" }}|
+    | ++insert++ | {{ "{{INSERT}}" }} |
+    | ++"⎀ Num Ins"++ | {{ "{{NUMPAD_INSERT}}" }}|
+    | ++delete++ | {{ "{{DELETE}}" }} |
+    | ++"⌦ Num Del"++ | {{ "{{NUMPAD_DEL}}" }}|
+    | ++help++ | {{ "{{HELP}}" }} |
+    | ++left-windows++ | {{ "{{LWIN}}" }} or {{ "{{WIN}}" }} or {{ "{{WINDOWS}}" }} |
+    | ++right-windows++ | {{ "{{RWIN}}" }} |
+    | ++f1++ - ++f24++ | {{ "{{fXX}}" }} (XX = the number - e.g. f1 / f24 ...) |
+    | ++plus++ / ++equal++ | {{ "{{OEM_PLUS}}" }} / {{ "{{SHIFT}{OEM_PLUS}} "}}  | 
+    | ++minus++ / ++underscore++ | {{ "{{OEM_MINUS}}" }} / {{ "{{SHIFT}{OEM_MINUS}} "}} |
+    | ++period++ / ++greater++ | {{ "{{OEM_PERIOD}}" }} / {{ "{{SHIFT}{OEM_PERIOD}} "}} |
+    | ++comma++ / ++less++| {{ "{{OEM_COMMA}}" }} / {{ "{{SHIFT}{OEM_COMMA}} "}} | 
+    | ++num-lock++ | {{ "{{NUMLOCK}}" }} |
+    | ++scroll-lock++ | {{ "{{SCROLL}}" }} |
 
 === "Mouse Commands"
 
@@ -124,20 +124,20 @@
 
     |Action|Macro Command|
     |----|----|
-    | ++browser-back++ |{BROWSER_BACK}|
-    | ++browser-forward++ |{BROWSER_FORWARD}|
-    | ++browser-home++ |{BROWSER_HOME}|
-    | ++browser-refresh++ |{BROWSER_REFRESH}|
-    | ++browser-stop++ |{BROWSER_STOP}|
-    | ++browser-search++ |{BROWSER_SEARCH}|
-    | ++browser-favorites++ |{BROWSER_FAVORITES}|
-    | ++media-next-track++|{MEDIA_NEXT_TRACK}|
-    | ++media-prev-track++ |{MEDIA_PREV_TRACK}|
-    | ++media-play++ / ++media-pause++ |{MEDIA_PLAY_PAUSE}|
-    | ++media-stop++ |{MEDIA_STOP}|
-    | ++volume-up++ |{VOLUME_UP}|
-    | ++volume-down++ |{VOLUME_DOWN}|
-    | ++volume-mute++ |{VOLUME_MUTE}|
+    | ++browser-back++ |{{ "{{BROWSER_BACK}}" }}|
+    | ++browser-forward++ |{{ "{{BROWSER_FORWARD}}" }}|
+    | ++browser-home++ |{{ "{{BROWSER_HOME}}" }}|
+    | ++browser-refresh++ |{{ "{{BROWSER_REFRESH}}" }}|
+    | ++browser-stop++ |{{ "{{BROWSER_STOP}}" }}|
+    | ++browser-search++ |{{ "{{BROWSER_SEARCH}}" }}|
+    | ++browser-favorites++ |{{ "{{BROWSER_FAVORITES}}" }}|
+    | ++media-next-track++|{{ "{{MEDIA_NEXT_TRACK}}" }}|
+    | ++media-prev-track++ |{{ "{{MEDIA_PREV_TRACK}}" }}|
+    | ++media-play++ / ++media-pause++ |{{ "{{MEDIA_PLAY_PAUSE}}" }}|
+    | ++media-stop++ |{{ "{{MEDIA_STOP}}" }}|
+    | ++volume-up++ |{{ "{{VOLUME_UP}}" }}|
+    | ++volume-down++ |{{ "{{VOLUME_DOWN}}" }}|
+    | ++volume-mute++ |{{ "{{VOLUME_MUTE}}" }}|
 
 === "Advanced Commands"
     |Action|Macro Command|

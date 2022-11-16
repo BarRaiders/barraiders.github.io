@@ -53,11 +53,9 @@
 <summary>Add comments in the code using {{ "`{{//}}`" }} command</summary>
   
   ```
-  {{ "
     {{INPUT:myNumber}} {{//}} Input a number from the user
     {{FUNC:MUL:MyResult:$myNumber:10}} {{//}} Multiply number by 10
     {{OUTPUTTOFILE:MyResult:c:\\temp\\result.txt}} {{//}} Save result in file
-  " }}
   ```
 </details>
 
@@ -86,7 +84,7 @@
 </details>
 
 <details>
-  <summary>Move the mouse to coordinates set from variables</summary>
+  <summary><h2>Move the mouse to coordinates set from variables</h2></summary>
     ```
     {{ "{{VARSET:X:100}}" }}
     {{ "{{VARSET:Y:400}}" }}

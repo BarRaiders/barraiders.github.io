@@ -48,4 +48,4 @@ Please follow the step-by-step instructions below to create your own Spotify Dev
 
     ![Step 10](img/spothelp3.png)
 
-    Failing to do so will result in an alert () symbol when the key is pressed, or a red connection symbol as shown in the image below.
+    Failing to do so will result in an alert (⚠️) symbol when the key is pressed, or a red connection symbol as shown in the image below.

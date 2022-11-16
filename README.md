@@ -1,6 +1,6 @@
 # Thank you for your interest in the BarRaider Knowledgebase
 
-***Note:** This is the knowledgebase source code. If you're looking for the knowledgebase website visit https://cyberlightdev.github.io/barraider-kb.*
+***Note:** This is the knowledgebase source code. If you're looking for the knowledgebase website visit https://docs.barraider.com*
 
 ## Contributing
 You, yes you, can contribute fixes and add content to the BarRaider Knowledgebase.  If you are experienced with Git and Github, feel free to fork the repository and submit a pull request with your contributions.  Otherwise, head over to the [Bar Raiders Discord](http://discord.barraider.com) to provide your feedback.  Please understand that this may take longer, as someone else will need to understand, and then implement, your changes.

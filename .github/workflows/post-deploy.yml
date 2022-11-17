@@ -1,0 +1,13 @@
+name: post-deployment workflow
+run-name: ${{ github.actor }} is learning GitHub Actions
+on: [deployment]
+jobs:
+  check-bats-version:
+    runs-on: ubuntu-latest
+    environment: webhooks
+    steps:
+      - uses: joelwmale/webhook-action@448a17bf857ead98546cfbdbe3b9d4cf979dda95
+        with:
+          url: ${{ secrets.WEBHOOK_URL }}
+          headers: '{"repository": "joelwmale/webhook-action"}'
+          body: '{"content": "deployment", "repository": "joelwmale/webhook-action"}'

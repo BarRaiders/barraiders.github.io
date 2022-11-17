@@ -21,9 +21,19 @@ Something is wrong with the connection between OBS and the plugin.  We need to r
 1. Select any OBS Tools action showing the image above. If you already have one selected, click away from it and select it again.
 2. The prompt you filled out when you were first [getting started](getting-started.md) will appear.  Fill it out again, extra carefully. Once you close the final prompt, the plugin should reconnect.
 
----
-
 ## ERROR: The scene item doesn't exist
 Make sure the source you are trying to edit is in your current active scene in OBS. (It cannot be in Studio Preview)
 
+## I wish to keep using OBS v27.x
 
+If you're still using OBS **v27.x**, please follow the instructions below to downgrade to **OBS Tools 2.7**:
+
+1. Uninstall **OBS Tools 2.8** from the Stream Deck software.
+2. Install **OBS Tools 2.7** following [this link](https://github.com/BarRaider/streamdeck-obstools/releases/download/v2.7/com.barraider.obstools.streamDeckPlugin).
+3. Quit the Stream Deck software see image bellow.
+4. Navigate to `%appdata%\Elgato\StreamDeck\Plugins\com.barraider.obstools.sdPlugin`.
+5. Inside of the directory above, locate the `manifest.json` file, and open it in a text editor of your choice (e.g. Notepad).
+6. Use the **Find** feature (`CTRL+F`) and search for `"Version"`. Once located, change the value from **2.7** to **2.8**.
+7. Save the file, restart the Stream Deck software and you'll be all set.
+
+![Restart](https://barraider.com/images/restart.png)

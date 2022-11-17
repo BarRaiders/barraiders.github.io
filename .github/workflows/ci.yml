@@ -41,4 +41,4 @@ jobs:
         with:
           url: ${{ secrets.WEBHOOK_URL }}
           headers: '{"repository": "joelwmale/webhook-action"}'
-          body: '{"content": "deployment", "repository": "joelwmale/webhook-action"}'
+          body: '{"content": "A new update has been deployed to https://docs.barraider.com 👀", "repository": "joelwmale/webhook-action"}'

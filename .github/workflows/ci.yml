@@ -32,3 +32,13 @@ jobs:
         env:
           GOOGLE_ANALYTICS_KEY: ${{ secrets.GOOGLE_ANALYTICS }}
         run: mkdocs gh-deploy --force
+  post-build:
+    needs: build
+    runs-on: ubuntu-latest
+    environment: webhooks
+    steps:
+      - uses: joelwmale/webhook-action@448a17bf857ead98546cfbdbe3b9d4cf979dda95
+        with:
+          url: ${{ secrets.WEBHOOK_URL }}
+          headers: '{"repository": "joelwmale/webhook-action"}'
+          body: '{"content": "A new update has been deployed to https://docs.barraider.com 👀", "repository": "joelwmale/webhook-action"}'

@@ -1,4 +1,8 @@
 INHERIT: base.yml
+extra:
+  analytics:
+    provider: google
+    property: G-9RJJJJCXFB
 nav:
   - 'BarRaider - Documentation':
     - 'index.md' # Hidden in the menu, accessed when clicking "Plugin FAQs"
@@ -28,6 +32,9 @@ nav:
       - 'Functions': 'faqs/supermacro/functions.md'
       - 'Loops': 'faqs/supermacro/loops.md'
       - 'Variables': 'faqs/supermacro/variables.md'
+    - 'Twitch Tools':
+      - 'Troubleshooting': 'faqs/twitch-tools/troubleshooting.md'
+      - 'Usage Examples': 'faqs/twitch-tools/examples.md'
     - 'VoiceMeeter':
       - 'Getting Started': 'faqs/voicemeeter/getting-started.md'
       - 'Available Actions': 'faqs/voicemeeter/actions.md'
@@ -37,3 +44,19 @@ nav:
       - 'Getting Started': 'faqs/win-mover-resizer/getting-started.md'
       - 'Troubleshooting': 'faqs/win-mover-resizer/troubleshooting.md'
   - Discord: http://discord.barraider.com
+extra:
+  analytics: 
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >- 
+            Thanks for your feedback! Help us improve this page by
+            using our <a href="..." target="_blank" rel="noopener">feedback form</a>.

@@ -4,8 +4,8 @@ There are several ways you can help us out!
 - Supporting BarRaider through [Patreon](https://www.patreon.com/barraider)
 - Writing help articles or making YouTube guides that we can use
 - Helping people in the [Discord server](https://www.discord.barraider.com)
-- Helping with our Open-Source projects found in [BarRaiders Github](https://github.com/BarRaider)
-    - Developers who can port plugins over to Mac is needed
+<!---- Helping with our Open-Source projects found in [BarRaiders Github](https://github.com/BarRaider)
+    - Developers who can port plugins over to Mac is needed --->
 
 ## Writing help artices or making YouTube guides
 We try to provide the best documentation and guides for our plugin users. Therefore having people help us with writing guides or making videos about the plugins they have a deeper knowledge about is very helpful.

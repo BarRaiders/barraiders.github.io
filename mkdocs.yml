@@ -1,8 +1,4 @@
 INHERIT: base.yml
-extra:
-  analytics:
-    provider: google
-    property: G-9RJJJJCXFB
 nav:
   - 'BarRaider - Documentation':
     - 'index.md' # Hidden in the menu, accessed when clicking "Plugin FAQs"
@@ -61,11 +57,11 @@ extra:
           data: 0
           note: >- 
             Thanks for your feedback! Help us improve this page by
-            using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
+            using our <a href="https://docs.google.com/forms/d/e/1FAIpQLSeUSvro9-zwsVDRnCDvAuIBzaAkKnw-3c_DgMnrzfwV6gNd-g/viewform?entry.757033088={url}" target="_blank" rel="noopener">feedback form</a>.
   consent:
     cookies:
       analytics: Google Analytics
-      analytics: Feedback
+      github: GitHub
     title: Cookie consent
     description: >- 
       We use cookies to recognize your repeated visits and preferences, as well

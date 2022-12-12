@@ -40,6 +40,7 @@ nav:
       - 'Getting Started': 'faqs/win-mover-resizer/getting-started.md'
       - 'Troubleshooting': 'faqs/win-mover-resizer/troubleshooting.md'
   - Discord: http://discord.barraider.com
+site_url: https://docs.barraider.com/
 extra:
   analytics: 
     provider: google

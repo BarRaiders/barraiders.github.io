@@ -5,7 +5,7 @@
 
 # Variables
 
-Variables are used to store data to be used further down in the Macro or in a different macro altogether. This opens up a whole world of options. You can read data from files, manipulate it, and then write it to either another file, to the Stream Deck key or execute it as a set of keystokes. Variables start with a `$` sign to differentiate them from normal text
+Variables are used to store data to be used further down in the Macro or in a different macro altogether. This opens up a whole world of options. You can read data from files, manipulate it, and then write it to either another file, to the Stream Deck key or execute it as a set of keystrokes. Variables start with a `$` sign to differentiate them from normal text
 
 ## Predefined Variables
 The following list of variables are always be available for you to use either with Functions (like CONCAT) or to execute as keyboard commands:

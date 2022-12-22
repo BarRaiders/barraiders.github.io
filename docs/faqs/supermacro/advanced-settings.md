@@ -5,7 +5,7 @@ Here you will find a detailed explanation of what each of the advanced settings 
 ​
 ## Settings
 ### Secondary ENTER behavior
-By default, when SuperMacro notices a new line, it simulates a  newline keystoke. When this is enabled SuperMacro will instead simulate a KEYPRESS event for the Enter/Return virtual keycode. In some apps, this may work better when dealing with new lines.
+By default, when SuperMacro notices a new line, it simulates a  newline keystroke. When this is enabled SuperMacro will instead simulate a KEYPRESS event for the Enter/Return virtual keycode. In some apps, this may work better when dealing with new lines.
 
 ### Forced Macro Mode
 Sends normal text (such as 'abc') as keystrokes (i.e. `{{a}}{{b}}{{c}}`).

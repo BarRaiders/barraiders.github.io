@@ -15,7 +15,7 @@ Please follow these step-by-step instructions to allow the Stream Deck plugin to
 <ol>
 <li>Open iCue and Select your device from the top menu bar.</li>
 <li>On the left hand side, click Device Settings</li>
-<li>Select Enable Battery Guage in Notification Area</li>
+<li>Select Enable Battery Gauge in Notification Area</li>
 </ol>
 
 </details>
@@ -25,7 +25,7 @@ Please follow these step-by-step instructions to allow the Stream Deck plugin to
   <ol>
     <li>Open iCue and Select your device from the top menu bar</li>
     <li>On the left hand side, click <b>Device Settings</b></li>
-    <li>Select Enable Battery Guage in Notification Area
+    <li>Select Enable Battery Gauge in Notification Area
     <img src="../img/icue3-s3.png" alt="Step 3"></li>
     <li>Open iCue and Select Settings from the top menu bar</li>
     <li>Choose the device you want to see the battery stats for (and verify it shows the battery status right under the device’s image)</li>

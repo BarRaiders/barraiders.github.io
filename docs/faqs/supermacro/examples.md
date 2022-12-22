@@ -92,7 +92,7 @@
 </details>
 
 <details>
-  <summary>Repalce all "l"'s with "Z"'s in the string `Hello World` and show it on key</summary>
+  <summary>Replace all "l"'s with "Z"'s in the string `Hello World` and show it on key</summary>
     ```
     {{ "{{VARSET:XX:Hello World}}" }}
     {{ "{{VARSET:A:l}}" }}
@@ -141,7 +141,7 @@
 </details>
 
 <details>
-  <summary>Get input from user, then load a file with the inputed name (from the `c:\temp` folder) to CLIPBOARD and show it on the Stream Deck Key. (Contributed by Bowser#2891)</summary>
+  <summary>Get input from user, then load a file with the inputted name (from the `c:\temp` folder) to CLIPBOARD and show it on the Stream Deck Key. (Contributed by Bowser#2891)</summary>
     <br>
   Note: Entire content of file may not fit within the screen of the Stream Deck Key.<br>
     ```

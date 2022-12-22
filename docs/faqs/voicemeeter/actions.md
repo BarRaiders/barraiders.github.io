@@ -4,7 +4,7 @@ tags:
     - streamdeck
     - barraider
     - voicemeeter
-description: "Explaination of all the available actions in the VoiceMeeter plugin by BarRaider for the Elgato Stream Deck."
+description: "Explanation of all the available actions in the VoiceMeeter plugin by BarRaider for the Elgato Stream Deck."
 ---
 
 # Available Actions
@@ -29,7 +29,7 @@ description: "Explaination of all the available actions in the VoiceMeeter plugi
 
 !!! info "Advanced users"
 
-    **Note:** This is for advanced users, but you can find field explainations under the avaliable fields page.
+    **Note:** This is for advanced users, but you can find field explanations under the available fields page.
 
 - Allows you to directly modify a whole set of settings
     - Example: `Strip[0].mono=1;Strip[1].Mute=1;Bus[2].Gain=-20;`
@@ -38,7 +38,7 @@ description: "Explaination of all the available actions in the VoiceMeeter plugi
 - Live feedback on whatever setting you choose
 - Option to turn off the Live feedback and set the title to whatever you want (including a prefix using the TitlePrefix parameter)
 
-## VoiceMeeter Advanced Toogle
+## VoiceMeeter Advanced Toggle
 Note: This is for advanced users but there are explanations under the Fields explained section below
 
 - Focused on toggling between two modes (versus press and long press in the VoiceMeeter Advanced Press/Long-Press)

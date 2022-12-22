@@ -1,0 +1,7 @@
+User-agent: Googlebot
+Disallow: /img/
+
+User-agent: *
+Allow: /
+
+Sitemap: https://docs.barraider.com/sitemap.xml

@@ -23,7 +23,7 @@ nav:
     - 'SuperMacro':
       #- 'Getting started': 'faqs/supermacro/getting-started.md' BLANK PAGE
       - 'Advanced Settings explained': 'faqs/supermacro/advanced-settings.md'
-      - 'Avaliable Actions': 'faqs/supermacro/actions.md'
+      - 'Available Actions': 'faqs/supermacro/actions.md'
       - 'Usage Examples': 'faqs/supermacro/examples.md'
       - 'Commands': 'faqs/supermacro/commands.md'
       - 'Functions': 'faqs/supermacro/functions.md'
@@ -31,7 +31,7 @@ nav:
       - 'Variables': 'faqs/supermacro/variables.md'
     - 'Twitch Tools':
       - 'Troubleshooting': 'faqs/twitch-tools/troubleshooting.md'
-      - 'Usage Examples': 'faqs/twitch-tools/examples.md'
+      #- 'Usage Examples': 'faqs/twitch-tools/examples.md' BLANK PAGE
     - 'VoiceMeeter':
       - 'Getting Started': 'faqs/voicemeeter/getting-started.md'
       - 'Available Actions': 'faqs/voicemeeter/actions.md'

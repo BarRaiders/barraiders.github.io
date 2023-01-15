@@ -6,12 +6,12 @@
 You, yes you, can contribute fixes and add content to the BarRaider Knowledgebase.  If you are experienced with Git and Github, feel free to fork the repository and submit a pull request with your contributions.  Otherwise, head over to the [Bar Raiders Discord](http://discord.barraider.com) to provide your feedback.  Please understand that this may take longer, as someone else will need to understand, and then implement, your changes.
 
 **Trusted Contributors**
-Trusted Contributors and BarRaider Moderators are invited to submit changes without approval.  If you are given this access, you may accept your own Pull Requests. Please do not commit unfinished work to `main` as this will be immediatley deployed to the KB.  
+Trusted Contributors and BarRaider Moderators are invited to submit changes without approval.  If you are given this access, you may accept your own Pull Requests. Please do not commit unfinished work to `main` as this will be immediately deployed to the KB.  
 
 ### Local Installation
 Git and [Python 3](https://www.python.org/downloads/windows/) are the only prerequisites for local development.  Once they have been installed...
 
-1. `git clone` your fork (using the Green "Code" btton) to create a local copy of the site.
+1. `git clone` your fork (using the Green "Code" button) to create a local copy of the site.
 2. Open the command prompt (Windows), navigate to the location you cloned the project to.
 3. Run command `pip install mkdocs-material mkdocs-glightbox mkdocs-video`. If you receive an error that Pip is not recognized, close and re-open the command prompt and try again
 4. Start a local development server by running the command `mkdocs serve`.  By default, this will build and run the website at `http://localhost:8000/` on your machine.
@@ -40,12 +40,12 @@ Will look like...
 ![Admonition Example](docs/img/admonition-example.jpg)
 
 ### Embedding Youtube Videos
-We have a special variant of an image to display an embeded Youtube video.  
+We have a special variant of an image to display an embedded Youtube video.  
 
 ```markdown
 ![type:video](https://www.youtube.com/embed/7mioa-hnndw)
 ```
-will show an embeded version of: https://www.youtube.com/watch?v=7mioa-hnndw
+will show an embedded version of: https://www.youtube.com/watch?v=7mioa-hnndw
 
 *Note that the `watch?v=` must be changed to `embed/` for this to work.*
 

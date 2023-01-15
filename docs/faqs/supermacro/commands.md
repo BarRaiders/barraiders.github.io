@@ -118,7 +118,7 @@
     | Mouse Move based on multi-screen resolutions|{{ "{{MOUSEXY:X,Y}} "}} (Move the cursor to the X,Y position on the screen. 0,0 is the [top-left] of your primary monitor. Supports both positive and negative values. Use along with the `Mouse Location` action to easily find the right coordinates on your PC<br>Supports variables too: {{ "{{MOUSEXY:$Var1,$Var2}} "}}|
     | Store current mouse position|{{ "{{MSAVEPOS}} "}} stores the current mouse cursor position.<br>The position is stored in variables: $MOUSE_X and $MOUSE_Y|
     | Move mouse to previous stored position|{{ "{{MLOADPOS}} "}} moves the mouse to the previous set position (when `{MSAVEPOS}` was called).|
-    | (DEPRICATED) Mouse Move based on ABSOLUTE position (DEPRICATED)|{{ "{{MOUSEPOS:X,Y}} "}} (Move the cursor to the X,Y position on the screen. Values from 0,0 [top-left] to 65535,65535 [bottom-right])|
+    | (DEPRECATED) Mouse Move based on ABSOLUTE position (DEPRECATED)|{{ "{{MOUSEPOS:X,Y}} "}} (Move the cursor to the X,Y position on the screen. Values from 0,0 [top-left] to 65535,65535 [bottom-right])|
 
 === "Windows Commands"
 
@@ -143,7 +143,7 @@
     |Action|Macro Command|
     |----|----|
     |{{ "{{//}} "}}|Comments Support: Anything after the {{ "{{//}} "}} sign will be ignored until end of line.<br>**Note:** The "Don't treat "New Line" as Enter" setting must be DISABLED for this to work properly|
-    |PAUSE|{{ "{{PAUSE:XXXX}} "}} (XXXX = length in miliseconds). Will pause execution of the rest of the SuperMacro for the time specified|
+    |PAUSE|{{ "{{PAUSE:XXXX}} "}} (XXXX = length in milliseconds). Will pause execution of the rest of the SuperMacro for the time specified|
     |KeyDown|{{ "{{KeyDown:XXXX}} "}} (XXXX = name of key| example {{ "{{KeyDown:F1}} "}}). Simulates holding the key down on the keyboard.<br>**Note:** Should be eventually accompanied by a `KeyUp` command|
     |KeyUp|{{ "{{KeyUp:XXXX}} "}} (XXXX = name of key| example {{ "{{KeyUp:SHIFT}} "}})|
     |MSavePos|{{ "{{MSAVEPOS}} "}} stores the current mouse cursor position.<br>The position is stored in variables: $MOUSE_X and $MOUSE_Y|

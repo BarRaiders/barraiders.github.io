@@ -1,6 +1,6 @@
 # Customized Functions
 
-The mkdocs-macros plugin is an incredibly powerful part of our site.  It allowed Cyberlight to build several pices of custom functionality,  but has a few minor trade-offs we deal with as a result.  Both are outlined below.
+The mkdocs-macros plugin is an incredibly powerful part of our site.  It allowed Cyberlight to build several pieces of custom functionality,  but has a few minor trade-offs we deal with as a result.  Both are outlined below.
 
 ## Convenience methods
 
@@ -51,7 +51,7 @@ If present, overrides the general site description for this page of the KB.
 
 `repo`
 
-If prenset, links to the Github repository for the plugin referenced on this page. Displayed in the header when present.
+If present, links to the Github repository for the plugin referenced on this page. Displayed in the header when present.
 
 ![repo example]()
 

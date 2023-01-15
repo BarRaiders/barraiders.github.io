@@ -13,6 +13,10 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
   - meta # advanced customizable metadata
+  - tables
+extra_javascript:
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - javascripts/tablesort.js
 plugins:
   - search
   - glightbox #fancy image zoom (https://github.com/blueswen/mkdocs-glightbox#usage)

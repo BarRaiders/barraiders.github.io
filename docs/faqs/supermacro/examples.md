@@ -136,7 +136,7 @@
 
     {{ "{{FUNC:CONCAT:ListVarU:$ListVar:$SMENTER:$NewTextVar: :$TimeVar}}" }}
 
-    {{ "{{OutputToFile:ListVarU:C:\temp\\List.txt}}" }}
+    {{ "{{OutputToFile:ListVarU:C:\\temp\\List.txt}}" }}
     ```
 </details>
 
@@ -165,7 +165,7 @@
 <details>
   <summary>Variables: Read text from file into MyVar variable</summary>
     ```
-    {{ "{{VarSetFromFile:MyVar:C:\filename.txt}}" }}
+    {{ "{{VarSetFromFile:MyVar:C:\\filename.txt}}" }}
     ```
 </details>
 
@@ -187,7 +187,7 @@
 </details>
 
 <details>
-  <summary>Functions: Select a number from the user and multiply it by 10. Then save it to a file named c:\temp\result.txt</summary>
+  <summary>Functions: Select a number from the user and multiply it by 10. Then save it to a file named c:\\temp\\result.txt</summary>
     ```
     {{ "{{INPUT:myNumber}}" }}
     {{ "{{FUNC:MUL:MyResult:$myNumber:10}}" }}

@@ -8,9 +8,9 @@ Here you find a complete list of compatibility for Windows and Mac OS & Elgato D
 
 !!! info "What does the icons mean?"
 
-    ✅ - Plugin is fully supported<br>
+    ✅ - Plugin is fully supported.<br>
+    🔅 - Partialy supported.<br>
     ❌ - Plugin is not supported or the plugin uses profiles not supported by the listed device.
-
 
 | Plugin                  | Windows | Mac | XL  | SD  | MK.2 | Mini | Plus | Pedal | Mobile |
 | ----------------------- | ------- | --- | --- | --- | ---- | ---- | ---- | ----- | ------ |
@@ -37,7 +37,7 @@ Here you find a complete list of compatibility for Windows and Mac OS & Elgato D
 | Super Macro             | ✅    | ❌| ✅| ✅| ✅ | ✅ | ✅ | ✅  | ✅  |
 | Text File Tools         | ✅    | ❌| ✅| ✅| ✅ | ✅ | ✅ | ✅  | ✅  |
 | TextToSpeech            | ✅    | ❌| ✅| ✅| ✅ | ✅ | ✅ | ✅  | ✅  |
-| Twitch Tools            | ✅    | ❌| ✅| ✅| ✅ | ✅ | ✅ | ❌  | ❌  |
+| Twitch Tools            | ✅    | ❌| ✅| ✅| ✅ | ✅ | 🔅 | ❌  | ❌  |
 | VoiceMeeter Integration | ✅    | ❌| ✅| ✅| ✅ | ✅ | ✅ | ✅  | ✅  |
 | Win Tools               | ✅    | ❌| ✅| ✅| ✅ | ✅ | ❌ | ❌  | ❌  |
 | Windows Mover & Resizer | ✅    | ❌| ✅| ✅| ✅ | ✅ | ✅ | ✅  | ✅  |

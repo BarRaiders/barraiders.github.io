@@ -1,5 +1,10 @@
 # Troubleshooting
 
+## General Issues
+
+### I keep having to authenticate my account
+This is a known issue if you are running Stream Deck as admin. Running Stream Deck as administrator is strongly discouraged. It's firstly a security risk as it allows 3rd party plugins to run as administrator. Secondly, it is known to cause various issues in saving plugin settings as well as losing authentication tokens.
+
 ## Validation failed error
 Solution depends on what you're seeing in your browser.
 

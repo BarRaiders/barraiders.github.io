@@ -9,7 +9,7 @@ Here you find a complete list of compatibility for Windows and Mac OS & Elgato D
 !!! info "What does the icons mean?"
 
     ✅ - Plugin is fully supported.<br>
-    🔅 - Partialy supported. Mostly means that profiles are not supported by device yet.<br>
+    🔅 - Partialy supported.<br>
     ❌ - Plugin is not supported or the plugin uses profiles not supported by the listed device.
 
 | Plugin                  | Windows | Mac | XL  | SD  | MK.2 | Mini | Plus | Pedal | Mobile |

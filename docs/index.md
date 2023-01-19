@@ -1,5 +1,5 @@
 # BarRaider - Documentation
-Welcome to the official BarRaider plugin Documentation, here you will find user guides and frequently asked questions.
+Welcome to the official BarRaider plugin Documentation, here you will find user guides and frequently asked questions for BarRaider's Stream Deck plugins.
 
 The documentation is a work in progress. If you don't find what you're looking for please head over to our [Discord server](https://discord.barraider.com).
 

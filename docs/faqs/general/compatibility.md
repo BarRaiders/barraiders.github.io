@@ -8,37 +8,37 @@ Here you find a complete list of compatibility for Windows and Mac OS & Elgato D
 
 !!! info "What does the icons mean?"
 
-    ✅ - Plugin is fully supported.<br>
-    🔅 - Partialy supported.<br>
-    ❌ - Plugin is not supported or the plugin uses profiles not supported by the listed device.
+    [✅]("Supported") - Plugin is fully supported.<br>
+    [🔅]("Partially supported.") - Partially supported.<br>
+    [❌]("Not supported") - Plugin is not supported or the plugin uses profiles not supported by the listed device.
 
 | Plugin                  | Windows | Mac | XL  | SD  | MK.2 | Mini | Plus | Pedal | Mobile |
 | ----------------------- | ------- | --- | --- | --- | ---- | ---- | ---- | ----- | ------ |
-| Advanced Launcher       | ✅    | ❌| ✅| ✅| ✅ | ✅ | ✅ | ✅  | ✅  |
-| Advanced Screen Saver   | ✅    | ❌| ✅| ✅| ✅ | ✅ | ✅ | ✅  | ✅  |
-| API Ninja               | ✅    | ❌| ✅| ✅| ✅ | ✅ | ✅ | ✅  | ✅  |
-| Audio Meter             | ✅    | ❌| ✅| ✅| ✅ | ✅ | ✅ | ✅  | ✅  |
-| Battery                 | ✅    | ❌| ✅| ✅| ✅ | ✅ | ✅ | ✅  | ✅  |
-| Cam Control             | ✅    | ❌| ✅| ✅| ✅ | ✅ | ✅ | ✅  | ✅  |
-| Disco Visual Effects    | ✅    | ❌| ✅| ✅| ✅ | ✅ | ❌ | ❌  | ❌  |
-| Elgato Facecam          | ✅    | ❌| ✅| ✅| ✅ | ✅ | ✅ | ✅  | ✅  |
-| Emoji Picker            | ✅    | ❌| ✅| ✅| ✅ | ✅ | ✅ | ✅  | ✅  |
-| Minecraft Stats         | ✅    | ❌| ✅| ✅| ✅ | ✅ | ✅ | ✅  | ✅  |
-| OBS Tools               | ✅    | ❌| ✅| ✅| ✅ | ✅ | ✅ | ✅  | ✅  |
-| ShadowPlay              | ✅    | ❌| ✅| ✅| ✅ | ✅ | ✅ | ✅  | ✅  |
-| Soundpad Integration    | ✅    | ❌| ✅| ✅| ✅ | ✅ | ✅ | ✅  | ✅  |
-| Speed Test              | ✅    | ❌| ✅| ✅| ✅ | ✅ | ✅ | ✅  | ✅  |
-| Spotify Integration     | ✅    | ❌| ✅| ✅| ✅ | ✅ | ✅ | ✅  | ✅  |
-| Stock Ticker            | ✅    | ❌| ✅| ✅| ✅ | ✅ | ✅ | ✅  | ✅  |
-| Stopwatch               | ✅    | ❌| ✅| ✅| ✅ | ✅ | ✅ | ✅  | ✅  |
-| Stream Countdown Timer  | ✅    | ❌| ✅| ✅| ✅ | ✅ | ✅ | ✅  | ✅  |
-| Stream Counter          | ✅    | ❌| ✅| ✅| ✅ | ✅ | ✅ | ✅  | ✅  |
-| Stream Deck Games       | ✅    | ❌| ✅| ✅| ✅ | ✅ | ❌ | ❌  | ❌  |
-| Super Macro             | ✅    | ❌| ✅| ✅| ✅ | ✅ | ✅ | ✅  | ✅  |
-| Text File Tools         | ✅    | ❌| ✅| ✅| ✅ | ✅ | ✅ | ✅  | ✅  |
-| TextToSpeech            | ✅    | ❌| ✅| ✅| ✅ | ✅ | ✅ | ✅  | ✅  |
-| Twitch Tools            | ✅    | ❌| ✅| ✅| ✅ | ✅ | 🔅 | ❌  | ❌  |
-| VoiceMeeter Integration | ✅    | ❌| ✅| ✅| ✅ | ✅ | ✅ | ✅  | ✅  |
-| Win Tools               | ✅    | ❌| ✅| ✅| ✅ | ✅ | ❌ | ❌  | ❌  |
-| Windows Mover & Resizer | ✅    | ❌| ✅| ✅| ✅ | ✅ | ✅ | ✅  | ✅  |
-| World Time              | ✅    | ✅| ✅| ✅| ✅ | ✅ | ✅ | ✅  | ✅  |
+| Advanced Launcher       | [✅]("Supported")    | [❌]("Not supported")| [✅]("Supported")| [✅]("Supported")| [✅]("Supported") | [✅]("Supported") | [✅]("Supported") | [✅]("Supported")  | [✅]("Supported")  |
+| Advanced Screen Saver   | [✅]("Supported")    | [❌]("Not supported")| [✅]("Supported")| [✅]("Supported")| [✅]("Supported") | [✅]("Supported") | [✅]("Supported") | [✅]("Supported")  | [✅]("Supported")  |
+| API Ninja               | [✅]("Supported")    | [❌]("Not supported")| [✅]("Supported")| [✅]("Supported")| [✅]("Supported") | [✅]("Supported") | [✅]("Supported") | [✅]("Supported")  | [✅]("Supported")  |
+| Audio Meter             | [✅]("Supported")    | [❌]("Not supported")| [✅]("Supported")| [✅]("Supported")| [✅]("Supported") | [✅]("Supported") | [✅]("Supported") | [✅]("Supported")  | [✅]("Supported")  |
+| Battery                 | [✅]("Supported")    | [❌]("Not supported")| [✅]("Supported")| [✅]("Supported")| [✅]("Supported") | [✅]("Supported") | [✅]("Supported") | [✅]("Supported")  | [✅]("Supported")  |
+| Cam Control             | [✅]("Supported")    | [❌]("Not supported")| [✅]("Supported")| [✅]("Supported")| [✅]("Supported") | [✅]("Supported") | [✅]("Supported") | [✅]("Supported")  | [✅]("Supported")  |
+| Disco Visual Effects    | [✅]("Supported")    | [❌]("Not supported")| [✅]("Supported")| [✅]("Supported")| [✅]("Supported") | [✅]("Supported") | [❌]("Not supported") | [❌]("Not supported")  | [❌]("Not supported")  |
+| Elgato Facecam          | [✅]("Supported")    | [❌]("Not supported")| [✅]("Supported")| [✅]("Supported")| [✅]("Supported") | [✅]("Supported") | [✅]("Supported") | [✅]("Supported")  | [✅]("Supported")  |
+| Emoji Picker            | [✅]("Supported")    | [❌]("Not supported")| [✅]("Supported")| [✅]("Supported")| [✅]("Supported") | [✅]("Supported") | [✅]("Supported") | [✅]("Supported")  | [✅]("Supported")  |
+| Minecraft Stats         | [✅]("Supported")    | [❌]("Not supported")| [✅]("Supported")| [✅]("Supported")| [✅]("Supported") | [✅]("Supported") | [✅]("Supported") | [✅]("Supported")  | [✅]("Supported")  |
+| OBS Tools               | [✅]("Supported")    | [❌]("Not supported")| [✅]("Supported")| [✅]("Supported")| [✅]("Supported") | [✅]("Supported") | [✅]("Supported") | [✅]("Supported")  | [✅]("Supported")  |
+| ShadowPlay              | [✅]("Supported")    | [❌]("Not supported")| [✅]("Supported")| [✅]("Supported")| [✅]("Supported") | [✅]("Supported") | [✅]("Supported") | [✅]("Supported")  | [✅]("Supported")  |
+| Soundpad Integration    | [✅]("Supported")    | [❌]("Not supported")| [✅]("Supported")| [✅]("Supported")| [✅]("Supported") | [✅]("Supported") | [✅]("Supported") | [✅]("Supported")  | [✅]("Supported")  |
+| Speed Test              | [✅]("Supported")    | [❌]("Not supported")| [✅]("Supported")| [✅]("Supported")| [✅]("Supported") | [✅]("Supported") | [✅]("Supported") | [✅]("Supported")  | [✅]("Supported")  |
+| Spotify Integration     | [✅]("Supported")    | [❌]("Not supported")| [✅]("Supported")| [✅]("Supported")| [✅]("Supported") | [✅]("Supported") | [✅]("Supported") | [✅]("Supported")  | [✅]("Supported")  |
+| Stock Ticker            | [✅]("Supported")    | [❌]("Not supported")| [✅]("Supported")| [✅]("Supported")| [✅]("Supported") | [✅]("Supported") | [✅]("Supported") | [✅]("Supported")  | [✅]("Supported")  |
+| Stopwatch               | [✅]("Supported")    | [❌]("Not supported")| [✅]("Supported")| [✅]("Supported")| [✅]("Supported") | [✅]("Supported") | [✅]("Supported") | [✅]("Supported")  | [✅]("Supported")  |
+| Stream Countdown Timer  | [✅]("Supported")    | [❌]("Not supported")| [✅]("Supported")| [✅]("Supported")| [✅]("Supported") | [✅]("Supported") | [✅]("Supported") | [✅]("Supported")  | [✅]("Supported")  |
+| Stream Counter          | [✅]("Supported")    | [❌]("Not supported")| [✅]("Supported")| [✅]("Supported")| [✅]("Supported") | [✅]("Supported") | [✅]("Supported") | [✅]("Supported")  | [✅]("Supported")  |
+| Stream Deck Games       | [✅]("Supported")    | [❌]("Not supported")| [✅]("Supported")| [✅]("Supported")| [✅]("Supported") | [✅]("Supported") | [❌]("Not supported") | [❌]("Not supported")  | [❌]("Not supported")  |
+| Super Macro             | [✅]("Supported")    | [❌]("Not supported")| [✅]("Supported")| [✅]("Supported")| [✅]("Supported") | [✅]("Supported") | [✅]("Supported") | [✅]("Supported")  | [✅]("Supported")  |
+| Text File Tools         | [✅]("Supported")    | [❌]("Not supported")| [✅]("Supported")| [✅]("Supported")| [✅]("Supported") | [✅]("Supported") | [✅]("Supported") | [✅]("Supported")  | [✅]("Supported")  |
+| TextToSpeech            | [✅]("Supported")    | [❌]("Not supported")| [✅]("Supported")| [✅]("Supported")| [✅]("Supported") | [✅]("Supported") | [✅]("Supported") | [✅]("Supported")  | [✅]("Supported")  |
+| Twitch Tools            | [✅]("Supported")    | [❌]("Not supported")| [✅]("Supported")| [✅]("Supported")| [✅]("Supported") | [✅]("Supported") | [🔅]("Partially supported") | [❌]("Not supported")  | [❌]("Not supported")  |
+| VoiceMeeter Integration | [✅]("Supported")    | [❌]("Not supported")| [✅]("Supported")| [✅]("Supported")| [✅]("Supported") | [✅]("Supported") | [✅]("Supported") | [✅]("Supported")  | [✅]("Supported")  |
+| Win Tools               | [✅]("Supported")    | [❌]("Not supported")| [✅]("Supported")| [✅]("Supported")| [✅]("Supported") | [✅]("Supported") | [❌]("Not supported") | [❌]("Not supported")  | [❌]("Not supported")  |
+| Windows Mover & Resizer | [✅]("Supported")    | [❌]("Not supported")| [✅]("Supported")| [✅]("Supported")| [✅]("Supported") | [✅]("Supported") | [✅]("Supported") | [✅]("Supported")  | [✅]("Supported")  |
+| World Time              | [✅]("Supported")    | [✅]("Supported")| [✅]("Supported")| [✅]("Supported")| [✅]("Supported") | [✅]("Supported") | [✅]("Supported") | [✅]("Supported")  | [✅]("Supported")  |

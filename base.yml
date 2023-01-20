@@ -24,6 +24,7 @@ plugins:
   - mkdocs-video
 theme:
   name: "material"
+  favicon: "img/favicon.ico"
   custom_dir: overrides
   logo: "img/barraider-logo2.png"
   features:

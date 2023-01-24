@@ -24,7 +24,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-      - uses: actions/setup-python@v2
+      - uses: actions/setup-python@v4
         with:
           python-version: 3.x
       - run: pip install mkdocs-material mkdocs-glightbox mkdocs-video mkdocs-macros-plugin
@@ -36,6 +36,9 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     environment: webhooks
+    env: 
+      webhook_url: ${{ secrets.WEBHOOK_URL }}
+    if: ${{ env.webhook_url != '' }}
     steps:
       - uses: joelwmale/webhook-action@448a17bf857ead98546cfbdbe3b9d4cf979dda95
         with:

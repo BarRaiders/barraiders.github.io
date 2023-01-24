@@ -12,6 +12,8 @@ on:
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+permissions:
+  contents: write
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -24,7 +26,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-      - uses: actions/setup-python@v2
+      - uses: actions/setup-python@v4
         with:
           python-version: 3.x
       - run: pip install mkdocs-material mkdocs-glightbox mkdocs-video mkdocs-macros-plugin
@@ -36,6 +38,8 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     environment: webhooks
+    # Skip this steo if we're deploying a fork (since that would be testing-only).
+    if: ${{ github.repository == 'BarRaiders/barraiders.github.io' }}
     steps:
       - uses: joelwmale/webhook-action@448a17bf857ead98546cfbdbe3b9d4cf979dda95
         with:

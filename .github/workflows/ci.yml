@@ -12,6 +12,8 @@ on:
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+permissions:
+  contents: write
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -24,9 +26,14 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-      - uses: actions/setup-python@v2
+      - uses: actions/setup-python@v4
         with:
           python-version: 3.x
+      # implement cachebusting in case Favicon is cached.
+      - uses: actions/cache@v2
+        with:
+          key: ${{ github.ref }}
+          path: .cache
       - run: pip install mkdocs-material mkdocs-glightbox mkdocs-video mkdocs-macros-plugin
       - name: Deploy Documentation
         env:

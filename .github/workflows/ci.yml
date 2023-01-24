@@ -36,9 +36,8 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     environment: webhooks
-    env: 
-      webhook_url: ${{ secrets.WEBHOOK_URL }}
-    if: ${{ env.webhook_url != '' }}
+    # Skip this steo if we're deploying a fork (since that would be testing-only).
+    if: ${{ github.repository == 'barraiders/barraiders.github.io' }}
     steps:
       - uses: joelwmale/webhook-action@448a17bf857ead98546cfbdbe3b9d4cf979dda95
         with:

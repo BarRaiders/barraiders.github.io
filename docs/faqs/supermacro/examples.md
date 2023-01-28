@@ -153,6 +153,12 @@
     ```
 </details>
 
+<details>
+  <summary>Click the mouse while a key is held (in this example we will simulate a shift click)</summary>
+    ```
+    {{ "{{KeyDown:LSHIFT}}{{LBUTTON}}{{KeyUp:LSHIFT}}" }}
+    ```
+</details>
 
 ## Variables
 <details>

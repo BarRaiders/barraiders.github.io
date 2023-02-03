@@ -13,7 +13,7 @@ Git and [Python 3](https://www.python.org/downloads/windows/) are the only prere
 
 1. `git clone` your fork (using the Green "Code" button) to create a local copy of the site.
 2. Open the command prompt (Windows), navigate to the location you cloned the project to.
-3. Run command `pip install mkdocs-material mkdocs-glightbox mkdocs-video`. If you receive an error that Pip is not recognized, close and re-open the command prompt and try again
+3. Run command `pip3 install --upgrade -r requirements.txt`. If you receive an error that Pip3 is not recognized,  close and re-open the command prompt and try again
 4. Start a local development server by running the command `mkdocs serve`.  By default, this will build and run the website at `http://localhost:8000/` on your machine.
 
 ### Auto-Reload (Local Install Only)

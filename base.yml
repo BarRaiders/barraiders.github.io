@@ -33,6 +33,9 @@ theme:
     #- navigation.tabs.sticky  # and scrolls with the page on longer pages
     #- navigation.expand      # Show  sub-sections in left pane
     - navigation.indexes      # Simpler Nav for sub-sections with overview pages
+    # v9 specific options
+    - content.code.copy  # copy-to-clipboard setting
+    - navigation.footer
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"

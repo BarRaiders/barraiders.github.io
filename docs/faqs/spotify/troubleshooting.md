@@ -68,3 +68,21 @@ and **Redirect URIs** has
 ```
 http://localhost:4202
 ```
+
+### "VALIDATION FAILED" Error:
+Spotify tries to connect, browser says it succeeded but plugin shows a VALIDATION FAILED error after ~60 seconds. 
+Solution depends on what you see in your browser:
+
+### Browser shows an Error: 
+
+1. Try restarting the Stream Deck and try again
+2. Change your default browser to Edge and try again
+3. In Edge browser follow [this guide](https://www.whatismybrowser.com/guides/how-to-enable-javascript/edge "How to enable javascript") and when you come across the allow/block list, add `localhost:4201` to the allow list.
+
+### Browser shows Success but plugin still won't connect: 
+This is related to the plugin not being able to connect to Spotify's servers. There are a mix of reasons why this may happen. The most common are a Firewall, AntiVirus or VPN blocking connection. Locate which one of them on your PC is causing the issue and fix accordingly. 
+
+#### Less common but also possible culprits: 
+
+- Windows not being updated (make sure you have the latest Windows Update), 
+- Spotify is infamous to having issues with IPv6. Follow [this guide](https://answers.uillinois.edu/uis/page.php?id=99981 "How to disable IPv6") on disabling it to see if it helps.

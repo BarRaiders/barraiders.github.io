@@ -1,9 +1,14 @@
+---
+title: SuperMacro - Examples
+description: Looking for ideas on how to use the SuperMacro plugin? Find macro examples and improve your workflow today with SuperMacro by BarRaider.
+---
+
 <!-- NOTE: To you, the Contributor!
     Ironically, the double-bracket syntax used in SuperMacro conflicts with a special Marco syntax we can use here.
     See custom-functions.md in the *root* of the repository for the workaround
 -->
 
-# Examples
+# SuperMacro - Examples
   
 <details>
   <summary>Open Windows Explorer then go to C:\Program Files</summary>

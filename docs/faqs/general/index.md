@@ -1,3 +1,8 @@
+---
+title: Troubleshooting General Issues with BarRaider Plugins
+description: Find solutions to general issues not specific to a Stream Deck plugin with our detailed troubleshooting guide. Troubleshoot problems such as missing text/information on the Stream Deck key, issues with installing/uninstalling plugins, and Stream Deck crashes. Get early access to new plugin releases and updates through our Discord server.
+---
+
 # General Issues (Not plugin specific)
 On this page you will find troubleshooting steps for general issues that are not specific to a Stream Deck plugin.
 

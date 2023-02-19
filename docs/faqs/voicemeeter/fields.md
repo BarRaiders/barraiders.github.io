@@ -1,3 +1,8 @@
+---
+title: 'VoiceMeeter - Fields Explanation'
+description: "Get a detailed explanation of the various fields and configurations in VoiceMeeter."
+---
+
 # VoiceMeeter - Fields explanation
 - **Mode1 Key Press** - The configuration to set when we're toggling into Mode1 -> Use this to turn ON the setting e.g. `Strip[0].Mute=1`
 - **Mode1 Check** - True/False value to determine if we're in Mode1. 

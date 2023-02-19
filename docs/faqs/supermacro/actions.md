@@ -1,3 +1,8 @@
+---
+title: 'SuperMacro - Available Actions'
+description: "Explore all the available actions in the SuperMacro plugin by BarRaider for the Elgato Stream Deck."
+---
+
 <!-- NOTE: To you, the Contributor!
     Ironically, the double-bracket syntax used in SuperMacro conflicts with a special Marco syntax we can use here.
     See custom-functions.md in the *root* of the repository for the workaround

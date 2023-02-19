@@ -1,3 +1,8 @@
+---
+title: API Ninja
+description: Connect to any API with API Ninja for Stream Deck. Post Discord messages, check the weather, and more. Download on our Discord and take control today.
+---
+
 # API Ninja
 
 ## Usage examples

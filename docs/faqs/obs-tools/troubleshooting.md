@@ -14,7 +14,7 @@ If there is an error in the plugin configuration, you might see something like t
     </div>
 If you see this image, you probably don't have OBS open.  Launch OBS and wait a few seconds. The plugin should update all your keys appropriately.  
 
-If you still see this image after a minute, make sure that OBS Websocket is enabled inside OBS `Tools > obs-websocket Settings > Enable Websocket Server` and make sure you apply any changes you make.
+If you still see this image after a minute, make sure that OBS Websocket is enabled inside OBS `Tools > Websocket Server settings > Enable Websocket Server` and make sure you apply any changes you make.
     <div style="text-align:center;">
         <figure markdown>
             ![Disconnected](img/disconnected.png)

@@ -1,3 +1,8 @@
+---
+title: SuperMacro - Available Commands
+description: Find a list of all available commands for the SuperMacro plugin for the Stream Deck by BarRaider. Get started using SuperMacro today!
+---
+
 <!-- 
     Because of the syntax that macros require, adding them thoroughly broke this page until Cyber refactored it.
     Single { } are fine, but in order to use double brackets the way SuperMacro does, you need to declare the whole thing to be a string
@@ -12,7 +17,7 @@
         replace: " \"\}\}" with: ""
  -->
 
-# List of commands
+# SuperMacro - List of commands
 
 <hr />
 === "Keyboard Commands"

@@ -2,6 +2,7 @@
 title: Spotify Plugin - Troubleshooting
 description: Encountering issues with Spotify plugin on your Stream Deck? Our troubleshooting guide has the answers. Find solutions to common problems and get your setup back on track with BarRaider's plugin documentation.
 ---
+
 # Troubleshooting
 
 ## General Issues

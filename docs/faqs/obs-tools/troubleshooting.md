@@ -27,7 +27,7 @@ Something is wrong with the connection between OBS and the plugin.  We need to r
 2. The prompt you filled out when you were first [getting started](getting-started.md) will appear.  Fill it out again, extra carefully. Once you close the final prompt, the plugin should reconnect.
 
 ## ERROR: The scene item doesn't exist
-Make sure the source you are trying to edit is in your current active scene in OBS. (It cannot be in Studio Preview)
+Make sure the source you are trying to edit is in your current active scene in OBS (It cannot be in Studio Preview).
 
 ## I wish to keep using OBS v27.x
 

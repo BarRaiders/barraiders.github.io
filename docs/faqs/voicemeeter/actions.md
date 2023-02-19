@@ -1,13 +1,9 @@
 ---
-title: 'VoiceMeeter - Actions'
-tags: 
-    - streamdeck
-    - barraider
-    - voicemeeter
-description: "Explanation of all the available actions in the VoiceMeeter plugin by BarRaider for the Elgato Stream Deck."
+title: 'VoiceMeeter - Available Actions'
+description: "Explore all the available actions in the VoiceMeeter plugin by BarRaider for the Elgato Stream Deck."
 ---
 
-# Available Actions
+# VoiceMeeter - Available Actions
 
 ## VoiceMeeter Mute/Unmute
 - Allows you to easily connect to one of VoiceMeeter's Strips or Buses

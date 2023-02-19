@@ -3,7 +3,7 @@ title: OBS Tools Plugin - Available Actions
 description: Check out the list of available actions offered by the BarRaider OBS Plugin to help improve your streaming experience. Smart Scene Switcher, Source Animation, Studio Mode Toggle, Video player, and more.
 ---
 
-# Available Actions
+# OBS Tools - Available Actions
 
 ## Smart Scene Switcher 
 - Easily switch scenes between Preview/Studio (if enabled) and Live modes..

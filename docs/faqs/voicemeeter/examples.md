@@ -1,7 +1,6 @@
 ---
-title: 'VoiceMeeter - Usage Examples'
-tags: streamdeck,barraider,voicemeeter,examples
-description: "Usage examples for the VoiceMeeter plugin by BarRaider for the Elgato Stream Deck."
+title: VoiceMeeter - Usage Examples
+description: Usage examples for the VoiceMeeter plugin by BarRaider for the Elgato Stream Deck.
 ---
 
 # Usage examples

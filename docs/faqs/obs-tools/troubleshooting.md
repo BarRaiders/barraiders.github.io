@@ -3,7 +3,7 @@ title: OBS Tools Plugin - Troubleshooting
 description: Encountering issues with the OBS Tools plugin on your Stream Deck? Check out our troubleshooting guide for solutions to common problems such as error images, reconnection issues and OBS version compatibility. Get your setup back on track with BarRaider's plugin documentation.
 ---
 
-# Troubleshooting
+# OBS Tools - Troubleshooting
 
 ## Error Images on Keys
 If there is an error in the plugin configuration, you might see something like the images below.  Don't worry, they're easy problems to fix!
@@ -27,7 +27,7 @@ Something is wrong with the connection between OBS and the plugin.  We need to r
 2. The prompt you filled out when you were first [getting started](getting-started.md) will appear.  Fill it out again, extra carefully. Once you close the final prompt, the plugin should reconnect.
 
 ## ERROR: The scene item doesn't exist
-Make sure the source you are trying to edit is in your current active scene in OBS. (It cannot be in Studio Preview)
+Make sure the source you are trying to edit is in your current active scene in OBS (It cannot be in Studio Preview).
 
 ## I wish to keep using OBS v27.x
 

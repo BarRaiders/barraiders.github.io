@@ -1,4 +1,5 @@
 # Troubleshooting
+
 ## The applications list is missing my app
 The plugin will only show you applications that are currently running. If you don't see an application on the list - make sure it's running.
 

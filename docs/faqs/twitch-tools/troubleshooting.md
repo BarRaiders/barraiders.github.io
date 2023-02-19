@@ -1,4 +1,9 @@
-# Troubleshooting
+---
+title: Twitch Tools - Troubleshooting
+description: Encountering issues with the Twitch Tools plugin on your Stream Deck? Our troubleshooting guide has the answers. Find solutions to common problems and get your setup back on track with BarRaider's plugin documentation.
+---
+
+# Twitch Tools - Troubleshooting
 
 ## General Issues
 

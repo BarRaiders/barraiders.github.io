@@ -1,9 +1,9 @@
 ---
 title: VoiceMeeter - Usage Examples
-description: Usage examples for the VoiceMeeter plugin by BarRaider for the Elgato Stream Deck.
+description: Explore usage examples of VoiceMeeter with our step-by-step guides for changing output devices, disabling output, adjusting gain, and triggering Midi functions. Learn how to make the most out of VoiceMeeter with your Stream Deck!
 ---
 
-# Usage examples
+# VoiceMeeter - Usage examples
 
 ## Examples
 ### Changing your output device using VM Advanced:

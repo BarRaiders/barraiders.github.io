@@ -1,4 +1,4 @@
-# Getting started
+# VoiceMeeter - Getting started
 
 ## UI Name explanation for VM Advanced Actions
 ​![VoiceMeeter UI](./img/vmui.png"VoiceMeeter UI")

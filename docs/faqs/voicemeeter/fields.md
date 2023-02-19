@@ -1,4 +1,4 @@
-# Fields explanation
+# VoiceMeeter - Fields explanation
 - **Mode1 Key Press** - The configuration to set when we're toggling into Mode1 -> Use this to turn ON the setting e.g. `Strip[0].Mute=1`
 - **Mode1 Check** - True/False value to determine if we're in Mode1. 
     - Example: If you input: `Strip[0].Mute` the plugin will determine you're in Mode1 every time Strip0 is muted.

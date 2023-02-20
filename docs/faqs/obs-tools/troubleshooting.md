@@ -1,5 +1,5 @@
 ---
-title: OBS Tools Plugin - Troubleshooting
+title: OBS Tools - Troubleshooting
 description: Encountering issues with the OBS Tools plugin on your Stream Deck? Check out our troubleshooting guide for solutions to common problems such as error images, reconnection issues and OBS version compatibility. Get your setup back on track with BarRaider's plugin documentation.
 ---
 

@@ -11,9 +11,9 @@ Where `InputParamX` can either be text (`10`) or another variable (`$MyVar`)
 
 **Drill-Down of syntax:**
 
-1. All functions always start with the FUNC keyword
-2. The 2nd argument would be the name of the function (see column 1 in table below)
-3. The 3rd argument would be the return variable (i.e. the variable which will hold the result of the function). Note: No $ is needed here
+1. All functions always start with the FUNC keyword.
+2. The 2nd argument would be the name of the function (see column 1 in table below).
+3. The 3rd argument would be the return variable (i.e. the variable which will hold the result of the function). **Note:** No $ is needed here.
 4. Arguments 4 and up are the input needed for the function. Each function has a different number of Input arguments (as stated in column 2 in the table below).
 
     !!! note

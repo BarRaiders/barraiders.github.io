@@ -1,4 +1,9 @@
-# Troubleshooting
+---
+title: Windows Mover and Resizer - Troubleshooting
+description: Encountering issues with the Windows Mover and Resizer plugin on your Stream Deck? Our troubleshooting guide has the answers. Find solutions to common problems and get your setup back on track with BarRaider's plugin documentation.
+---
+
+# Windows mover and resizer - Troubleshooting
 
 ## The applications list is missing my app
 The plugin will only show you applications that are currently running. If you don't see an application on the list - make sure it's running.

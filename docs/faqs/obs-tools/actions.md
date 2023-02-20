@@ -1,23 +1,23 @@
 ---
-title: OBS Tools Plugin - Available Actions
+title: OBS Tools - Available Actions
 description: Check out the list of available actions offered by the BarRaider OBS Plugin to help improve your streaming experience. Smart Scene Switcher, Source Animation, Studio Mode Toggle, Video player, and more.
 ---
 
 # OBS Tools - Available Actions
 
 ## Smart Scene Switcher 
-- Easily switch scenes between Preview/Studio (if enabled) and Live modes..
-- Shows a border on the scene indicating if it’s in preview or live
-- See a Preview of how the scene will look on the Stream Deck key
+- Easily switch scenes between Preview/Studio (if enabled) and Live modes.
+- Shows a border on the scene indicating if it’s in preview or live.
+- See a Preview of how the scene will look on the Stream Deck key.
 
 ## Source Animation
 - Create cool transitions and effects for your sources with one click!
 - Phases allow multi-phased animations, without the need of a multi-action.
-- Easily create animation with the Record feature: 
-- Place the source at the starting position, then press "Record". 
-- Move/Modify the source to end result and then press ‘End Recording’ => The plugin will automatically calculate and input the changes.
-- Import/Export Settings allows you to share your animations (or keep a backup).
-- Options to hide source/remove filters at various stages.
+- Easily create animation with the Record feature:
+  - Place the source at the starting position, then press "Record". 
+  - Move/Modify the source to end result and then press ‘End Recording’ => The plugin will automatically calculate and input the changes.
+  - Import/Export Settings allows you to share your animations (or keep a backup).
+  - Options to hide source/remove filters at various stages.
 
 ## Studio Mode Toggle
 - Allows you to quickly toggle Studio/Preview mode on and off.

@@ -1,6 +1,6 @@
 ---
 title: BarRaider - Ways to support BarRaider
-description: Learn how you can support BarRaider and the team through Patreon, contribute to help articles, make YouTube videos, or help people in the Discord server. Join the BarRaider community today!
+description: Learn how you can support BarRaider and the team through Patreon, contributing to help articles, make YouTube videos, or help people in the Discord server. Join the BarRaider community today!
 ---
 
 # Ways to support BarRaider.

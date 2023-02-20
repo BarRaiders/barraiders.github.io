@@ -22,10 +22,10 @@ Please follow the step-by-step instructions below to create your own Spotify Dev
     The plugin will not work if you skip a step! Follow the steps slowly, ensuring everything is done correctly.
 
 1. Open [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/) and Login with your Spotify account.
-2. Choose to “Create An App” on the Developer Dashboard.
+2. Choose to **Create An App** on the Developer Dashboard.
     ![Step 2](img/spotauth1.png)
 3. Give your App a unique name and description. (these can be set to anything of your choice)
-    Select the checkboxes at the bottom and click CREATE.
+    Select the checkboxes at the bottom and click **Create**.
     ![Step 3](img/spotauth2b.png)
 4. Congrats! You have created your App! Now click Edit Settings to add a few necessary details.
     ![Step 4](img/spotauth5.png)

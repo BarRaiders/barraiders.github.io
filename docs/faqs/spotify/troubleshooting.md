@@ -16,7 +16,7 @@ Yes, Spotify requires you to have a Premium subscription to access their API.
 ### I have a premium subscription but my button says "Free"
    1. Log out from your Spotify desktop app.
    2. Go to [https://spotify.com](https://spotify.com/ "Spotify Website") and Sign Out.
-   3. Press the **"Revoke"** button in the Spotify plugin settings (at the very bottom)
+   3. Press the **"Revoke"** button in the Spotify plugin settings (at the very bottom).
    4. Restart your computer, sign in and try again.
 
 ### Wrong song/URI being added to playlist/written to file
@@ -29,10 +29,10 @@ If the button is telling that you are being throttled, Spotify has throttled you
 ### I'm getting a "Throttled" image on my keys for a few seconds and it then disappears
 You are sending too many requests to Spotify. The following actions are API-intensive, consider removing them and see if it improves, or place the actions inside of a folder/ secondary profile.
 
-- Play/Pause action
-- Repeat Mode action
-- Shuffle Mode action
-- Volume actions (if Display volume on key is enabled)
+- Play/Pause action.
+- Repeat Mode action.
+- Shuffle Mode action.
+- Volume actions (if Display volume on key is enabled).
 
 ### I keep having to authenticate my account
 This is a known issue if you are running Stream Deck as admin. Running Stream Deck as administrator is strongly discouraged. It's firstly a security risk as it allows 3rd party plugins to run as administrator. Secondly, it is known to cause various issues in saving plugin settings as well as losing authentication tokens.
@@ -48,7 +48,7 @@ Chances are you authorized on a different Spotify account than the one you're no
 **Try the following:**  
 
 1. Log out from both your browser and Spotify app.
-2. Press the Revoke button on the Spotify plugin (at the very bottom of the settings)
+2. Press the Revoke button on the Spotify plugin (at the very bottom of the settings).
 3. Press the "Click here" message in the setup wizard.
 4. Verify that it asks you to log in then log in again with the same username to both the player and the browser.
 5. Leave the Stream Deck profile that has your Spotify plugin to another on, then go back.
@@ -80,8 +80,8 @@ Solution depends on what you see in your browser:
 
 ### Browser shows an Error: 
 
-1. Try restarting the Stream Deck and try again
-2. Change your default browser to Edge and try again
+1. Try restarting the Stream Deck and try again.
+2. Change your default browser to Edge and try again.
 3. In Edge browser follow [this guide](https://www.whatismybrowser.com/guides/how-to-enable-javascript/edge "How to enable javascript") and when you come across the allow/block list, add `localhost:4201` to the allow list.
 
 ### Browser shows Success but plugin still won't connect: 

@@ -9,7 +9,7 @@ description: Explore usage examples of VoiceMeeter with our step-by-step guides 
 ### Changing your output device using VM Advanced:
 `Strip[x].device.wdm = "NAME OF DEVICE";`<br>
 
-- Replace `wdm` with one of the following if you use another device type: `sr/wdm/ks/mme/asio`<br>
+- Replace `wdm` with one of the following if you use another device type: `sr/wdm/ks/mme/asio`<br>.
 - Replace `x` with strip number, strip overview can be found under [getting started](../getting-started).
 
 ### Disabling output device:
@@ -48,6 +48,6 @@ Replace `x` with strip number, strip overview can be found under [getting starte
 You can trigger Midi functions using the SendMidi command from the [Advanced actions](../actions/#advancedpress). Syntax: `SendMidi(DEVICE_NAME, COMMAND, CHANNEL, KEY_ID, VALUE);`
 
 - **DEVICE_NAME:** Name of your device. Start of the name is good too (i.e. nano instead of nanoKORG). Name can be found in VoiceMeeter Macro under `MIDI OUT1 device: 
-- **COMMAND:** One of 3 options: - note-on - note-of - ctrl-change
-- **CHANNEL:** Integer value between 1 to 16
-- **KEY_ID:** The id of the Midi key to turn on/off. This can be found using the LEARN feature inside VoiceMeeter Macro: 
+- **COMMAND:** One of 3 options: - note-on - note-of - ctrl-change.
+- **CHANNEL:** Integer value between 1 to 16.
+- **KEY_ID:** The ID of the Midi key to turn on/off. This can be found using the LEARN feature inside VoiceMeeter Macro.

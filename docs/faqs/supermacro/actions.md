@@ -8,7 +8,7 @@ description: "Explore all the available actions in the SuperMacro plugin by BarR
     See custom-functions.md in the *root* of the repository for the workaround
 -->
 
-# Available actions 
+# SuperMacro - Available actions 
 The plugin includes 6 actions (each can be dragged from the Stream Deck app on to an key). Bellow you will find a more in depth description of each action.
 
 ## Super Macro

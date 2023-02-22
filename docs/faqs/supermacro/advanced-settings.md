@@ -1,4 +1,4 @@
-# Advanced Settings
+# SuperMacro - Advanced Settings
 Here you will find a detailed explanation of what each of the advanced settings does in SuperMacro.
 
 ​![Advanced settings overview](img/advanced-settings.png"Advanced settings overview")

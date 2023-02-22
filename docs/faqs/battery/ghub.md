@@ -1,3 +1,3 @@
-# Logitech G HUB
+# Battery - Logitech G HUB
 ## I can't see my device in the dropdown
 Some devices are not supported by G HUB, specifically ones that just show a battery icon instead of actual % in G HUB. If it's a wireless device, try plugging it in via USB to the PC, there seems to be some GHub bug related to wireless in latest versions. If it still doesn't work, you'd need to contact [Logitech](https://support.logi.com/hc/en-us) and ask them to add support for your device.

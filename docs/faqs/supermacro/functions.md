@@ -1,4 +1,4 @@
-# Functions
+# SuperMacro - Functions
 
 ## Syntax
 !!! note

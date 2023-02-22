@@ -1,6 +1,6 @@
 ---
 title: Spotify Plugin - Getting Started
-description: Follow this step-by-step guide to create your own Spotify Developer Application and get started with the Spotify plugin on your Stream Deck. Once setup is complete, control spotify from your Stream Deck and enjoy your music!
+description: Follow this step-by-step guide to create your own Spotify Developer Application, and get started with the Spotify plugin on your Stream Deck. Once setup is complete, control spotify from your Stream Deck and enjoy your music!
 ---
 
 

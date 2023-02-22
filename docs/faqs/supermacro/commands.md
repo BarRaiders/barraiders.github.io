@@ -17,7 +17,7 @@ description: Find a list of all available commands for the SuperMacro plugin for
         replace: " \"\}\}" with: ""
  -->
 
-# SuperMacro - List of commands
+# SuperMacro - Available Commands
 
 <hr />
 === "Keyboard Commands"

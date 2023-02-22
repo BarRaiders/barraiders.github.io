@@ -1,6 +1,6 @@
 ---
 title: BarRaider - Plugin Documentation
-description: Find user guides and FAQs for BarRaider's Stream Deck plugins in our offical Stream Deck plugin documentation.
+description: Find user guides and FAQs for BarRaider's Stream Deck plugins in our official Stream Deck plugin documentation.
 ---
 
 

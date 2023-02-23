@@ -1,6 +1,6 @@
-## Troubleshooting
+# Stream Counter - Troubleshooting
 
-## ACCESS DENIED in FileName after pressing Save:
+## Access Denied in FileName after pressing Save
 You're trying to save to a location where the plugin doesn't have permission to write too. Instead try `c:\temp\myfile.txt` or your *My Documents* folder.
 
 ## Pressing `...` doesn't open file explorer

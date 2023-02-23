@@ -21,7 +21,7 @@ nav:
       - 'Getting started': 'faqs/stream-counter/getting-started.md'
       - 'Troubleshooting': 'faqs/stream-counter/troubleshooting.md'
     - 'SuperMacro':
-      #- 'Getting started': 'faqs/supermacro/getting-started.md' BLANK PAGE
+      - 'Getting started': 'faqs/supermacro/getting-started.md'
       - 'Advanced Settings explained': 'faqs/supermacro/advanced-settings.md'
       - 'Available Actions': 'faqs/supermacro/actions.md'
       - 'Usage Examples': 'faqs/supermacro/examples.md'

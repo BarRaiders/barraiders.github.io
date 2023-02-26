@@ -7,10 +7,10 @@ description: Explore usage examples of VoiceMeeter with our step-by-step guides 
 
 ## Examples
 ### Changing your output device using VM Advanced:
-`Strip[x].device.wdm = "NAME OF DEVICE";`<br>
 
-- Replace `wdm` with one of the following if you use another device type: `sr/wdm/ks/mme/asio`<br>.
-- Replace `x` with strip number, strip overview can be found under [getting started](../getting-started).
+- `Strip[x].device.wdm = "NAME OF DEVICE";`
+    - Replace `wdm` with one of the following if you use another device type: `sr/wdm/ks/mme/asio`.
+    - Replace `x` with strip number, strip overview can be found under [getting started](../getting-started).
 
 ### Disabling output device:
 Using [Advanced toggle action](../actions/#voicemeeter-advanced-toogle)

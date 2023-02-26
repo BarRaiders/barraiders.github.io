@@ -1,3 +1,9 @@
+---
+title: SuperMacro - Functions
+description: Learn how to use functions in the SuperMacro plugin for the Stream Deck. Do mathematical calculations, replace text, get current date and more with Functions to make ur SuperMacro's even more advanced.
+---
+
+
 # SuperMacro - Functions
 
 ## Syntax

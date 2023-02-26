@@ -1,6 +1,6 @@
 ---
 title: OBS Tools - Getting Started
-description: Learn how to install and set up the BarRaider OBS Tools plugin on your Stream Deck to control OBS Studio.
+description: Learn how to install and set up the BarRaider OBS Tools plugin on your Stream Deck to control OBS Studio, make the Stream Deck your very own stream Control Center today!
 ---
 
 # OBS Tools - Getting Started

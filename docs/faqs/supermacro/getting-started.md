@@ -1,6 +1,6 @@
 ---
-title: 'SuperMacro - Getting started'
-description: "Get started with the SuperMacro plugin for the Stream Deck and automate repetitive tasks with ease. Learn about the available actions, commands, functions, and variables supported by SuperMacro. Explore usage examples and start simplifying your workflow today."
+title: SuperMacro - Getting started
+description: Get started with the SuperMacro plugin for the Stream Deck and automate repetitive tasks with ease. Learn about the available actions, commands, functions, and variables supported by SuperMacro. Explore usage examples and start simplifying your workflow today.
 ---
 
 # SuperMacro - Getting Started
@@ -11,6 +11,8 @@ Some examples are reading text from files, copy text to clipboard, move your mou
 
 ## How do I get started?
 Start by dragging an [action](./actions.md) to your Stream Deck, you can then type [commands](./commands.md) or normal text into the macro input fields.
+
+![Dragging action](img/action_drag.gif"Dragging action to Stream Deck"){: style="height:350px;"}
 
 ### Commands
 Examples of commands can be `{{ "{{F5}}" }}` or `{{ "{{Winkey}}" }}`, or a keystroke like `{{ "{{ctrl}{c}}" }}`.

@@ -1,3 +1,8 @@
+---
+title: SuperMacro - Variables
+description: Learn how to use variables in the SuperMacro plugin to store and manipulate data for use further down in a the macro, or a different macro all together. Variables opens up a world of new possibilities for your SuperMacro's on the Stream Deck.
+---
+
 <!-- NOTE: To you, the Contributor!
     Ironically, the double-bracket syntax used in SuperMacro conflicts with a special Marco syntax we can use here.
     See custom-functions.md in the *root* of the repository for the workaround

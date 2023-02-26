@@ -1,16 +1,16 @@
 ---
-title: 'VoiceMeeter - Available Actions'
-description: "Explore all the available actions in the VoiceMeeter plugin by BarRaider for the Elgato Stream Deck."
+title: VoiceMeeter - Available Actions
+description: Explore all the available actions in the VoiceMeeter plugin by BarRaider for the Elgato Stream Deck.
 ---
 
 # VoiceMeeter - Available Actions
 
-## VoiceMeeter Mute/Unmute
+## VoiceMeeter Mute/Un-mute
 - Allows you to easily connect to one of VoiceMeeter's Strips or Buses.
 - 3 different modes: Toggle/Push-To-Talk/Single Setting (on/off).
 - See a live indication of the current status on Stream Deck (never forget your microphone on again!).
-- Can also be used to mute/unmute different Strips/Buses such as Spotify/Background music/etc.
-- Choose from 4 different icons to display the mute/unmute settings.
+- Can also be used to mute/un-mute different Strips/Buses such as Spotify/Background music/etc.
+- Choose from 4 different icons to display the mute/un-mute settings.
 - Choose your own images to display, instead of the 4 pre-defined icons.
 
 ## VoiceMeeter Modify Setting
@@ -21,7 +21,7 @@ description: "Explore all the available actions in the VoiceMeeter plugin by Bar
 - Supports both Press and Long Press (allows you to toggle between two preset values for this setting).
 - Option to turn off the Live feedback and set the title to whatever you want (including a prefix using the TitlePrefix parameter).
 
-## <a name="advancedpress"></a> VoiceMeeter Advanced Press/Long-Press
+## VoiceMeeter Advanced Press/Long-Press
 
 !!! info "Advanced users"
 

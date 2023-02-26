@@ -1,6 +1,6 @@
 ---
-title: 'SuperMacro - Available Actions'
-description: "Explore all the available actions in the SuperMacro plugin by BarRaider for the Elgato Stream Deck."
+title: SuperMacro - Available Actions
+description: Explore all the available actions in the SuperMacro plugin by BarRaider for the Elgato Stream Deck.
 ---
 
 <!-- NOTE: To you, the Contributor!
@@ -9,7 +9,7 @@ description: "Explore all the available actions in the SuperMacro plugin by BarR
 -->
 
 # SuperMacro - Available actions 
-The plugin includes 6 actions (each can be dragged from the Stream Deck app on to an key). Bellow you will find a more in depth description of each action.
+The plugin includes six actions. Bellow you will find a more in depth description of each action.
 
 ## Super Macro
 This is the basic implementation. Create a macro and run it on keypress. Examples can be seen in the [Usage Examples](./examples.md) section.

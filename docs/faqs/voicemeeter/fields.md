@@ -1,6 +1,6 @@
 ---
-title: 'VoiceMeeter - Fields Explanation'
-description: "Get a detailed explanation of the various fields and configurations in VoiceMeeter."
+title: VoiceMeeter - Fields Explanation
+description: Get a detailed explanation of the various fields and configurations in the VoiceMeeter plugin for the Elgato Stream Deck.
 ---
 
 # VoiceMeeter - Fields explanation

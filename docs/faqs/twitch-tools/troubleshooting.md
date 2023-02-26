@@ -13,9 +13,9 @@ This is a known issue if you are running Stream Deck as admin. Running Stream De
 ## Validation failed error
 Solution depends on what you're seeing in your browser.
 
-### Browser shows and error
+### Browser shows an error
 1. Try restarting the Stream Deck Software and try setting up again.
-![restarting stream deck](https://barraider.com/images/restart.png"Restarting SD Software")
+![Restarting Stream deck](https://barraider.com/images/restart.png"How to quit the Stream Deck Software")
 1. Change the default browser to Edge and try again.
 2. Using the Edge browser follow [this guide](https://www.whatismybrowser.com/guides/how-to-enable-javascript/edge) and when you come across the allow/block list, add `localhost:4201` to the allow list.
 

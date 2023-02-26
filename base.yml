@@ -2,18 +2,21 @@ site_url: !ENV [SITE_NAME, 'http://docs.barraider.com']
 # do_not_index: true
 site_name: BarRaider's Plugin Documentation
 markdown_extensions:
-  - admonition # Fancy callouts (https://squidfunk.github.io/mkdocs-material/reference/admonitions/#admonition-icons)
-  - pymdownx.details # Collapsible callouts
-  - pymdownx.superfences # Nest Markdown in callouts (https://facelessuser.github.io/pymdown-extensions/extensions/superfences/)
-  - pymdownx.keys # Render Keyboard keys with markdown (https://facelessuser.github.io/pymdown-extensions/extensions/keys/)
-  - md_in_html # Currently we're using this for image captions
-  - pymdownx.tasklist: # Support for Tabs (https://fabacademy.org/2022/labs/kannai/Instruction/tips/tab_in_markdown/)
+  - admonition            # Fancy callouts (https://squidfunk.github.io/mkdocs-material/reference/admonitions/#admonition-icons)
+  - pymdownx.details      # Collapsible callouts
+  - pymdownx.superfences  # Nest Markdown in callouts (https://facelessuser.github.io/pymdown-extensions/extensions/superfences/)
+  - pymdownx.keys         # Render Keyboard keys with markdown (https://facelessuser.github.io/pymdown-extensions/extensions/keys/)
+  - md_in_html            # Currently we're using this for image captions
+  - pymdownx.tasklist:    # Support for Tabs (https://fabacademy.org/2022/labs/kannai/Instruction/tips/tab_in_markdown/)
       custom_checkbox: true
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
-  - meta # advanced customizable metadata
+  - meta              # advanced customizable metadata
   - tables
+  - attr_list         # Adds attribute lists to generated HTML
+  - toc:              # Builds a table of contents 
+      permalink: "#"  # Puts a "#" at the end of each header, which copies a link to that header when clicked
 extra_javascript:
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
   - javascripts/tablesort.js

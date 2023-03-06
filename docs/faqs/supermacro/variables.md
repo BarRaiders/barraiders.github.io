@@ -38,9 +38,11 @@ Creating and using User Defined variables is easy using the following Variable C
 |-------|-------|-------|
 Input | `{{ "{{Input:VarName}}" }}` |Get input from the user and store it in `VarName`. |
 Output | `{{ "{{Output:MyVar}}" }}` | Output the input previously gathered into `MyVar`. |
-VarSet | `{{ "{{VarSet:MyVar:MyValue}}" }}` | Set the value `MyValue` into `MyVar`. |
 OutputToFile | `{{ "{{OutputToFile:MyVar:C:\\filename.txt}}" }}` | Write the contents of the `MyVar` variable into `c:\filename.txt` file. |
+VarSet | `{{ "{{VarSet:MyVar:MyValue}}" }}` | Set the value `MyValue` into `MyVar`. |
 VarSetFromFile | `{{ "{{VarSetFromFile:MyVar:C:\\filename.txt}}" }}` | Read the contents of the file specified and store into `MyVar`. |
 VarSetFromClipboard | `{{ "{{VarSetFromClipboard:MyVar}}" }}`	| Read the contents of the clipboard and store into `MyVar`. |
+SetKeyTitle | `{{ "{{SetKeyTitle:$MyVar}}" }}` | Sets the text on the Stream Deck key to the contents of `MyVar`. |
+SetClipboard | `{{ "{{SetClipboard:$MyVar}}" }}` | Sets the clipboard to the contents of `MyVar`. |
 VarUnset | `{{ "{{VarUnset:MyVar}}" }}` | Clears `MyVar`. |
 VarUnsetAll | `{{ "{{VARUNSETALL}}" }}` | Clears **all** variables. |

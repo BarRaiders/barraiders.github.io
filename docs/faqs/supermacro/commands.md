@@ -153,5 +153,3 @@ description: Find a list of all available commands for the SuperMacro plugin for
     |KeyUp|{{ "{{KeyUp:XXXX}} "}} (XXXX = name of key| example {{ "{{KeyUp:SHIFT}} "}})|
     |MSavePos|{{ "{{MSAVEPOS}} "}} stores the current mouse cursor position.<br>The position is stored in variables: $MOUSE_X and $MOUSE_Y|
     |MLoadPos|{{ "{{MLOADPOS}} "}} moves the mouse to the previous set position (when `{MSAVEPOS}` was called).|
-    |SetKeyTitle|{{ "{{SetKeyTitle:$MyVar}} "}} Sets the text on the Stream Deck key to the contents of `MyVar`.|
-    |SetClipboard|{{ "{{SetClipboard:$MyVar}} "}} Sets the clipboard to the contents of `MyVar`.|

@@ -35,7 +35,7 @@ You are sending too many requests to Spotify. The following actions are API-inte
 - Volume actions (if Display volume on key is enabled).
 
 ### I keep having to authenticate my account
-This is a known issue if you are running Stream Deck as admin. Running Stream Deck as administrator is strongly discouraged. It's firstly a security risk as it allows 3rd party plugins to run as administrator. Secondly, it is known to cause various issues in saving plugin settings as well as losing authentication tokens.
+This is a known issue if you are running Stream Deck as administrator. Doing this is strongly discouraged. It's firstly a security risk as it allows 3rd party plugins to run as administrator. Secondly, it is known to cause various issues in saving plugin settings as well as losing authentication tokens.
 
 ## Device / playlist
 ### The device dropdown is empty

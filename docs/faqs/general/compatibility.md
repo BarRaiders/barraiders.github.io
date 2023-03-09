@@ -1,6 +1,6 @@
 ---
-title: BarRaider - Compatibility Chart
-description: Find a complete list of what Stream Deck plugins by BarRaider is supported on your Elgato device for both Windows and Mac. Check out the compatibility chart for all the necessary details.
+title: Compatibility Chart
+description: Find a complete list of what Stream Deck plugins by BarRaider is supported on your Elgato device for both Windows and Mac and see if ur system is supported!
 ---
 
 <style>

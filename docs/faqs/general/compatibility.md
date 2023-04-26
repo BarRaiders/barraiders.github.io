@@ -25,7 +25,7 @@ Here you find a complete list of compatibility for Windows and Mac OS & Elgato D
 | Audio Meter             | [✅]("Supported")    | [❌]("Not supported")| [✅]("Supported")| [✅]("Supported")| [✅]("Supported") | [✅]("Supported") | [✅]("Supported") | [✅]("Supported")  | [✅]("Supported")  |
 | Battery                 | [✅]("Supported")    | [❌]("Not supported")| [✅]("Supported")| [✅]("Supported")| [✅]("Supported") | [✅]("Supported") | [✅]("Supported") | [✅]("Supported")  | [✅]("Supported")  |
 | Cam Control             | [✅]("Supported")    | [❌]("Not supported")| [✅]("Supported")| [✅]("Supported")| [✅]("Supported") | [✅]("Supported") | [✅]("Supported") | [✅]("Supported")  | [✅]("Supported")  |
-| Disco Visual Effects    | [✅]("Supported")    | [❌]("Not supported")| [✅]("Supported")| [✅]("Supported")| [✅]("Supported") | [✅]("Supported") | [❌]("Not supported") | [❌]("Not supported")  | [❌]("Not supported")  |
+| Disco Visual Effects    | [✅]("Supported")    | [❌]("Not supported")| [✅]("Supported")| [✅]("Supported")| [❌]("Not supported") | [✅]("Supported") | [❌]("Not supported") | [❌]("Not supported")  | [❌]("Not supported")  |
 | Elgato Facecam          | [✅]("Supported")    | [❌]("Not supported")| [✅]("Supported")| [✅]("Supported")| [✅]("Supported") | [✅]("Supported") | [✅]("Supported") | [✅]("Supported")  | [✅]("Supported")  |
 | Emoji Picker            | [✅]("Supported")    | [❌]("Not supported")| [✅]("Supported")| [✅]("Supported")| [✅]("Supported") | [✅]("Supported") | [✅]("Supported") | [✅]("Supported")  | [✅]("Supported")  |
 | Minecraft Stats         | [✅]("Supported")    | [❌]("Not supported")| [✅]("Supported")| [✅]("Supported")| [✅]("Supported") | [✅]("Supported") | [✅]("Supported") | [✅]("Supported")  | [✅]("Supported")  |

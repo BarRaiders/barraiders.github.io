@@ -6,8 +6,23 @@ description: Encountering issues with the Spotify plugin on your Stream Deck? Ou
 # Spotify - Troubleshooting
 
 ## General Issues
-### Do I need Spotify premium in order to use the plugin?
-Yes, Spotify requires you to have a Premium subscription to access their API.
+
+### Button error icons explained
+
+#### Free icon
+![Free Icon](img/spotify_free.webp)
+
+Spotify Premium is required to use the Spotify plugin, this is a requirement set by Spotify.
+
+#### Key error icon
+![Key Icon](img/key.webp)
+
+The key is not configured, you need to **Revoke Approval** from the bottom of the **Play button** settings, then go trough wizard again because your tokens are invalid.
+
+#### Throttled icon
+![Throttled Icon](img/throttled.webp)
+
+You are being throttled by Spotify, go to the [throttling section](./#throttling) to find out more.
 
 ### Button does not work or displays ⚠️
 1. Make sure you set the Device setting to the device you want to play on.

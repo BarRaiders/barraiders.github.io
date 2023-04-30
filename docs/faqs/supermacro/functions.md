@@ -35,7 +35,7 @@ Where `InputParamX` can either be text (`10`) or another variable (`$MyVar`)
 |DIV|2|`{{ "{{FUNC:DIV:MyVar:​100:50}}" }}` (100/50 and store in MyVar).|(Additional examples similar to ADD above)|
 |RANDOM|2|`{{ "{{FUNC:RANDOM:MyVar:1:20}}" }}` (Find a random number between 1 (inclusive) and 20 (exclusive) and store in MyVar.<br>`{{ "{{FUNC:RANDOM:MyVar:$FirstVal:$SecondVal}}" }}` (Find a random number between FirstVal variable (inclusive) and SecondVal variable (exclusive) and store in MyVar.<br>**Note:** First value must be LOWER than Second value.|
 |CONCAT|Unlimited|`{{ "{{FUNC:CONCAT:MyVar:Hello:World:$Var1:Hi:$Var2}}" }}`<br>MyVar will have the string: HelloWorldXXXXHiYYYY Where XXXX is the contents of Var1 and YYYY is the contents of Var2|
-|REPLACE|3|`{{ "{{FUNC:REPLACE:MyVar:Hello:He:Y}}" }}`<br>MyVar will have the string: *Yello*<br>`{{ "{{VARSET:XX:Hello World}}" }} {{ "{{VARSET:A:l}}" }}{{ "{{VARSET:B:Z}}" }} {{ "{{FUNC:REPLACE:MyVar:$XX:$A:$B}}" }}`<br>MyVar will have the string: *HeZZo WorZd*|
+|REPLACE|3|`{{ "{{FUNC:REPLACE:MyVar:Hello:He:Y}}" }}`<br>MyVar will have the string: **Yllo**<br>`{{ "{{VARSET:XX:Hello World}}" }} {{ "{{VARSET:A:l}}" }}{{ "{{VARSET:B:Z}}" }} {{ "{{FUNC:REPLACE:MyVar:$XX:$A:$B}}" }}`<br>MyVar will have the string: *HeZZo WorZd*|
 |NOW|1|`{{ "{{FUNC:NOW:MyVar:yyyy-MM-dd HH:mm:ss}}" }}`<br>MyVar will have the current date and time.|
 |LEN|1|`{{ "{{FUNC:LEN:MyVar:Hello World}}" }}` (Length of the string 'Hello World')<br>MyVar will have the value 11|
 |MID|(Arguments: 1. 0-Based Start Position 2. [Optional] Length)|`{{ "{{FUNC:MID:RES:Hello:2}}" }}` RES will have llo<br>`{{ "{{FUNC:MID:RES:Hello:0:2}}" }}` RES will have He|

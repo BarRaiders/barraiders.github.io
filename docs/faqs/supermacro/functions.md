@@ -45,12 +45,11 @@ Where `InputParamX` can either be text (`10`) or another variable (`$MyVar`)
 |REVERSE|1|`{{ "{{FUNC:REVERSE:MyVar:Hello World}}" }}`<br>MyVar will have the value: dlroW olleH|
 |INDEXOF|2|Returns the first 0-based position of a text in the string.<br>`{{ "{{FUNC:INDEXOF:RES:Hello:e}}" }}` will return 1 into RES (since e has an index of 1 in the string)|
 
-### Date Time FUNCtions
+### Date Time Functions
 
 !!! hint
 
     Negative values will calculate Date/Time Functions backwards.
-
 
 |Function Name|Number of Input arguments|Example|Comments|
 |----|----|----|----|

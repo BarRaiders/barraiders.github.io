@@ -26,8 +26,9 @@ https://facelessuser.github.io/pymdown-extensions/extensions/keys/
 | $SMENTER   | ++enter++       |
 | $SMLCB     | ++brace-left++  |
 | $SMRCB     | ++brace-right++ |
+| $SMSPACE   | ++space++
 
-User Defined Variables
+## User Defined Variables
 Creating and using User Defined variables is easy using the following Variable Commands.
 
 !!! note
@@ -36,13 +37,13 @@ Creating and using User Defined variables is easy using the following Variable C
 
 |Command|Example|Comment|
 |-------|-------|-------|
-Input | `{{ "{{Input:VarName}}" }}` |Get input from the user and store it in `VarName`. |
-Output | `{{ "{{Output:MyVar}}" }}` | Output the input previously gathered into `MyVar`. |
-OutputToFile | `{{ "{{OutputToFile:MyVar:C:\\filename.txt}}" }}` | Write the contents of the `MyVar` variable into `c:\filename.txt` file. |
-VarSet | `{{ "{{VarSet:MyVar:MyValue}}" }}` | Set the value `MyValue` into `MyVar`. |
-VarSetFromFile | `{{ "{{VarSetFromFile:MyVar:C:\\filename.txt}}" }}` | Read the contents of the file specified and store into `MyVar`. |
-VarSetFromClipboard | `{{ "{{VarSetFromClipboard:MyVar}}" }}`	| Read the contents of the clipboard and store into `MyVar`. |
-SetKeyTitle | `{{ "{{SetKeyTitle:$MyVar}}" }}` | Sets the text on the Stream Deck key to the contents of `MyVar`. |
-SetClipboard | `{{ "{{SetClipboard:$MyVar}}" }}` | Sets the clipboard to the contents of `MyVar`. |
-VarUnset | `{{ "{{VarUnset:MyVar}}" }}` | Clears `MyVar`. |
-VarUnsetAll | `{{ "{{VARUNSETALL}}" }}` | Clears **all** variables. |
+| Input | `{{ "{{Input:VarName}}" }}` |Get input from the user and store it in `VarName`. |
+| Output | `{{ "{{Output:MyVar}}" }}` | Output the input previously gathered into `MyVar`. |
+| VarSet | `{{ "{{VarSet:MyVar:MyValue}}" }}` | Set the value `MyValue` into `MyVar`. |
+| OutputToFile | `{{ "{{OutputToFile:MyVar:C:\\filename.txt}}" }}` | Write the contents of the `MyVar` variable into `C:\filename.txt` file. |
+| AppendToFile | `{{ "{{OutputToFile:MyVar:C:\\filename.txt}}" }}` | Append the contents of the `MyVar` variable into `C:\filename.txt`
+| VarSetFromFile | `{{ "{{VarSetFromFile:MyVar:C:\\filename.txt}}" }}` | Read the contents of the `C:\filename.txt` file and store into `MyVar`. |
+| VarSetFromClipboard | `{{ "{{VarSetFromClipboard:MyVar}}" }}`	| Read the contents of the clipboard and store into `MyVar`. |
+| VarUnset | `{{ "{{VarUnset:MyVar}}" }}` | Clears `MyVar`. |
+| VarUnsetAll | `{{ "{{VARUNSETALL}}" }}` | Clears **all** variables. |
+| SetIconFromFile | `{{ "{{SetIconFromFile:C:\\image.png}}" }}` | Sets the Stream Deck key's icon to the image stored in `C:\image.png`. |

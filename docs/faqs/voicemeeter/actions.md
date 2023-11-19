@@ -5,6 +5,10 @@ description: Explore all the available actions in the VoiceMeeter plugin by BarR
 
 # VoiceMeeter - Available Actions
 
+!!! info "Pro tip"
+
+    In the **Title Prefix** field you can use *\n* to create new lines.
+
 ## VoiceMeeter Mute/Un-mute
 - Allows you to easily connect to one of VoiceMeeter's Strips or Buses.
 - 3 different modes: Toggle/Push-To-Talk/Single Setting (on/off).
@@ -20,6 +24,7 @@ description: Explore all the available actions in the VoiceMeeter plugin by BarR
 - Live feedback on the current value of that setting.
 - Supports both Press and Long Press (allows you to toggle between two preset values for this setting).
 - Option to turn off the Live feedback and set the title to whatever you want (including a prefix using the TitlePrefix parameter).
+
 
 ## VoiceMeeter Advanced Press/Long-Press
 

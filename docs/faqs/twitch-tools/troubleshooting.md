@@ -10,6 +10,10 @@ description: Encountering issues with the Twitch Tools plugin on your Stream Dec
 ### I keep having to authenticate my account
 This is a known issue if you are running Stream Deck as admin. Running Stream Deck as administrator is strongly discouraged. It's firstly a security risk as it allows 3rd party plugins to run as administrator. Secondly, it is known to cause various issues in saving plugin settings as well as losing authentication tokens.
 
+### Action does not do anything
+Some actions, like the Ban / Timeout and Timeout actions require you to be live and having active chatters in order to work.
+If you are Live and have active chatters, make sure you installed the custom profiles during installation. In order to get these profiles, uninstall and reinstall the plugin.
+
 ## Validation failed error
 Solution depends on what you're seeing in your browser.
 

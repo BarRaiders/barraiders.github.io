@@ -51,7 +51,6 @@ Where `InputParamX` can either be text (`10`) or another variable (`$MyVar`)
 
     Negative values will calculate Date/Time Functions backwards.
 
-
 |Function Name|Number of Input arguments|Example|Comments|
 |----|----|----|----|
 |AddDays|3|`{{ "{{FUNC:NOW:today:yyyy-MM-dd}}" }}`<br>`{{ "{{FUNC:AddDays:yesterday:$today:-1}} "}}`<br>`{{ "{{SetClipboard:$yesterday}}" }}`<br>`{{ "{{ctrl}{v}}" }}`|Prints yesterdays date from clipboard using an existing datetime.|

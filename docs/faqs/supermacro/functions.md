@@ -44,6 +44,11 @@ Where `InputParamX` can either be text (`10`) or another variable (`$MyVar`)
 |MID|(Arguments: 1. 0-Based Start Position 2. [Optional] Length)|`{{ "{{FUNC:MID:RES:Hello:2}}" }}` RES will have llo<br>`{{ "{{FUNC:MID:RES:Hello:0:2}}" }}` RES will have He|
 |REVERSE|1|`{{ "{{FUNC:REVERSE:MyVar:Hello World}}" }}`<br>MyVar will have the value: dlroW olleH|
 |INDEXOF|2|Returns the first 0-based position of a text in the string.<br>`{{ "{{FUNC:INDEXOF:RES:Hello:e}}" }}` will return 1 into RES (since e has an index of 1 in the string)|
+|FLOOR| |Returns the largest integral value less than or equal to the specified number|
+|CEILING| |Returns the smallest integral value greater than or equal to the specified number|
+|MIN| |Returns the smaller of two numbers|
+|MAX| |Returns the larger of two numbers|
+|ABS| |Returns the absolute value of a specified number|
 
 ### Date Time Functions
 
@@ -59,3 +64,4 @@ Where `InputParamX` can either be text (`10`) or another variable (`$MyVar`)
 |AddMinutes|3|`{{ "{{FUNC:AddMonths:65minutes:$today:65}}" }}`|Add 65 minutes to an existing datetime and saves to a new var.)|
 |AddHours|3|`{{ "{{FUNC:AddMonths:20hours:$today:20}}" }}`|Add 20 hours to an existing datetime and saves to a new var.|
 |DateDif|4|`{{ "{{FUNC:DATEDIFF:RES:$date1:$date2:d}}" }}`|Compares two datetimes and return the time difference between them (result can be in **d**ays/**h**ours/**m**inutes/**s**econds/miliseconds)|
+|DateFormat|4|`{{ "{{FUNC:DATEFORMAT:RES:$date1:dd/MM/yyyy HH:mm:ss}}" }}`|Allows to format a date|

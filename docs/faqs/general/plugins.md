@@ -29,8 +29,7 @@ description: Here you will find a list, with download links to all plugins made 
 |SuperMacro|[Elgato Marketplace](https://marketplace.elgato.com/product/supermacro-62195fec-7bcb-403d-b650-c342e9dfec67)|Simulates both keyboard and mouse. Advanced functions and variables allow to create complex macros|
 |ScreenSaver|[Elgato Marketplace]()|
 |Text File Tools|[Elgato Marketplace](https://marketplace.elgato.com/product/text-file-tools-8ed62b66-35f3-44fe-b801-486976ddd188)|Manipulate text files with your Stream Deck|
-|Text To Speech|[Elgato Marketplace](https://marketplace.elgato.com/product/texttospeech-d9615c50-eca4-42e3-ac99-04708a9fa620)|
-Text To Speech at a press of a button|
+|Text To Speech|[Elgato Marketplace](https://marketplace.elgato.com/product/texttospeech-d9615c50-eca4-42e3-ac99-04708a9fa620)|Text To Speech at a press of a button|
 |Twitch Tools|[Elgato Marketplace](https://marketplace.elgato.com/product/twitch-tools-b64d96eb-c5b3-4880-8eb8-64f8a698c335)|Advanced tools to control Twitch from your Stream Deck|
 |VoiceMeeter|[Elgato Marketplace](https://marketplace.elgato.com/product/voicemeeter-integration-f879a66f-4b9b-42de-9635-539797e5b5a7)|Control VoiceMeeter and get live feedback all on your Stream Deck|
 |Windows Mover & Resizer|[Elgato Marketplace](https://marketplace.elgato.com/product/windows-mover-resizer-5fa50346-eff5-4c75-b5e6-a8e377d694dc)|Allows you to control the position and size of application windows on your Windows PC. Maximize/Minimize windows or change height, width and position. Supports moving applications across multiple screens|

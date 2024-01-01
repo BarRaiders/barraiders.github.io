@@ -18,11 +18,11 @@ Please follow the step-by-step instructions below to create your own Spotify Dev
 
     ![Step 2](img/spotauth2.png)
 
-3. Set the **App name** to anything of your choice, it really doesn't matter.
+3. Set the **App name** to anything of your choice.
 
     ![Step 3](img/spotauth3.png)
 
-    a. Set the **App description** to anything of your choice, again, it really doesn't matter.
+    a. Set the **App description** to anything of your choice.
 
     ![Step 3a](img/spotauth3a.png)
 
@@ -40,11 +40,16 @@ Please follow the step-by-step instructions below to create your own Spotify Dev
 
         Triple check the **Redirect URI** is correct, *before* proceeding. The plugin will fail to validate if it's any different.
 
+    d.  Click the checkbox for **Web API**
+
+    
+    ![Step d](img/spotapichoice.png)
+
 4. Click the checkbox to agree to Spotify's Developer Terms of Service and Design Guidelines.
 
     ![Step 4](img/spotauth4.png)
 
-5. Compare your app settings with ours below, **before** you click **Save** in a hurry, just to be sure.
+5. Compare your app settings with ours below, **before** you click **Save** in a hurry, just to be sure the settings are correct.
 
     ![Step 5](img/spotauthoverview.png)
 

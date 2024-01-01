@@ -80,11 +80,7 @@ You have done step **5 & 6** incorrectly in [getting started](../getting-started
 
 1. Go to your [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/login "Spotify Developer Dashboard") and click on your application.
 2. Go to "Edit settings" in the top right corner.
-3. Make sure **Website** has:
-```
-http://localhost:4202
-``` 
-and **Redirect URIs** has 
+3. Make sure **Redirect URIs** has 
 ```
 http://localhost:4202
 ```

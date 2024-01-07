@@ -27,7 +27,7 @@ description: Here you will find a list, with download links to all plugins made 
 |Stream Countdown Timer|[Elgato Marketplace](https://marketplace.elgato.com/product/stream-countdown-timer-625838c6-85ce-4be7-a754-30f00c809b34)|Set a timer on your Stream Deck, and have it shown on your Stream too. Will start flashing in a color of your choice when the time is up.Includes sound support & Streamathon mode (increase/decrease the time left on every key press)
 |Stream Deck Games|[Elgato Marketplace](https://marketplace.elgato.com/product/stream-deck-games-5610386b-e778-4b58-9c5d-f4499a986106)|Suite of games for your Stream Deck. Includes: Dice Roller, Pacman, Snake, Hangman, Puzzles, Tic-Tac-Toe, Minesweeper, Simon Says, Breakout, and an 8-Ball you can display on stream|
 |SuperMacro|[Elgato Marketplace](https://marketplace.elgato.com/product/supermacro-62195fec-7bcb-403d-b650-c342e9dfec67)|Simulates both keyboard and mouse. Advanced functions and variables allow to create complex macros|
-|ScreenSaver|[Elgato Marketplace]()|
+|ScreenSaver|[Elgato Marketplace](https://marketplace.elgato.com/product/advanced-screen-saver-7fc6ca9f-f576-4606-8c27-51e68925d5f3)|
 |Text File Tools|[Elgato Marketplace](https://marketplace.elgato.com/product/text-file-tools-8ed62b66-35f3-44fe-b801-486976ddd188)|Manipulate text files with your Stream Deck|
 |Text To Speech|[Elgato Marketplace](https://marketplace.elgato.com/product/texttospeech-d9615c50-eca4-42e3-ac99-04708a9fa620)|Text To Speech at a press of a button|
 |Twitch Tools|[Elgato Marketplace](https://marketplace.elgato.com/product/twitch-tools-b64d96eb-c5b3-4880-8eb8-64f8a698c335)|Advanced tools to control Twitch from your Stream Deck|

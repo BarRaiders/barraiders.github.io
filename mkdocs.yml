@@ -4,6 +4,7 @@ nav:
     - 'index.md' # Hidden in the menu, accessed when clicking "Plugin FAQs"
     - 'General Issues': 'faqs/general/index.md'
     - 'How can I help?': 'faqs/general/helping.md'
+    - 'Plugins by BarRaider': 'faqs/general/plugins.md'
     - 'Compatibility Chart': 'faqs/general/compatibility.md'
     - 'API Ninja': 'faqs/api-ninja/index.md'
     - 'Battery':

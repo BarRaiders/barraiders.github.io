@@ -23,3 +23,6 @@ The plugin will not launch an application, it will only move one that is already
 
 1. Opens an app (using Advanced Launcher plugin).
 2. Runs this plugin to move it to required location.
+
+## How do I move a specific browser window
+Activate the **"Filter title with specific text"** option in the action settings, you can then filter text from the tab windows.

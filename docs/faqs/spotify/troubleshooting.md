@@ -93,7 +93,7 @@ Solution depends on what you see in your browser:
 
 1. Try restarting the Stream Deck and try again.
 2. Change your default browser to Edge and try again.
-3. In Edge browser follow [this guide](https://www.whatismybrowser.com/guides/how-to-enable-javascript/edge "How to enable javascript") and when you come across the allow/block list, add `localhost:4201` to the allow list.
+3. In Edge browser follow [this guide](https://www.whatismybrowser.com/guides/how-to-enable-javascript/edge "How to enable javascript") and when you come across the allow/block list, add `localhost:4202` to the allow list.
 
 ### Browser shows Success but plugin still won't connect
 This is related to the plugin not being able to connect to Spotify's servers. There are a mix of reasons why this may happen. The most common are a Firewall, AntiVirus or VPN blocking connection. Locate which one of them on your PC is causing the issue and fix accordingly. 

@@ -101,4 +101,4 @@ This is related to the plugin not being able to connect to Spotify's servers. Th
 #### Less common but also possible culprits: 
 
 - Windows not being updated (make sure you have the latest Windows Update), 
-- Spotify is infamous to having issues with IPv6. Follow [this guide](https://answers.uillinois.edu/uis/page.php?id=99981 "How to disable IPv6") on disabling it to see if it helps.
+- Spotify is infamous to having issues with IPv6. Follow [this guide](https://buz.bz/ipv6 "How to disable IPv6 on Windows 10 and 11") on disabling it to see if it helps.

@@ -145,9 +145,9 @@ description: Find a list of all available commands for the SuperMacro plugin for
 
 |Action|Macro Command|
 |----|----|
-|{{ "{{//}} "}}|Comments Support: Anything after the {{ "{{//}} "}} sign will be ignored until end of line.<br>**Note:** The "Don't treat "New Line" as Enter" setting must be DISABLED for this to work properly|
-|PAUSE|{{ "{{PAUSE:XXXX}} "}} (XXXX = length in milliseconds). Will pause execution of the rest of the SuperMacro for the time specified|
-|KeyDown|{{ "{{KeyDown:XXXX}} "}} (XXXX = name of key| example {{ "{{KeyDown:F1}} "}}). Simulates holding the key down on the keyboard.<br>**Note:** Should be eventually accompanied by a `KeyUp` command|
-|KeyUp|{{ "{{KeyUp:XXXX}} "}} (XXXX = name of key| example {{ "{{KeyUp:SHIFT}} "}})|
-|MSavePos|{{ "{{MSAVEPOS}} "}} stores the current mouse cursor position.<br>The position is stored in variables: $MOUSE_X and $MOUSE_Y|
-|MLoadPos|{{ "{{MLOADPOS}} "}} moves the mouse to the previous set position (when `{MSAVEPOS}` was called).|
+|{{ "{{//}}" }}|Comments Support: Anything after the {{ "{{//}} "}} sign will be ignored until end of line.<br>**Note:** The "Don't treat "New Line" as Enter" setting must be DISABLED for this to work properly|
+|PAUSE|{{ "{{PAUSE:XXXX}}" }} (XXXX = length in milliseconds). Will pause execution of the rest of the SuperMacro for the time specified|
+|KeyDown|{{ "{{KeyDown:XXXX}}" }} (XXXX = name of key| example {{ "{{KeyDown:F1}} "}}). Simulates holding the key down on the keyboard.<br>**Note:** Should be eventually accompanied by a `KeyUp` command|
+|KeyUp|{{ "{{KeyUp:XXXX}}" }} (XXXX = name of key| example {{ "{{KeyUp:SHIFT}} "}})|
+|MSavePos|{{ "{{MSAVEPOS}}" }} stores the current mouse cursor position.<br>The position is stored in variables: $MOUSE_X and $MOUSE_Y|
+|MLoadPos|{{ "{{MLOADPOS}}" }} moves the mouse to the previous set position (when `{MSAVEPOS}` was called).

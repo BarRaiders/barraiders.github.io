@@ -65,3 +65,8 @@ Where `InputParamX` can either be text (`10`) or another variable (`$MyVar`)
 |AddHours|3|`{{ "{{FUNC:AddMonths:20hours:$today:20}}" }}`|Add 20 hours to an existing datetime and saves to a new var.|
 |DateDif|4|`{{ "{{FUNC:DATEDIFF:RES:$date1:$date2:d}}" }}`|Compares two datetimes and return the time difference between them (result can be in **d**ays/**h**ours/**m**inutes/**s**econds/miliseconds)|
 |DateFormat|4|`{{ "{{FUNC:DATEFORMAT:RES:$date1:dd/MM/yyyy HH:mm:ss}}" }}`|Allows to format a date|
+
+### Other functions
+|Function|Format|Example|Comments|
+|----|----|----|----|
+|EXEC|`{{ "{{EXEC:FILENAME|RUNASADMIN|ARGUMENTS}}" }}`|`{{ "{{EXEC:C:\WINDOWS\\NOTEPAD.EXE|0|C:\myfile.txt}}" }}`|Can also be used to load websites. `{{ "{{EXEC:https://docs.barraider.com}}" }}`|

@@ -20,7 +20,7 @@ Here you find a complete list of compatibility for Windows and Mac OS & Elgato D
 | Plugin                  | Windows | Mac | XL  | SD  | MK.2 | Mini | Plus | Pedal | Mobile |
 | ----------------------- | ------- | --- | --- | --- | ---- | ---- | ---- | ----- | ------ |
 | Advanced Launcher       | [✅]("Supported")    | [❌]("Not supported")| [✅]("Supported")| [✅]("Supported")| [✅]("Supported") | [✅]("Supported") | [✅]("Supported") | [✅]("Supported")  | [✅]("Supported")  |
-| Advanced Screen Saver   | [✅]("Supported")    | [❌]("Not supported")| [✅]("Supported")| [✅]("Supported")| [✅]("Supported") | [✅]("Supported") | [✅]("Supported") | [✅]("Supported")  | [✅]("Supported")  |
+| Advanced Screen Saver   | [✅]("Supported")    | [❌]("Not supported")| [✅]("Supported")| [✅]("Supported")| [✅]("Supported") | [✅]("Supported") | [❌]("Not supported") | [❌]("Not supported")  | [❌]("Not supported")  |
 | API Ninja               | [✅]("Supported")    | [❌]("Not supported")| [✅]("Supported")| [✅]("Supported")| [✅]("Supported") | [✅]("Supported") | [✅]("Supported") | [✅]("Supported")  | [✅]("Supported")  |
 | Audio Meter             | [✅]("Supported")    | [❌]("Not supported")| [✅]("Supported")| [✅]("Supported")| [✅]("Supported") | [✅]("Supported") | [✅]("Supported") | [✅]("Supported")  | [✅]("Supported")  |
 | Battery                 | [✅]("Supported")    | [❌]("Not supported")| [✅]("Supported")| [✅]("Supported")| [✅]("Supported") | [✅]("Supported") | [✅]("Supported") | [✅]("Supported")  | [✅]("Supported")  |

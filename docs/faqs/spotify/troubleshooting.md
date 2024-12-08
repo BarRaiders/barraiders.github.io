@@ -9,7 +9,7 @@ description: Encountering issues with the Spotify plugin on your Stream Deck? Ou
 
 !!! warning
 
-    The playlist actions are no longer supported due to API updates made by Spotify.
+    The playlist actions are no longer supported due to API updates made by Spotify. 
 
 ### Button error icons explained
 

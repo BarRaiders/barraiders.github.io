@@ -14,6 +14,10 @@ description: Encountering issues with the Spotify plugin on your Stream Deck? Ou
 
 Spotify Premium is required to use the Spotify plugin, this is a requirement set by Spotify.
 
+!!! warning
+
+    The playlist actions are no longer supported due to API updates made by Spotify.
+
 #### Key error icon
 ![Key Icon](img/key.webp)
 
@@ -69,10 +73,10 @@ Chances are you authorized on a different Spotify account than the one you're no
 5. Leave the Stream Deck profile that has your Spotify plugin to another on, then go back.
 
 ### The playlist dropdown is empty
-Start by playing a song in your player (the one you want to control). Then go out of the profile that has the Spotify action on and it, and then back in. Combo should populate.
+Due to API updates from Spotify we are no longer able to support the playlist actions. We recommend using the **Play URI** action instead.
 
 ### I don't see a certain playlist in the plugin
-Spotify limits to the first 50 playlists. You can move a playlist up in the order from the Spotify App. Afterwards, try moving out of the Stream Deck profile and back in for it to refresh.
+Due to API updates from Spotify we are no longer able to support the playlist actions. We recommend using the **Play URI** action instead.
 
 ## Installation issues
 ### "INVALID_CLIENT: Invalid redirect URI" Error
@@ -93,7 +97,7 @@ Solution depends on what you see in your browser:
 
 1. Try restarting the Stream Deck and try again.
 2. Change your default browser to Edge and try again.
-3. In Edge browser follow [this guide](https://www.whatismybrowser.com/guides/how-to-enable-javascript/edge "How to enable javascript") and when you come across the allow/block list, add `localhost:4202` to the allow list.
+3. In Edge browser follow [this guide](https://www.whatismybrowser.com/guides/how-to-enable-javascript/edge "How to enable JavaScript") and when you come across the allow/block list, add `localhost:4202` to the allow list.
 
 ### Browser shows Success but plugin still won't connect
 This is related to the plugin not being able to connect to Spotify's servers. There are a mix of reasons why this may happen. The most common are a Firewall, AntiVirus or VPN blocking connection. Locate which one of them on your PC is causing the issue and fix accordingly. 

@@ -18,6 +18,7 @@ nav:
     - 'Spotify':
       - 'Getting started': 'faqs/spotify/getting-started.md'
       - 'Troubleshooting': 'faqs/spotify/troubleshooting.md'
+      - 'Playlist URI' : 'faqs/spotify/playlist-uri.md'
     - 'Stream Counter':
       - 'Getting started': 'faqs/stream-counter/getting-started.md'
       - 'Troubleshooting': 'faqs/stream-counter/troubleshooting.md'

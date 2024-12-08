@@ -7,16 +7,16 @@ description: Encountering issues with the Spotify plugin on your Stream Deck? Ou
 
 ## General Issues
 
+!!! warning
+
+    The playlist actions are no longer supported due to API updates made by Spotify.
+
 ### Button error icons explained
 
 #### Free icon
 ![Free Icon](img/spotify_free.webp)
 
 Spotify Premium is required to use the Spotify plugin, this is a requirement set by Spotify.
-
-!!! warning
-
-    The playlist actions are no longer supported due to API updates made by Spotify.
 
 #### Key error icon
 ![Key Icon](img/key.webp)
@@ -73,9 +73,6 @@ Chances are you authorized on a different Spotify account than the one you're no
 5. Leave the Stream Deck profile that has your Spotify plugin to another on, then go back.
 
 ### The playlist dropdown is empty
-Due to API updates from Spotify we are no longer able to support the playlist actions. We recommend using the **Play URI** action instead.
-
-### I don't see a certain playlist in the plugin
 Due to API updates from Spotify we are no longer able to support the playlist actions. We recommend using the **Play URI** action instead.
 
 ## Installation issues

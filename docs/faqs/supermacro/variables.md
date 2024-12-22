@@ -48,5 +48,5 @@ Creating and using User Defined variables is easy using the following Variable C
 | VarUnset | `{{ "{{VarUnset:MyVar}}" }}` | Clears `MyVar`. |
 | VarUnsetAll | `{{ "{{VARUNSETALL}}" }}` | Clears **all** variables. |
 | SetIconFromFile | `{{ "{{SetIconFromFile:C:\\image.png}}" }}` | Sets the Stream Deck key's icon to the image stored in `C:\image.png`. |
-| VarSetFromEnv | `{{ "{{VarSetFromEnv:MyPath:PATH}}{{OUTPUT:MyPath}}" }}`|Get the %PATH% environment variable:|
-| SetKeyTitle | `{{ "{{SetKeyTitle:$MyVar}}` | Set Stream Deck title to variable value.|
+| VarSetFromEnv | `{{ "{{VarSetFromEnv:MyPath:PATH}}{{Output:MyPath}}" }}`|Get the %PATH% environment variable:|
+| SetKeyTitle | `{{ "{{SetKeyTitle:$MyVar}}" }}` | Set Stream Deck title to variable value.|

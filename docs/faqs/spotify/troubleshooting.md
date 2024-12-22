@@ -7,10 +7,6 @@ description: Encountering issues with the Spotify plugin on your Stream Deck? Ou
 
 ## General Issues
 
-!!! warning
-
-    The playlist actions are no longer supported due to API updates made by Spotify. 
-
 ### Button error icons explained
 
 #### Free icon
@@ -64,7 +60,7 @@ Start by playing a song in your player (the one you want to control). Then go ou
 **If after the above it's not populating:**
 Chances are you authorized on a different Spotify account than the one you're now playing the song in.
 
-**Try the following:**  
+**Try the following:**
 
 1. Log out from both your browser and Spotify app.
 2. Press the Revoke button on the Spotify plugin (at the very bottom of the settings).
@@ -73,7 +69,10 @@ Chances are you authorized on a different Spotify account than the one you're no
 5. Leave the Stream Deck profile that has your Spotify plugin to another on, then go back.
 
 ### The playlist dropdown is empty
-Due to API updates from Spotify we are no longer able to support the playlist actions. We recommend using the **Play URI** action instead.
+Start by playing a song in your player (the one you want to control). Then go out of the profile that has the Spotify action on and it, and then back in. Combo should populate.
+
+### I don't see a certain playlist in the plugin
+Spotify limits to the first 50 playlists. You can move a playlist up in the order from the Spotify App. Afterwards, try moving out of the Stream Deck profile and back in for it to refresh.
 
 ## Installation issues
 ### "INVALID_CLIENT: Invalid redirect URI" Error

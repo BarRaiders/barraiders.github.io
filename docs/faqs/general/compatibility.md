@@ -11,6 +11,10 @@ description: Find a complete list of what Stream Deck plugins by BarRaider is su
 # Compatibility Chart
 Here you find a complete list of compatibility for Windows and Mac OS & Elgato Devices
 
+If you see a icon saying *Device Not Supported* there are two possibilites:
+1. You need to update your Stream Deck.
+2. Your Device is a Stream Deck **Copy** and therefor not supported.
+
 !!! info "What does the icons mean?"
 
     [✅]("Supported") - Plugin is fully supported.<br>

@@ -60,7 +60,7 @@ Start by playing a song in your player (the one you want to control). Then go ou
 **If after the above it's not populating:**
 Chances are you authorized on a different Spotify account than the one you're now playing the song in.
 
-**Try the following:**  
+**Try the following:**
 
 1. Log out from both your browser and Spotify app.
 2. Press the Revoke button on the Spotify plugin (at the very bottom of the settings).

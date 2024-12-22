@@ -41,10 +41,12 @@ Creating and using User Defined variables is easy using the following Variable C
 | Output | `{{ "{{Output:MyVar}}" }}` | Output the input previously gathered into `MyVar`. |
 | VarSet | `{{ "{{VarSet:MyVar:MyValue}}" }}` | Set the value `MyValue` into `MyVar`. |
 | OutputToFile | `{{ "{{OutputToFile:MyVar:C:\\filename.txt}}" }}` | Write the contents of the `MyVar` variable into `C:\filename.txt` file. |
-| AppendToFile | `{{ "{{OutputToFile:MyVar:C:\\filename.txt}}" }}` | Append the contents of the `MyVar` variable into `C:\filename.txt`
+| AppendToFile | `{{ "{{AppendToFile:MyVar:C:\\filename.txt}}" }}` | Append the contents of the `MyVar` variable into `C:\filename.txt`
 | VarSetFromFile | `{{ "{{VarSetFromFile:MyVar:C:\\filename.txt}}" }}` | Read the contents of the `C:\filename.txt` file and store into `MyVar`. |
+| SetClipboard | `{{ "{{SetClipboard:$MyVar}}" }}` | Store variable in clipboard.|
 | VarSetFromClipboard | `{{ "{{VarSetFromClipboard:MyVar}}" }}`	| Read the contents of the clipboard and store into `MyVar`. |
 | VarUnset | `{{ "{{VarUnset:MyVar}}" }}` | Clears `MyVar`. |
 | VarUnsetAll | `{{ "{{VARUNSETALL}}" }}` | Clears **all** variables. |
 | SetIconFromFile | `{{ "{{SetIconFromFile:C:\\image.png}}" }}` | Sets the Stream Deck key's icon to the image stored in `C:\image.png`. |
 | VarSetFromEnv | `{{ "{{VarSetFromEnv:MyPath:PATH}}{{OUTPUT:MyPath}}" }}`|Get the %PATH% environment variable:|
+| SetKeyTitle | `{{ "{{SetKeyTitle:$MyVar}}` | Set Stream Deck title to variable value.|

@@ -57,9 +57,9 @@ description: Looking for ideas on how to use the SuperMacro plugin? Find macro e
 <details>
 <summary>Add comments in the code using {{ "`{{//}}`" }} command</summary>
   ```
-    {{ "INPUT:myNumber" }} {{ "//" }} User inputs number.
-    {{ "FUNC:MUL:MyResult:$myNumber:10" }} {{ "//" }} Multiply number by 10
-    {{ "OUTPUTTOFILE:MyResult:c:\\temp\\result.txt" }} {{ "//" }} Save result in file
+    {{ "{{INPUT:myNumber}}" }} {{ "{{//}}" }} User inputs number.
+    {{ "{{FUNC:MUL:MyResult:$myNumber:10}}" }} {{ "{{//}}" }} Multiply number by 10
+    {{ "{{OUTPUTTOFILE:MyResult:c:\\temp\\result.txt}}" }} {{ "{{//}}" }} Save result in file
   ```
 </details>
 

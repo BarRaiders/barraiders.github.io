@@ -20,7 +20,7 @@ nav:
       - 'Troubleshooting': 'faqs/spotify/troubleshooting.md'
       - 'Playlist URI' : 'faqs/spotify/playlist-uri.md'
     - 'Stock Ticker':
-      - 'Getting started' : 'faqs/stock-ticker/getting-started.md'
+      - 'Setting up finnhub.io API Key' : 'faqs/stock-ticker/getting-started.md'
     - 'Stream Counter':
       - 'Getting started': 'faqs/stream-counter/getting-started.md'
       - 'Troubleshooting': 'faqs/stream-counter/troubleshooting.md'

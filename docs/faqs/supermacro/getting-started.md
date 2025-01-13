@@ -15,7 +15,7 @@ Start by dragging an [action](./actions.md) to your Stream Deck, you can then ty
 ![Dragging action](img/action_drag.gif"Dragging action to Stream Deck"){: style="height:350px;"}
 
 ### Commands
-Examples of commands can be `{{ "{{F5}}" }}` or `{{ "{{Winkey}}" }}`, or a keystroke like `{{ "{{ctrl}{c}}" }}`.
+Examples of commands can be `{{ "{{F5}}" }}` or `{{ "{{WIN}}" }}`, or a keystroke like `{{ "{{CTRL}{C}}" }}`.
 
 Note that commands are always enclosed in `{` `}`, and each individual key in the command is also enclosed in `{{ "{" }}` `{{ "}" }}`. You should **always** see two `{{ "{{" }}`'s at the beginning and two `{{ "}}" }}`'s at the end of a command.
 

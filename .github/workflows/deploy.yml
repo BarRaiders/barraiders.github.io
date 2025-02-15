@@ -49,7 +49,7 @@ jobs:
     needs: build
     steps:
       - name: Get Build
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: my-build
           path: site/

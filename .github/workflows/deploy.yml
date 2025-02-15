@@ -36,7 +36,7 @@ jobs:
           GOOGLE_ANALYTICS_KEY: ${{ secrets.google-analytics }}
         run: mkdocs build 
       - name: Upload Build
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: my-build
           path: site/
@@ -71,4 +71,4 @@ jobs:
       - uses: joelwmale/webhook-action@448a17bf857ead98546cfbdbe3b9d4cf979dda95
         with:
           url: ${{ secrets.WEBHOOK_URL }}
-          body: '{"username": "Botty McBotface","avatar_url": "https://docs.barraider.com/img/barraider-logo2.png","content": "A new update has been deployed 👀","embeds": [],"components": [{"type": 1,"components": [{"type": 2,"style": 5,"label": "Visit The Docs","url": "https://docs.barraider.com"}]}]}'
+          body: '{"username": "Botty McBotface","avatar_url": "https://docs.barraider.com/img/barraider-logo2.png","content": "A new update has been deployed to the [Docs](https://docs.barraider.com/)👀","embeds": [],"components": [{"type": 1,"components": [{"type": 2,"style": 5,"label": "Visit The Docs","url": "https://docs.barraider.com"}]}]}'

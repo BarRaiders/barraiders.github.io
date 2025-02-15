@@ -39,6 +39,7 @@ theme:
     # v9 specific options
     - content.code.copy  # copy-to-clipboard setting
     - navigation.footer
+    - navigation.instant.preview
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"

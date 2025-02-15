@@ -9,7 +9,7 @@ description: Explore all the available actions in the SuperMacro plugin by BarRa
 -->
 
 # SuperMacro - Available actions 
-The plugin includes six actions. Bellow you will find a more in depth description of each action.
+The plugin includes six actions. Below you will find a more in depth description of each action.
 
 ## Super Macro
 This is the basic implementation. Create a macro and run it on keypress. Examples can be seen in the [Usage Examples](./examples.md) section.
@@ -30,4 +30,4 @@ This action limits the action to either one command (such as `{{ "{{ctrl}{c}}" }
 !!! info "Long pressing button"
 
     **Note:** Long pressing the button on the Stream Deck will copy the current X,Y shown on the key to your Clipboard.
-Consider this more of a helper action, it shows you the current position of your mouse cursor. You can use it to determine where you want SuperMacro to move your mouse (Using the `{{ "{{MOUSEXY}}" }}` [mouse command](./commands.md)).
+Shows you the current position of your mouse cursor. You can use it to determine where you want SuperMacro to move your mouse (Using the `{{ "{{MOUSEXY}}" }}` [mouse command](./commands.md)).

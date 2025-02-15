@@ -9,78 +9,91 @@ description: Follow this step-by-step guide to create your own Spotify Developer
 ## Installation
 Please follow the step-by-step instructions below to create your own Spotify Developer Application. (Client ID & Client Secret)
 
-!!! warning
+!!! warning "Spotify Premium required"
 
-    An active Spotify Premium subscription is required to use the plugin. You can subscribe to Spotify Premium [here](https://www.spotify.com/uk/account/overview).
+    An active Spotify Premium subscription is required to use the plugin.
 
-1. Open [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/) and Login with your Spotify account.
-2. Click the **Create app** button on the landing page.
+### Create Spotify Developer App
+1. Go to the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/ "Spotify developer dasboard").
+2. Login using your Spotify account.
+3. Click the **Create app** button.
 
-    ![Step 2](img/spotauth2.png)
+    ![Step 2](img/spotauth2.png "Click create app in top right corner")
 
-3. Set the **App name** to anything of your choice.
+4. Fill out the form with the following information.
 
-    ![Step 3](img/spotauth3.png)
+    1. **App Name**: `Stream Deck`
+        ![Step 3](img/spotauth3.png "Set app name to Stream Deck")
 
-    a. Set the **App description** to anything of your choice.
+    2. **App description**: `Stream Deck plugin integration`
 
-    ![Step 3a](img/spotauth3a.png)
+    3. **Website**: Leave empty.
 
-    b. Skip the **Website** field, this isn't required for the Stream Deck plugin to function.
+    4. **Redirect URI**: Copy text below then click **Add**.
 
-    c. Set the **Redirect URI** to `http://localhost:4202`. You can copy the **Redirect URI** below:
+        If you see **Auth v2** (1) in top left corner of Spotify Integration setup window:
+        { .annotate } 
 
-    ```
-    http://localhost:4202
-    ```
+        1. ![Auth v2](img/spotifyAuthv2.png)
 
-    ![Step 3b and 3c](img/spotauth3bc.png)
+        ```
+        http://127.0.0.1:4202
+        ```
 
-    !!! warning
+        !!! warning annotate "Plugin version 3.1 or below"
 
-        Triple check the **Redirect URI** is correct, *before* proceeding. The plugin will fail to validate if it's any different.
+            If you are using Spotfiy plugin version 3.1 or below, copy the **Redirect URI** below:
+            ```
+            http://localhost:4202
+            ```
 
-    d.  Click the checkbox for **Web API**
+        ![Step 3b and 3c](img/spotauth3bc.png "Setting redirect URI to http://127.0.0.1:4202")
+            
+    5. Check the checkbox for **Web API**.
 
+        ![Step d](img/spotapichoice.png "Enable Web API Checkbox")
+
+5. Accept Spotify's **Terms and Conditions**.
+
+    ![Step 4](img/spotauth4.png "Accepting terms and conditions")
+
+6. Compare your app settings with ours below, then click **Save**.
+
+    ![Step 5](img/spotauthoverview.png "Compare your settings the the ones in the image")
+
+    ### Getting Spotify API Credentials
+
+7. Click the **Settings** button in the application dasboard.
+
+    ![Step 6](img/spothome.png "Button to press to enter application settings")
+
+8. Click **View client secret**.
+
+    ![Step 7](img/spotsettings.png "Displaying client secret")
+
+9. Copy the **Client ID** and **Client secret** and paste them inside of the Spotify Integration setup.
+
+    ![Step 8](img/spotcredentials.png "Copy credentials shown in image")
+
+    !!! danger "Do not share your Client Secret!"
+
+        Do not share your **Client secret**. If you accidentally share it, click **Rotate client secret** to generate a new one.
+
+    ### Setting up play action button
+
+10. Drag and drop the **Play/Pause** action from the sidebar under the **Spotify [BarRaider]** category.
+
+    ![Step 9](img/spotdevice.png "Dragging button and chosing device")
+
+11. To populate the device list:
+    1. Start playing a song in the Spotify Application
+    2. Whilst a song is playing, click the **Reload devices** button.
+    3. Click the drowndown menu and select your device.
     
-    ![Step d](img/spotapichoice.png)
+    !!! warning "Play music in your Spotify App"
 
-4. Click the checkbox to agree to Spotify's Developer Terms of Service and Design Guidelines.
+        Make sure you are playing music in your Spotify Application before hitting reload devices.
 
-    ![Step 4](img/spotauth4.png)
+    !!! question "My device list is still emtpy"
 
-5. Compare your app settings with ours below, **before** you click **Save** in a hurry, just to be sure the settings are correct.
-
-    ![Step 5](img/spotauthoverview.png)
-
-    !!! success
-
-        Yay, you've created an app! 👏 We now need to fetch the **Client ID** and **Client secret** the plugin is requesting.
-
-6. Click the **Settings** button on the home/dashboard page.
-
-    ![Step 6](img/spothome.png)
-
-7. Click the **View client secret** hyperlink on the settings page.
-
-    ![Step 7](img/spotsettings.png)
-
-8. Copy the **Client ID** and **Client secret** and paste them inside of the Spotify Integration setup.
-
-    ![Step 8](img/spotcredentials.png)
-
-    !!! warning
-
-        Do not share your **Client secret**. If you accidentally leak it, click **Rotate client secret** to generate a new one.
-
-9. Drag n' drop the **Play/Pause** action from the sidebar under the **Spotify [BarRaider]** category:
-
-    ![Step 9](img/spotdevice.png)
-
-10. Click **Play** in Spotify on your device, and **whilst its playing** click the **Reload devices** button.
-
-11. Lastly, click the dropdown menu above **Reload devices**, select your device... and enjoy!
-
-    !!! note
-
-        If you don't see your device listed, please refer to the **Device / playlist** section on the [troubleshooting](https://docs.barraider.com/faqs/spotify/troubleshooting/#the-device-dropdown-is-empty) page.
+        If you don't see your device listed, please refer to the **Device / playlist** section on the [troubleshooting](../troubleshooting/#the-device-dropdown-is-empty "Troubleshooting emtpy device dropdown list") page.

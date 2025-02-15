@@ -59,7 +59,7 @@ jobs:
           path: 'site/'
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4.2.4
+        uses: actions/deploy-pages@v4.0.5
 
   post-deploy:
     # Skip this step if we're deploying a fork (since that would be testing-only).

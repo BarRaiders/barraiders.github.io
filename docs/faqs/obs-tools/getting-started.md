@@ -22,7 +22,7 @@ Install the BarRaider OBS plugin from the Elgato store or from our [Discord](htt
             </figcaption>
         </div>
     </p>
-## Testing It Out
+## Testing that the plugin works
 There are a ton of [Available Actions](./actions.md) in this plugin, but just to make sure everything is working, let's add the `CPU Usage` action as a test. This action is pretty simple, if OBS Studio is running and everything is connected, it will display the CPU usage of OBS like this.
 
 <p align="center">

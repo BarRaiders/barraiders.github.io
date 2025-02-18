@@ -6,42 +6,46 @@
 ## Installation
 Please follow these step-by-step instructions to allow the Stream Deck plugin to read the battery stats from your CORSAIR device.
 
-<details>
-  <summary>iCue 4</summary>
+### iCue 4 and above
 
-<img src="../img/icue4-setup.png" alt="iCue 4 setup">
+<div class="annotate" markdown>
+1. Open iCue and select your device from the top menu bar.
+2. On the left hand side, click **Device Settings**.
+3. Toggle on** Enable Battery Gauge in Notification Area**.
+![Getting the iCue app ready](img/icue4-setup.png)
+4. Right-click the Windows taskbar and choose (2) **Taskbar Settings**.
+    5. **Windows 10:** Scroll down to the Notification Area and click on (1) **Select which icons appear on the taskbar**.
+    6. **Windows 11:** Click on **Other system tray icons**.
+5. Find iCue in the list and toggle it on.
+![Toggle icon to appear in taskbar](img/icue3-s7.png)
+6. Verify that you now have a battery icon on the taskbar and notice the name of the device is showing along with the battery status.
+<br>
+![Verify it works](img/icue3-s10.png)
+7. In the plugin, write the name of the device as shown in the image above (in this case type IRONCLAW).
+</div>
 
+1. ![Windows 10](img/icue3-s8.png)
+2. ![Taskbar settings, right click](img/taskbarSettings.png)
 
-<ol>
-<li>Open iCue and Select your device from the top menu bar.</li>
-<li>On the left hand side, click Device Settings</li>
-<li>Select Enable Battery Gauge in Notification Area</li>
-</ol>
+### iCue 3 - Legacy devices
+<div class="annotate" markdown>
+1. Open iCue and select your device from the top menu bar.
+2. On the left hand side, click **Device Settings**.
+3. Toggle on** Enable Battery Gauge in Notification Area**.
+![Getting the iCue app ready](img/icue3-s3.png)
+4. Right-click the Windows taskbar and choose (2) **Taskbar Settings**.
+    5. **Windows 10:** Scroll down to the Notification Area and click on (1) **Select which icons appear on the taskbar**.
+    6. **Windows 11:** Click on **Other system tray icons**.
+5. Find iCue in the list and toggle it on.
+![Toggle icon to appear in taskbar](img/icue3-s7.png)
+6. Verify that you now have a battery icon on the taskbar and notice the name of the device is showing along with the battery status.
+<br>
+![Verify it works](img/icue3-s10.png)
+7. In the plugin, write the name of the device as shown in the image above (in this case type IRONCLAW).
+</div>
 
-</details>
-
-<details>
-  <summary>iCue 3 (Legacy devices)</summary>
-  <ol>
-    <li>Open iCue and Select your device from the top menu bar</li>
-    <li>On the left hand side, click <b>Device Settings</b></li>
-    <li>Select Enable Battery Gauge in Notification Area
-    <img src="../img/icue3-s3.png" alt="Step 3"></li>
-    <li>Open iCue and Select Settings from the top menu bar</li>
-    <li>Choose the device you want to see the battery stats for (and verify it shows the battery status right under the device’s image)</li>
-    <li>Select Enable Battery Gauge in the System Taskbar
-    <img src="../img/icue3-s6.png" alt="Step 6"></li>
-    <li>Right-Click the Windows taskbar and choose Taskbar Settings
-    <img src="../img/icue3-s7.png" alt="Step 7"></li>
-    <li><b>Windows 10:</b> Scroll down to the Notification Area and click on Select which icons appear on the taskbar<br>
-    <b>Windows 11:</b> Click on Taskbar corner overflow
-    <img src="../img/icue3-s8.png" alt="Step 8"></li>
-    <li>Find iCue in the list and make sure it’s set to On</li>
-    <li>Verify that you now have a battery icon on the taskbar and notice the name of the device is showing along with the battery status.<br>
-    <img src="../img/icue3-s10.png" alt="Step 10"></li>
-    <li>In the plugin, write the name of the device as shown in the image above (in this case type IRONCLAW)</li>
-  </ol>
-</details>
+1. ![Windows 10](img/icue3-s8.png)
+2. ![Taskbar settings, right click](img/taskbarSettings.png)
 
 ##  Troubleshooting
 ### The Enable Battery in System Tray option doesn't exist for my device

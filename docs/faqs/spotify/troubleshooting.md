@@ -24,6 +24,11 @@ The key is not configured, you need to **Revoke Approval** from the bottom of th
 
 You are being throttled by Spotify, go to the [throttling section](./#throttling) to find out more.
 
+#### No Connection icon
+![No Connection Icon](img/spotify_no_connection.webp)
+
+The plugin lost connection to Spotify's servers. You can press the key to try and resume manually.
+
 ### Button does not work or displays ⚠️
 1. Make sure you set the Device setting to the device you want to play on.
 2. Make sure the Private Session feature is not enabled. You may need to restart your PC after disabling it.

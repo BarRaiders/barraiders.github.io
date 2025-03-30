@@ -30,22 +30,19 @@ Please follow the step-by-step instructions below to create your own Spotify Dev
     3. **Website**: Leave empty.
 
     4. **Redirect URI**: Copy text below then click **Add**.
+	
+		!!! warning annotate "Pay Attention: This step has changed in versions v3.2 and above"
 
-        If you see **Auth v2** (1) in top left corner of Spotify Integration setup window:
-        { .annotate } 
+			If you see **Auth v2** (1) in top left corner of Spotify Integration setup window:
+			{ .annotate } 
 
-        1. ![Auth v2](img/spotifyAuthv2.png)
+			1. ![Auth v2](img/spotifyAuthv2.png)
 
-        ```
-        http://127.0.0.1:4202
-        ```
-
-        !!! warning annotate "Plugin version 3.1 or below"
-
-            If you are using Spotfiy plugin version 3.1 or below, copy the **Redirect URI** below:
-            ```
-            http://localhost:4202
-            ```
+			```
+			http://127.0.0.1:4202
+			```
+			
+			If you DON'T see **Auth v2** there, you must upgrade your plugin to a newer version.
 
         ![Step 3b and 3c](img/spotauth3bc.png "Setting redirect URI to http://127.0.0.1:4202")
             

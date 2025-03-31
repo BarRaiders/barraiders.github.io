@@ -24,7 +24,14 @@ If you're having any sort of issue with a BarRaider plugin, we're going to want 
 ### Installing a plugin
 Plugins can be installed from the Elgato Store in the Stream Deck software, or from our [Discord](http://discord.barraider.com) in the [#plugin-releases](https://discord.com/channels/538862772285603880/545898345286336513) channel.
 
-We also offer Early access versions of plugins. Read more about it below
+We also offer Early access versions of plugins. Read more about it below.
+
+#### Installing from Discord
+If you have downloaded a plugin from the BarRaider Discord all you have to do to install the plugin is.
+
+1. Open the .zip file that downloaded.
+2. Double-click the file inside of the .zip file.
+3. A message will appear briefly in your Stream Deck app telling you that the plugin was installed.
 
 ### Early Access
 You can get early access to new plugin updates or plugin releases.
@@ -34,9 +41,7 @@ This is all done through our [Discord](http://discord.barraider.com). Head over 
 From the right-hand action bar, find one of the plugin's actions, right click it and choose uninstall.
 ![How to uninstall](img/uninstall.png"How to uninstall plugin")
 
-Alternatively, you can go to the Stream Deck Store, find the plugin and click "Uninstall".
-
-#### I can't Install/Uninstall the plugin (pressing Install doesn't do anything)
+#### The plugin will not install / does not appear in my Stream Deck app
 This issue is usually related to Stream Deck not updating/uninstalling the plugin properly. Try uninstalling and reinstalling the plugin. 
 
 If you can't reinstall, head to `%appdata%\elgato\streamdeck\plugins` and delete the plugin folder (`com.barraider.<PLUGINNAME>`)

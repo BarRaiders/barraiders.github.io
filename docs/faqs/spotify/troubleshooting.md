@@ -92,12 +92,6 @@ The URL in step 4c in [getting started](../getting-started/) is incorrect.
       http://127.0.0.1:4202
       ```
 
-      If you **DO NOT** see **Auth v2** in the top left corner use:
-
-      ```
-      http://localhost:4202
-      ```
-
 ### "VALIDATION FAILED" Error
 Spotify tries to connect, browser says it succeeded but plugin shows a VALIDATION FAILED error after ~60 seconds. 
 Solution depends on what you see in your browser:

@@ -35,14 +35,14 @@ Where `InputParamX` can either be text (`10`) or another variable (`$MyVar`)
 |SUB|2|`{{ "{{FUNC:SUB:MyVar:20:10}}" }}` (20-10 and store in MyVar)|(Additional examples similar to ADD above)|
 |MUL|2|`{{ "{{FUNC:MUL:MyVar:10:20}}" }}` (10*20 and store in MyVar)|(Additional examples similar to ADD above)|
 |DIV|2|`{{ "{{FUNC:DIV:MyVar:​100:50}}" }}` (100/50 and store in MyVar).|(Additional examples similar to ADD above)|
-|ROUND|1|`{{ "{{FUNC:ROUND:MyVar:10,11:2}}" }}`|Rounds a value to the specified number of fractional digits|
+|ROUND|1|`{{ "{{FUNC:ROUND:MyVar:10,11:2}}" }}`Rounds a value to the specified number of fractional digits|
 |RANDOM|2|`{{ "{{FUNC:RANDOM:MyVar:1:20}}" }}` (Find a random number between 1 (inclusive) and 20 (exclusive) and store in MyVar.<br>`{{ "{{FUNC:RANDOM:MyVar:$FirstVal:$SecondVal}}" }}` (Find a random number between FirstVal variable (inclusive) and SecondVal variable (exclusive) and store in MyVar.<br>**Note:** First value must be LOWER than Second value.|
 |NOW|1|`{{ "{{FUNC:NOW:MyVar:yyyy-MM-dd HH:mm:ss}}" }}`<br>MyVar will have the current date and time.|
-|FLOOR| |Returns the largest integral value less than or equal to the specified number|
-|CEILING| |Returns the smallest integral value greater than or equal to the specified number|
-|MIN| |Returns the smaller of two numbers|
-|MAX| |Returns the larger of two numbers|
-|ABS| |Returns the absolute value of a specified number|
+|FLOOR|1|Returns the largest integral value less than or equal to the specified number<br/>`{{FUNC:FLOOR:num:3.1415}}}}` => num contains 3|
+|CEILING|1|Returns the smallest integral value greater than or equal to the specified number<br/>`{{FUNC:CEILING:num:3.1415}}}}` => num contains 4|
+|MIN|2|Returns the smaller of two numbers<br/>`{{FUNC:MIN:num:-100:100}}}}` => num contains -100|
+|MAX|2|Returns the larger of two numbers<br/>`{{FUNC:MAX:num:-100:100}}}}` => num contains 100|
+|ABS|1|Returns the absolute value of a specified number<br/>`{{FUNC:ABS:num:-100}}}}` => num contains 100|
 
 
 ### String Functions
@@ -51,12 +51,12 @@ Where `InputParamX` can either be text (`10`) or another variable (`$MyVar`)
 |CONCAT|Unlimited|`{{ "{{FUNC:CONCAT:MyVar:Hello:World:$Var1:Hi:$Var2}}" }}`<br>MyVar will have the string: HelloWorldXXXXHiYYYY Where XXXX is the contents of Var1 and YYYY is the contents of Var2|
 |REPLACE|3|`{{ "{{FUNC:REPLACE:MyVar:Hello:He:Y}}" }}`<br>MyVar will have the string: **Yllo**<br>`{{ "{{VARSET:XX:Hello World}}" }} {{ "{{VARSET:A:l}}" }}{{ "{{VARSET:B:Z}}" }} {{ "{{FUNC:REPLACE:MyVar:$XX:$A:$B}}" }}`<br>MyVar will have the string: *HeZZo WorZd*|
 |LEN|1|`{{ "{{FUNC:LEN:MyVar:Hello World}}" }}` (Length of the string 'Hello World')<br>MyVar will have the value 11|
-|MID|(Arguments: 1. 0-Based Start Position 2. [Optional] Length)|`{{ "{{FUNC:MID:RES:Hello:2}}" }}` RES will have llo<br>`{{ "{{FUNC:MID:RES:Hello:0:2}}" }}` RES will have He|
+|MID|2|(Arguments: 1. 0-Based Start Position 2. [Optional] Length)<br/>`{{ "{{FUNC:MID:RES:Hello:2}}" }}` RES will have llo<br>`{{ "{{FUNC:MID:RES:Hello:0:2}}" }}` RES will have He|
 |REVERSE|1|`{{ "{{FUNC:REVERSE:MyVar:Hello World}}" }}`<br>MyVar will have the value: dlroW olleH|
 |INDEXOF|2|Returns the first 0-based position of a text in the string.<br>`{{ "{{FUNC:INDEXOF:RES:Hello:e}}" }}` will return 1 into RES (since e has an index of 1 in the string)|
 |UPPERCASE|1|`{{ "{{FUNC:UPPERCASE:MyVar:HeLlO woRlD}}" }}`<br>MyVar will have the string: **HELLO WORLD**|
-|LOWERCASE|1|`{{ "{{FUNC:UPPERCASE:MyVar:HeLlO woRlD}}" }}`<br>MyVar will have the string: **hello world**|
-|TITLECASE|1|`{{ "{{FUNC:UPPERCASE:MyVar:HeLlO woRlD}}" }}`<br>MyVar will have the string: **Hello World**|
+|LOWERCASE|1|`{{ "{{FUNC:LOWERCASE:MyVar:HeLlO woRlD}}" }}`<br>MyVar will have the string: **hello world**|
+|TITLECASE|1|`{{ "{{FUNC:TITLECASE:MyVar:HeLlO woRlD}}" }}`<br>MyVar will have the string: **Hello World**|
 
 ### Date Time Functions
 

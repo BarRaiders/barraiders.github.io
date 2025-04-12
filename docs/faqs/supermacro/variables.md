@@ -37,7 +37,7 @@ Creating and using User Defined variables is easy using the following Variable C
 
 |Command|Example|Comment|
 |-------|-------|-------|
-| Input | `{{ "{{Input:VarName}}" }}` |Get input from the user and store it in `VarName`. |
+| Input | `{{ "{{Input:VarName}}" }}` |Get input from the user and store it in `VarName`. Example: {{ "{{Input:myNum:Pick number from 1-10}} "}} will show "Pick number from 1-10" in title |
 | Output | `{{ "{{Output:MyVar}}" }}` | Output the input previously gathered into `MyVar`. |
 | VarSet | `{{ "{{VarSet:MyVar:MyValue}}" }}` | Set the value `MyValue` into `MyVar`. |
 | OutputToFile | `{{ "{{OutputToFile:MyVar:C:\\filename.txt}}" }}` | Write the contents of the `MyVar` variable into `C:\filename.txt` file. |

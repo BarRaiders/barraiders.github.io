@@ -57,7 +57,7 @@ description: Looking for ideas on how to use the SuperMacro plugin? Find macro e
 <details>
 <summary>Add comments in the code using {{ "`{{//}}`" }} command</summary>
   ```
-    {{ "{{INPUT:myNumber}}" }} {{ "{{//}}" }} User inputs number.
+    {{ "{{INPUT:myNumber:Input a number}}" }} {{ "{{//}}" }} User inputs number.
     {{ "{{FUNC:MUL:MyResult:$myNumber:10}}" }} {{ "{{//}}" }} Multiply number by 10
     {{ "{{OUTPUTTOFILE:MyResult:c:\\temp\\result.txt}}" }} {{ "{{//}}" }} Save result in file
   ```
@@ -203,5 +203,42 @@ description: Looking for ideas on how to use the SuperMacro plugin? Find macro e
     {{ "{{INPUT:myNumber}}" }}
     {{ "{{FUNC:MUL:MyResult:$myNumber:10}}" }}
     {{ "{{OUTPUTTOFILE:MyResult:c:\\temp\\result.txt}}" }}
+    ```
+</details>
+
+
+<details>
+  <summary>Input a key, repeat it N times</summary>
+    ```
+    {{ "{{INPUT:myChar:Choose a key}}" }}
+    {{ "{{INPUT:repeats:Choose number of repeats}}" }}
+    {{ "{{KEYPRESS:$myChar:$repeats}}" }}
+    ```
+</details>
+
+<details>
+  <summary>Make string all uppercase</summary>
+    ```
+    {{ "{{VARSET:myString:I loVe BaRrAiDer}}" }}
+    {{ "{{FUNC:UPPERCASE:newString:$myString}}" }}
+    {{ "{{OUTPUT:$newString}}" }}   {{ "{{//}}" }} => I LOVE BARRAIDER
+    ```
+</details>
+
+<details>
+  <summary>Make string all lowercase</summary>
+    ```
+    {{ "{{VARSET:myString:I loVe BaRrAiDer}}" }}
+    {{ "{{FUNC:LowerCase:newString:$myString}}" }}
+    {{ "{{OUTPUT:$newString}}" }}   {{ "{{//}}" }} => i love barraider
+    ```
+</details>
+
+<details>
+  <summary>Make string all titlecase</summary>
+    ```
+    {{ "{{VARSET:myString:I loVe BaRrAiDer}}" }}
+    {{ "{{FUNC:TitleCase:newString:$myString}}" }}
+    {{ "{{OUTPUT:$newString}}" }}   {{ "{{//}}" }} => I Love Barraider
     ```
 </details>

@@ -147,7 +147,7 @@ description: Find a list of all available commands for the SuperMacro plugin for
 |----|----|
 |{{ "{{//}}" }}|Comments Support: Anything after the {{ "{{//}} "}} sign will be ignored until end of line.<br>**Note:** The "Don't treat "New Line" as Enter" setting must be DISABLED for this to work properly|
 |PAUSE|{{ "{{PAUSE:XXXX}}" }} (XXXX = length in milliseconds). Will pause execution of the rest of the SuperMacro for the time specified|
-|🆕 KeyPress |{{ "{{KeyPress:XXXX:YYYY:ZZZZ}}" }} <br/>(XXXX = name of key, YYYY = number of repeats, ZZZZ = delay in ms between repeats). <br/> Example1: {{ `{{KeyPress:C:5:1000}}`}} Simulates pressing 'C' 5 times, with 1 sec delay between presses <br/> Example2: `{{KEYPRESS:$Var1:$Var2}}` when Var1="`down`" and Var2=`5` will simulate pressing the ++arrow-down++ key 5 times|
+|🆕 KeyPress |{{ "{{KeyPress:XXXX:YYYY:ZZZZ}}" }} <br/>(XXXX = name of key, YYYY = number of repeats, ZZZZ = delay in ms between repeats). <br/> Example1: {{ `{{KeyPress:C:5:1000}}`}} Simulates pressing 'C' 5 times, with 1 sec delay between presses <br/> Example2: {{ `{{KEYPRESS:$Var1:$Var2}}` }} when Var1="{{`down`}}" and Var2={{`5`}} will simulate pressing the ++arrow-down++ key 5 times|
 |KeyDown|{{ "{{KeyDown:XXXX}}" }} (XXXX = name of key) example {{ "{{KeyDown:F1}} "}}). Simulates holding the key down on the keyboard.<br>**Note:** Should be eventually accompanied by a `KeyUp` command|
 |KeyUp|{{ "{{KeyUp:XXXX}}" }} (XXXX = name of key) example {{ "{{KeyUp:SHIFT}} "}})|
 |MSavePos|{{ "{{MSAVEPOS}}" }} stores the current mouse cursor position.<br>The position is stored in variables: $MOUSE_X and $MOUSE_Y|

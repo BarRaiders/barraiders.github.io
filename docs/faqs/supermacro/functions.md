@@ -38,11 +38,11 @@ Where `InputParamX` can either be text (`10`) or another variable (`$MyVar`)
 |ROUND|1|`{{ "{{FUNC:ROUND:MyVar:10,11:2}}" }}`Rounds a value to the specified number of fractional digits|
 |RANDOM|2|`{{ "{{FUNC:RANDOM:MyVar:1:20}}" }}` (Find a random number between 1 (inclusive) and 20 (exclusive) and store in MyVar.<br>`{{ "{{FUNC:RANDOM:MyVar:$FirstVal:$SecondVal}}" }}` (Find a random number between FirstVal variable (inclusive) and SecondVal variable (exclusive) and store in MyVar.<br>**Note:** First value must be LOWER than Second value.|
 |NOW|1|`{{ "{{FUNC:NOW:MyVar:yyyy-MM-dd HH:mm:ss}}" }}`<br>MyVar will have the current date and time.|
-|FLOOR|1|Returns the largest integral value less than or equal to the specified number<br/>`{{FUNC:FLOOR:num:3.1415}}}}` => num contains 3|
-|CEILING|1|Returns the smallest integral value greater than or equal to the specified number<br/>`{{FUNC:CEILING:num:3.1415}}}}` => num contains 4|
-|MIN|2|Returns the smaller of two numbers<br/>`{{FUNC:MIN:num:-100:100}}}}` => num contains -100|
-|MAX|2|Returns the larger of two numbers<br/>`{{FUNC:MAX:num:-100:100}}}}` => num contains 100|
-|ABS|1|Returns the absolute value of a specified number<br/>`{{FUNC:ABS:num:-100}}}}` => num contains 100|
+|FLOOR|1|Returns the largest integral value less than or equal to the specified number<br/>{{`{{FUNC:FLOOR:num:3.1415}}}}`}} => num contains 3|
+|CEILING|1|Returns the smallest integral value greater than or equal to the specified number<br/>{{`{{FUNC:CEILING:num:3.1415}}}}`}} => num contains 4|
+|MIN|2|Returns the smaller of two numbers<br/>{{`{{FUNC:MIN:num:-100:100}}}}`}} => num contains -100|
+|MAX|2|Returns the larger of two numbers<br/>{{`{{FUNC:MAX:num:-100:100}}}}`}} => num contains 100|
+|ABS|1|Returns the absolute value of a specified number<br/>{{`{{FUNC:ABS:num:-100}}}}`}} => num contains 100|
 
 
 ### String Functions

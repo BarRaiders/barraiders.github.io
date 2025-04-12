@@ -41,7 +41,7 @@ Where `InputParamX` can either be text (`10`) or another variable (`$MyVar`)
 |FLOOR|1|Returns the largest integral value less than or equal to the specified number<br/>`{{ "{{FUNC:FLOOR:num:3.1415}}" }}` => num contains 3|
 |CEILING|1|Returns the smallest integral value greater than or equal to the specified number<br/>`{{ "{{FUNC:CEILING:num:3.1415}}" }}` => num contains 4|
 |MIN|2|Returns the smaller of two numbers<br/>`{{ "{{FUNC:MIN:num:-100:100}}" }}` => num contains -100|
-|MAX|2|Returns the larger of two numbers<br/>{{`{{FUNC:MAX:num:-100:100}}}}`}} => num contains 100|
+|MAX|2|Returns the larger of two numbers<br/>`{{ "{{FUNC:MAX:num:-100:100}}" }}` => num contains 100|
 |ABS|1|Returns the absolute value of a specified number<br/>`{{ "{{FUNC:ABS:num:-100}}" }}` => num contains 100|
 
 
